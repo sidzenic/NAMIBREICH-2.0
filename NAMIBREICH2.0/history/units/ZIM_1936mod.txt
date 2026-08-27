@@ -1,0 +1,106 @@
+﻿division_template = {
+	name = "Divisione di Fanteria (ZIM)"
+
+	division_names_group = ITA_INF_01 
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Rinoceronte in Metallo"
+
+	division_names_group = ITA_CAV_02
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Shit" 			# Used to be SS division -> New system for SS. Also messed up the civil war by refusing to move to the fascists, and immersion-breaking to have them around as royalists
+
+	division_names_group = ITA_INF_01 
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+	    irregular_infantry  = { x = 0 y = 1 }
+		irregular_infantry  = { x = 0 y = 2 }
+		
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+
+	}
+}
+
+units = {
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 1874
+		division_template = "Divisione di Fanteria (ZIM)"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 10929
+		division_template = "Divisione di Fanteria (ZIM)"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		}
+		location = 10929
+		division_template = "Rinoceronte in Metallo"
+		start_experience_factor = 0.2
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		}
+		location = 1874
+		division_template = "Shit"
+		start_experience_factor = 0.1
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 1874
+		division_template = "Shit"
+		start_experience_factor = 0.5
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2216
+		division_template = "Shit"
+		start_experience_factor = 0.5
+	}
+}

@@ -1,0 +1,63 @@
+﻿###########################
+# Namibian Events
+###########################
+
+add_namespace = namibia_news
+news_event = {
+	id = namibia_news.1
+	title = namibia_news.1.t
+	desc = namibia_news.1.d
+	picture = GFX_namibia_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = namibia_news.1.a
+	}
+}
+news_event = {
+	id = namibia_news.2
+	title = namibia_news.2.t
+	desc = namibia_news.2.d
+	picture = GFX_namibia_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = namibia_news.2.a
+	}
+}
+
+news_event = {
+	id = namibia_news.3
+	title = namibia_news.3.t
+	desc = namibia_news.3.d
+	picture = GFX_namibia_news_event_003
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = namibia_news.3.a
+	}
+}
+
+news_event = {
+	id = namibia_news.4
+	title = namibia_news.4.t
+	desc = namibia_news.4.d
+	picture = GFX_namibia_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = namibia_news.4.a
+	}
+}

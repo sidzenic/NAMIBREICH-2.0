@@ -1,0 +1,35 @@
+state={
+	id=1062
+	name="Orange"
+	provinces={
+		5231 12064 12648 13632 13633 13634 13635 13639 13640 13641 13642 13643 13644 13645 13646 13647 13648 13649 13650 13651 13652 13653 13654 13655 13656 13657 13658 13659 13660 13661 
+	}
+	manpower=772060
+	buildings_max_level_factor=3
+	local_supplies=0
+	state_category = town
+
+	history = {
+
+		owner = SAF
+		add_core_of = SAF
+		add_core_of = ORG
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+		victory_points = {
+			13658 10 #Bloefontein
+		}
+		victory_points = {
+			13647 5 #Welkom
+		}
+		victory_points = {
+			13651 2 #Ficksburg
+		}
+		
+	}
+}

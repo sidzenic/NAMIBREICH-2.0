@@ -1,0 +1,164 @@
+capital = 541
+
+oob = NMB_1936
+
+set_cosmetic_tag = NMB_SWAPO
+
+recruit_character = NMB_adolf_hitler
+recruit_character = NMB_samuel_maherero
+recruit_character = NMB_karl_waldeck
+recruit_character = NMB_berthold
+recruit_character = NMB_erwin_rommel_leader
+recruit_character = NMB_eino
+recruit_character = NMB_cornelious_frederick
+recruit_character = NMB_hosea
+recruit_character = NMB_jacob_morenga
+recruit_character = NMB_samuel_witbooi
+recruit_character = NMB_jan_hora
+recruit_character = NMB_friederich_mahereo
+recruit_character = NMB_manstein_advisors
+recruit_character = NMB_adam_dressler
+recruit_character = NMB_colonial_council
+recruit_character = NMB_leonard_auala
+recruit_character = NMB_madume_ndemufayo
+recruit_character = NMB_harold_pupkewitz
+recruit_character = NMB_jeaniii
+recruit_character = NMB_yakov_alksnis
+recruit_character = NMB_gustav_adolf_schatz
+recruit_character = NMB_lipumbu_ya_tshilongo
+recruit_character = NMB_nikanor_hoveka
+recruit_character = NMB_nghialasha_elia_haulyondjaba
+recruit_character = NMB_moses_ngante
+recruit_character = NMB_marx_nekongo
+recruit_character = NMB_immanuel_job
+recruit_character = NMB_mandume_mweshixwa
+
+
+create_faction = AAxis
+add_to_faction = NMB
+	add_ideas = {
+		civilian_economy
+		limited_conscription
+		NMB_german_army_veto
+		NMB_legacy_of_segregartion
+		NMB_anglo_problem
+		NMB_german_support1
+		NMB_workers1
+		NMB_child_labour
+		NMB_black_support5
+	}
+	
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+	fighter1 = 1
+	basic_train = 1
+	gw_artillery = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		mtg_transport = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_heavy_battery = 1
+		basic_cruiser_armor_scheme = 1
+	}
+}
+
+
+set_research_slots = 3
+set_convoys = 25
+set_stability = 0.20 
+set_war_support = 0.4
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1925.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascism = 15
+	communism = 50
+	neutrality = 5
+}
+
+set_party_name = {
+    ideology = neutrality
+    long_name = NMB_german_command1
+    name = NMB_german_command
+}
+set_party_name = {
+    ideology = democratic
+    long_name = NMB_swakop_government1
+    name = NMB_swakop_government
+}
+set_party_name = {
+    ideology = communism
+    long_name = NMB_namib_soviet_party1
+    name = GUD_namib_soviet
+}
+
+create_corps_commander = {
+	name = "Friedrich Paulus"
+	picture = "Portrait_Namibia_Friedrich_Paulus.dds"
+	traits = { trait_cautious armor_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Erwin Rommel"
+	picture = "Portrait_Namibia_Erwin_Rommel.dds"
+	traits = { trickster trait_reckless war_hero armor_officer media_personality }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Erich von Manstein"
+	picture = "Portrait_Namibia_Erich_von_Manstein.dds"
+	traits = { trickster armor_officer brilliant_strategist trait_engineer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}

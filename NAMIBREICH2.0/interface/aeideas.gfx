@@ -1,0 +1,26 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_idea_dzudaii"
+        texturefile = "gfx/interface/ideas/dzuda.png"
+    }
+    spriteType = {
+        name = "GFX_idea_namib_nationalism"
+        texturefile = "gfx/interface/ideas/defending_our_home.dds"
+    }
+    spriteType = {
+        name = "GFX_bop_uunonasad"
+        texturefile = "gfx/interface/bop/sadnmb.dds"
+    }
+    spriteType = {
+        name = "GFX_bop_uunonahappy"
+        texturefile = "gfx/interface/bop/goodnmb.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_selassie_idea"
+        texturefile = "gfx/interface/ideas/selassie.png"
+    }
+    spriteType = {
+        name = "GFX_idea_esw_army_noob"
+        texturefile = "gfx/interface/ideas/formal_army.dds"
+    }
+}

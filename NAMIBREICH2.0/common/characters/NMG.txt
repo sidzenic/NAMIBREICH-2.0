@@ -1,0 +1,13 @@
+characters={
+    NMB_thomas_hall ={
+        name = "Thomas Parris Hall"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMG/thomas_parris_hall.png"
+			}
+		}
+		country_leader={
+			ideology= conservatism
+		}
+	}
+}

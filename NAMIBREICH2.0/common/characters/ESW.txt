@@ -1,0 +1,37 @@
+characters={
+
+    ESW_sobhuza ={
+        name = "Sobhuza II"
+		portraits={
+			civilian={
+				large="gfx/leaders/ESW/sobhuza_ii.dds"
+			}
+		}
+		country_leader={
+			ideology= despotism
+			traits = { greedy_ngwenyama }
+		}
+		field_marshal = { 
+			traits = { irregulars_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    ESW_john_nquku ={
+        name = "John June Nquku"
+		portraits={
+			civilian={
+				large="gfx/leaders/ESW/john_nquku.dds"
+			}
+		}
+		country_leader={
+			ideology= marxism
+		}
+
+	}
+
+}

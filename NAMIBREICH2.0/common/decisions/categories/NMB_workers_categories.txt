@@ -1,0 +1,17 @@
+################
+##### NMB ######
+################
+
+NMB_workers_decisions_categories = {
+
+	icon = military_operation
+	
+	allowed = {
+		original_tag = NMB
+	}
+
+	visible = {
+		original_tag = NMB
+		has_completed_focus = NMB_hitlers_socialism
+	}
+}

@@ -1,0 +1,59 @@
+NMB_german_sad = {
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+				has_idea = NMB_german_support1
+				has_idea = NMB_german_support2
+				has_idea = NMB_german_support3
+				has_idea = NMB_german_support4
+				has_idea = NMB_german_support5
+
+				}
+			}
+		}
+		add_idea = NMB_german_support1
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_german_support5
+		}
+		swap_ideas = {
+			remove_idea = NMB_german_support5
+			add_idea = NMB_german_support4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_german_support4
+		}
+		swap_ideas = {
+			remove_idea = NMB_german_support4
+			add_idea = NMB_german_support3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_german_support3
+		}
+		swap_ideas = {
+			remove_idea = NMB_german_support3
+			add_idea = NMB_german_support2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_german_support2
+		}
+		swap_ideas = {
+			remove_idea = NMB_german_support2
+			add_idea = NMB_german_support1
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_german_support1
+		}
+		add_stability = -0.1
+	}
+}

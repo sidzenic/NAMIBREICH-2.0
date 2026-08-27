@@ -1,0 +1,17 @@
+characters={
+
+    NSA_nelson_mandela ={
+        name = "Nelson Mandela"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/nelson_mandela.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+		country_leader={
+			ideology= marxism
+		}
+	}
+}

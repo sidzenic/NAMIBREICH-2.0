@@ -1,0 +1,29 @@
+
+state={
+	id=895
+	name="Ovamboland"
+	manpower = 92400
+	state_category = pastoral
+
+	resources={
+		steel=5
+		chromium=13
+	}
+
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 2
+
+		}
+		
+		add_core_of = NMB
+
+	}
+
+	provinces={
+		8136 12519 13393 13394 13395 13396 13397 13398 13399 13400 13401 13402 13403 13404 13405 13406 13407 13409 13410 13411 13412 13413 13414 12921
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

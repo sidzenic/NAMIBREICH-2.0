@@ -1,0 +1,1644 @@
+﻿l_english:
+
+# Namibia parties
+ NMB_fascism_party:1 "SWABO"
+ NMB_fascism_party_long:1 "Southwestafrikan Bolshevik Organisation"
+ 
+# Namibia states
+
+ STATE_807:0 "South Namibia"
+ STATE_808:0 "Namibian Dong"
+ 
+ # Faction
+ 
+  Aentente:0 "Tana Entente"
+  AAxis:0 "African Axis"
+  
+ # Formable Nations
+ 
+ NMB_greater:0 "Greater Namib Reich"
+ NMB_africa_united:0 "African Reich"
+ NMB_world:0 "Namibian Earth"
+ 
+ # Ideas
+ 
+ world_conquest:0 "World Conquest"
+ all_in:0 "All In"
+ war_machine:0 "War Machine"
+ NMB_modular_construction:0 "Modular Construction"
+ NMB_grosraumwirtschaft:0 "Grosraumwirtschaft"
+ NMB_rocketry_idea:0 "Namibian Rocketry"
+ NMB_air_innovations_2_idea:0 "Air Innovations"
+ NMB_autarky_idea:0 "Autarky"
+ rising_power:0 "Rising Power"
+ birth_programs:0 "Birth Programs"
+ namib_excav:0 "Namibian Excavation"
+ africa_construct:0 "African Construction"
+ 
+ # Bookmark
+ 
+ NMB_GATHERING_STORM_DESC:0 "Colonised by the Germans in the 19th Century, Namibia found itself beign fought over by the Germans and South African in the First World War. The Namibian people saw this as a chance of opportunity, and revoulted against their German masters, only to end up getting invaided by South Africa in 1916. The occupation lasted until 1926, but South Africa was eventually forced to pull out of Namibia, and the country has had a strong spite against them since. In 1933, Hitler couped the democratic republic after years of economic depression and unemployment. Will Hitler be able to bring Namibia into a new age, or will they suffer the same humiliation as in the First World War?."
+
+ 
+ # Tooltips
+ 
+ NMB_autobahn_tt:0 "Adds Maximum Infrastructure to all Namibian States"
+ NMB_integrate_africa_decision_tt:0 "Unlocks African Integration Decisions"
+ 
+ # Decisions
+ 
+ NMB_integrate_africa_decision:0 "African Integration"
+ 
+ integrate_west:0 "Integrate the West"
+ integrate_east:0 "Integrate the East"
+ integrate_congo:0 "Integrate the Congo"
+ integrate_coast:0 "Integrate the Gold Coast"
+ integrate_libya:0 "Integrate Libya"
+ integrate_egypt:0 "Integrate Egypt"
+ integrate_morocco:0 "Integrate Morocco"
+ integrate_algeria:0 "Integrate Algeria"
+ integrate_sahara:0 "Integrate Sahara"
+ integrate_horn:0 "Integrate the Horn of Africa"
+ integrate_madagascar:0 "Integrate Madagascar"
+ form_african_reich:0 "Form the African Reich"
+ 
+ # Events
+ 
+ namibia.1.t:0 "Meinland Remilitarized"
+ namibia.1.d:0 "The Namibian army has marched into the previously demilitarized zone of Meinland. They were unopposed and Adolf Hitler has called for celebration!"
+ namibia.1.a:0 "Great!"
+ namibia.2.t:0 "Anschluss"
+ namibia.2.d:0 "The nation of Botswana has been integrated into our country. Our two peoples will work together to further our goals of African dominance."
+ namibia.2.a:0 "Welcome Brothers"
+ namibia.3.t:0 "Eastern Claims"
+ namibia.3.d:0 "Britain has given in and handed over the territory of Rhodesia. This has proven our strength to the world. Perhaps its time for further expansion as the old powers submit to us."
+ namibia.3.a:0 "Britain Folds"
+ namibia.4.t:0 "Cape Town or War"
+ namibia.4.d:0 "A telegram was sent to the president of South Africa with our demands. A response arrived this morning, they have declined! No other options remain, we must go to war immediately!"
+ namibia.4.a:0 "To arms!"
+ namibia.5.t:0 "Demands Met"
+ namibia.5.d:0 "The Portugese have handed over their former colony of Angola to us. With this our nation has gained another 3 million people, the administering of them will prove difficult."
+ namibia.5.a:0 "We Did It!"
+ namibia.6.t:0 "The African Uprising"
+ namibia.6.d:0 "The people of western Africa have flocked under the banner of Liberia and fascism. Their power can no longer be ignored, we must ally ourselves with them!"
+ namibia.6.a:0 "Our Numbers Grow"
+ namibia.7.t:0 "The Greater Reich"
+ namibia.7.d:0 "Adolf Hitler had announced joyfully today that his innermost dream of dominating southern Africa has come true. What awaits us in the future is yet to be seen!"
+ namibia.7.a:0 "We Have Risen!"
+ namibia.8.t:0 "The Second Uprising"
+ namibia.8.d:0 "The People of Chad have seen reason and joined our fight against their colonial overlords!"
+ namibia.8.a:0 "Godspeed Brothers"
+ 
+ namibia_news.1.t:0 "Adolf Hitler Conquers the World"
+ namibia_news.1.d:0 "After a long fought war Adolf Hitler can finally be at ease as he has completed his ultimate goal of world conquest. The Namibian people rejoice in their new role as world leaders. Yet their ambitions are not yet quenched as they set their sights for the stars."
+ namibia_news.1.a:0 "Long Live Adolf Hitler!"
+ namibia_news.2.t:0 "Adolf Hitler Unites Africa"
+ namibia_news.2.d:0 "The reign of all African colonial empires come to an end as the valiant Adolf Hitler has managed to unite the entire continent of Africa under an independent government. What his next plans are is still unknown but the rest of the world waits with held breath."
+ namibia_news.2.a:0 "Holy Shit!"
+ 
+ # Focus
+ 
+ NMB_four_year_plan:0 "Four Year Plan"
+ NMB_four_year_plan_desc:0 ""
+ NMB_grosraumwirtschaft:0 "Grosraumwirtschaft"
+ NMB_grosraumwirtschaft_desc:0 ""
+ NMB_autarky:0 "Autarky"
+ NMB_autarky_desc:0 ""
+ NMB_autobahn:0 "Autobahn"
+ NMB_autobahn_desc:0 ""
+ NMB_german_war_economy:0 "Namibian War Economy"
+ NMB_german_war_economy_desc:0 ""
+ NMB_coal_liquidization:0 "Coal Liquidization"
+ NMB_coal_liquidization_desc:0 ""
+ NMB_naval_effort2:0 "Expand Dockyard Facilities"
+ NMB_naval_effort2_desc:0 ""
+ NMB_tactical_air_effort:0 "Tactical Air Effort"
+ NMB_tactical_air_effort_desc:0 "Victory will be achieved by annihilating the enemy's ground forces. We must focus on supporting our own armies with tactical strikes against close and deep targets."
+ NMB_long_range_escorts:0 "Long-Range Escorts"
+ NMB_long_range_escorts_desc:0 "Our tactical and strategic bombers require longer-range escorts to provide protection all the way to the target area and back."
+ NMB_strategic_air_effort:0 "Strategic Air Effort"
+ NMB_strategic_air_effort_desc:0 "Victory will be achieved by destroying the enemy's industries. We must focus our efforts on design and production of strategic bombers."
+ NMB_army_innovation:0 "Army Innovations"
+ NMB_army_innovation_desc:1 ""
+ NMB_air_innovation_2:0 "Air Innovations II"
+ NMB_air_innovation_2_desc:0 "The tasks of the Reich's Air Ministry are of paramount importance. The Luftwaffe must be the most advanced Air Force in the world!"
+ NMB_army_innovation_2:0 "Army Innovations II"
+ NMB_army_innovation_2_desc:0 ""
+ NMB_rocketry_focus:0 "Rocketry"
+ NMB_rocketry_focus_desc:0 "Rocket propulsion holds the key to massive innovations in all three of the military branches."
+ NMB_wunderwaffe:0 "Wunderwaffe"
+ NMB_wunderwaffe_desc:0 ""
+ NMB_rhineland:0 "Meinland"
+ NMB_rhineland_desc:0 "Adolf Hitler has jokingly started referring to southern Namibia as Meinland. The patch of land is disputed between us and the South Africans and the English have ordered it to be demilitarized, this changes today!"
+ NMB_anschluss:0 "Anschluss"
+ NMB_anschluss_desc:0 "The Anschluss, or union with Botswana, is a long held goal of the Namibian people. The time has finally come to bring it about. Let us offer them a chance at sharing our glorious destiny!"
+ NMB_demand_memel:0 "Assert Eastern Claims"
+ NMB_demand_memel_desc:0 "Rhodesia should be considered part of our Reich as it would cement our eastern border. The British must be pushed to handing it over!"
+ NMB_danzig_or_war:0 "Cape Town or War"
+ NMB_danzig_or_war_desc:0 "Adolf Hitler has set his sight on cape town in order to expand his empire, yet the British are not as eager to give it away. If we must take it by force let it be so."
+ NMB_demand_sudetenland:0 "Demand South Angola"
+ NMB_demand_sudetenland_desc:0 "The fate of the Angolans is up to us. They must be brought under our protection, regardless of Portugese objections."
+ NMB_first_vienna_award:0 "First African Uprising"
+ NMB_first_vienna_award_desc:0 "The Liberians too have seen the guiding light of Adolf Hitler's ideology. They must join us in our world conquest! We will inspire their neighbours to join us too!"
+ NMB_reintegrate_luxemburg_and_alsace_lorraine:0 "Announce the Greater Namibian Reich"
+ NMB_reintegrate_luxemburg_and_alsace_lorraine_desc:0 "With our successful conquest of Southern Africa we must move to integrate the peoples in order to compete with our large enemies!"
+ NMB_naval_rearmament:0 "Naval Rearmament"
+ NMB_naval_rearmament_desc:0 ""
+ NMB_u_boat_effort:0 "U-Boat Effort"
+ NMB_u_boat_effort_desc:0 ""
+ NMB_trade_interdiction:0 "Trade Interdiction"
+ NMB_trade_interdiction_desc:0 "Our dockyards are committed to churning out U-boats, but we need to develop better ways of utilizing these 'wolf packs'. Give the admirals everything they need to conduct their simulations and war games..."
+ NMB_modular_construction:0 "Modular Construction"
+ NMB_modular_construction_desc:0 "By having parts of our submarines built at various construction facilities, assembly and construction speed are greatly improved."
+ NMB_synthetic_rubber:0 "Synthetic Rubber"
+ NMB_synthetic_rubber_desc:0 ""
+ NMB_hermann_goring_werke:0 "Adolf Hitler Werke"
+ NMB_hermann_goring_werke_desc:0 ""
+ NMB_kdf_wagen:0 "Adolf Hitler Wagen"
+ NMB_kdf_wagen_desc:0 ""
+ NMB_around_maginot:0 "Into the Congo"
+ NMB_around_maginot_desc:0 ""
+ NMB_weserubung:0 "Finish off the Portugese"
+ NMB_weserubung_desc:0 ""
+ NMB_all_in:0 "All In"
+ NMB_all_in_desc:0 ""
+ NMB_war_machine:0 "War Machine"
+ NMB_war_machine_desc:0 "War Machine"
+ NMB_tomorrow_the_world:0 "Tomorrow the World"
+ NMB_tomorrow_the_world_desc:0 "Tomorrow the World"
+ NMB_second_vienna_award:0 "Second African Uprising"
+ NMB_second_vienna_award_desc:0 "We must inspire Africans in the north to join our cause."
+ NMB_world_is_ours:0 "The World is Ours"
+ NMB_world_is_ours_desc:0 "We have done what Adolf Hitler set out to do. Conquering the world in the name of Namibia. Long may our glorious leader live!"
+ NMB_annex_allies:0 "Annex Allies"
+ NMB_annex_allies_desc:0 "Our weaker allies have outgrown their usefulness, its time we bring them into our empire."
+ NMB_integrate_africa:0 "Integrate Africa"
+ NMB_integrate_africa_desc:0 "With our recent conquests we must move to integrate the African people who live in our new territories"
+ NMB_birth_program:0 "Birth Program"
+ NMB_birth_program_desc:0 "Adolf Hitler needs more people for his grand conquest. All Namibians have a duty to the state to provide new sons and daughters for the effort."
+ NMB_immigration_I:0 "Rural Immigration"
+ NMB_immigration_I_desc:0 ""
+ NMB_immigration_II: "Urban Immigration"
+ NMB_immigration_II_desc: ""
+ NMB_bot_eco:0 "Botswanan Arms Industry"
+ NMB_bot_eco_desc:0 "We must set up arms factories in our newly conquered lands to ensure were ready for war."
+ NMB_immigration_III:0 "Botswanan Immigration"
+ NMB_immigration_III_desc:0 ""
+ NMB_steel_prod:0 "Namibian Excavation"
+ NMB_steel_prod_desc:0 "We must secure access to various natural resources inorder to fuel our war effort."
+ NMB_tung_prod:0 "Tungsten Excavation"
+ NMB_tung_prod_desc:0 "We need Tungsten for our artillery pieces. Good thing a new deposit has been found in the Namibian Dong."
+ NMB_alu_prod:0 "Aluminium Mines"
+ NMB_alu_prod_desc:0 "Aluminium is another vital metal for our industry. We will begin mining for it in Southern Namibia."
+ NMB_bot_steel:0 "Botswanan Steel"
+ NMB_bot_steel_desc:0 "By exploiting our new lands in Botswana we can gain more steel for guns."
+ NMB_rho_eco:0 "Rhodesian Factories"
+ NMB_rho_eco_desc:0 "Expanding our industrial capabilites in Rhodesia will be a great step in making them see the light of Adolf Hitlers Ideology."
+ NMB_denounce_false:0 "Denounce the False Axis"
+ NMB_denounce_false_desc:0 "Adolf Hitler in Germany is nothing like our great leader, we must denounce his actions and make sure he surrenders to our might."
+ NMB_denounce_ita:0 "Liberate Ethiopia"
+ NMB_denounce_ita_desc:0 "The incompetent Italians hold on to rightful african territories, we must strike them now!"
+ NMB_african_construction:0 "African Construction"
+ NMB_african_construction_desc:0 "The lands of Africa are vast yet we find it hard to industrialise in the rugged terrain. We must develop techniques to overcome these problems."
+ NMB_cog_eco:0 "Develop the Congo"
+ NMB_cog_eco_desc:0 "The Congo is vast and we would do well in developing it's lands to fit our industrial needs."
+ NMB_saf_eco:0 "Develop South Africa"
+ NMB_saf_eco_desc:0 "South Africa is already quite develop in comparison to the rest of Africa but more could be done."
+
+ #### ZIMBABWE
+
+ ZIM_GATHERING_STORM_DESC:0 "Zimbabwe is a land of deep and rich history, but the modern times hasn't been to kind to them. Zimbabwe was promised the whole of Africa for joining the Great War on the side of the Entente, but at the table of Versailles, the other countries just mocked the King of Zimbabwe for sending tribesmen to the Western Front. This left the people of Zimbabwe furious, and shortly after Bentu M'seli conducted his 'March on Harare' couping the monarchy and promising to restore Great Zimbabwe. Will M'seli and Hitler join forces and free Africa? Find out in the next episode of LARP!"
+
+ ZIM_dzuda_ii:0 "Dzuda II"
+ ZIM_dzuda_ii_desc:0 "His Majesty Dzuda II is the current king of the Mutapa Empire, and the proclaimed Emperor of Great Zimbabwe."
+
+ ZIM_great_zimbabwe:0 "Great Zimbabwe"
+ ZIM_great_zimbabwe_desc:0 "Bentu M'seli has one wish and dream; The re-creation of Great Zimbabwe. The Allies made a great mistake not granting the whole of Africa to Zimbabwe, and now they must be left at the end of our sword begging for mercy! Long live the King! Long life Great Zimbabwe!"
+
+ ZIM_war_exhaustion:0 "War Exhaustion"
+ ZIM_war_exhaustion_desc:0 "As M'seli calls it 'The War to Reclaim our Lost Northern Provinces', the war with Zambia has lasted since 1933 and has been a constant stalemate over the Zambezi river with both sides suffering heavy casulties. The population has gotten more than tried of this pointless war, and if a conclusion isn't to be reach, M'seli could very well lose his mantle..."
+
+namibia.9.t:0 "Namibia Demands our Land!"
+namibia.9.d:0 "The Namib Reich has demanded the land of the Namibian Dong and some Southern Territories, claiming it to be historical territory ripped away from the Namibian People during the Great Resistance War. South Africa has also shown zero interests in protecting us. What shall we do?"
+namibia.9.a:0 "We Must Give in..."
+namibia.9.b:0 "Over my Dead Body!"
+
+namibia.10.t:0 "Botswana Caves in!"
+namibia.10.d:0 "Botswana has surrended the Dong and Thing to us. Even better, their allies have shown zero care about their future! Talks are already begining inbetween us and Zimbabwe and on what comes next..."
+namibia.10.a:0 "Another Victory of Hitler!"
+
+namibia.11.t:0 "German Officer Question"
+namibia.11.d:0 "Either seen as a plague or blessing, many ethnic Germans generals from the Great War have their own positions in the army. Unfortunately, this also means they have great say over Namibian politics, and many anti-racist and Pan-African laws have been put to a halt by them. Hitler has to make the hard decision to purge the Germans out of the army, or let them stay. Can we really win a war agaisnt South Africa without any real military knowledge?"
+namibia.11.a:0 "Auf Wiedersehen!"
+namibia.11.b:0 "Let's Just Bribe Them so They all Shut up!"
+
+namibia.12.t:0 "Namibia Demands the Walvis Bay Territory!"
+namibia.12.d:0 "Namibia has demanded the immediate handover of the Walvis Bay Territory to them. Most of the army has surrounded Walvis and our northern border eager to fight. It looks like that even if we accept these demands, the Namibians will try to find another excuse to attack us..."
+namibia.12.a:0 "We Won't Surrender so Easy, Adolf!"
+namibia.12.c:0 "We Need More Time to Prepare! You win This Time, Adolf!"
+
+namibia.13.t:0 "South Africa Refuses!"
+namibia.13.d:0 "The ignorant South Africans have refused to hand over our rightful and indigenous lands of the Walvis Bay to us! The only right thing to do now is to prepare the army, and tell the world that South Africa's liberation from the whitemen is near!"
+namibia.13.a:0 "To Cape Town we go!"
+
+namibia.14.t:0 "Fate of Botswana"
+namibia.14.d:0 "Gabrone has ordered all of it's men to stand down, as Namibian and Zimbabwean soldiers march across the nation, carving out sphere of influence in their country. Botswana's lame existance ends today, and Namibia rises like a phoenix from the ashes!"
+namibia.14.a:0 "We Will Conquer All!"
+
+namibia.17.t:0 "1936 Official Pan-African Congress"
+namibia.17.d:0 "Since Uunona's rise, three Pan-African congresses have taken place. Invitations to all Pan-African Socialist organisations and African alike are sent to attend this meeting taking place in Windhoek, the Namibian capital. Spokespersons from Liberia, Ethiopia, Botswana, Zambia, Angola, various speakers from African-decendent peoples in the Carribean and the Prime Minister of Zimbabwer, Bentu M'seli have all arrived in Windhoek to discuss the future of the African peoples across the world. As typical, South Africa, France and England have all spoken against this meeting, labeling it as a 'terrorist organisation' and inciters of violence. Still, we have many things to talk about, so let's get talking!"
+namibia.17.a:0 "For a Brighter, Redder and Blacker Africa!"
+
+namibia.18.t:0 "Spokesperson - Kingdom of Zimbabwe"
+namibia.18.d:0 "Prime Minister Bentu M'seli of the Kingdom of Zimbabwe is the first to speak. M'seli is one of the 'father figures' of Pan-African Socialism, with him and Uunona funding countless organisation across Africa, and helping millions against the anti-colonial struggle. 'We are meeting today to reaffirm our commitment to the Pan-African Socialist struggle and, in particular, to its comprehensive agenda for the promotion of peace and security, sustainable development and human rights. We are, however, concerned that the world today continues to witness unbridled acts of aggression, wars, conflicts, terrorism and rising levels of poverty. The Fascists' invaison of our greatest brother, Ethiopia. France's crimes in Central Africa and the continued genocide in the Congo. We are also alarmed that powerful states, which daily preach peace and good governance continue to trample with impunity upon the sovereignty of poor and weak nations. Zimbabwe yearns for a community of nations that recognises and respects the sovereign equality of all nations, big and small, in accordance with the Charter of Pan-African Socialist ideals. We all have positive roles to play in promoting peace and development for the benefit of present and future generations."
+namibia.18.a:0 "A Hero we can all admire..."
+
+namibia.19.t:0 "Ethiopia"
+namibia.19.d:0 "The first Pan-African Socialist Congress since the invasion of Ethiopia has been tense. Various nations have their hearts bleeding for the Abyssinian cause, but it is near-to-impossible for any country to send military aid to Ethiopia. The United Kingdom has prevented any arms deal of any sorts from passing through it's colonies, and we have been forced to sit and wait for Ethiopia to hopefully dig in and defeat the Italians once more. Every general of ours beleive an Italian victory is near impossible, and that this war will show to the world the will of the African people, and that this will be another shining example of the African spirit! The Pan-African Socialist party in Ethiopia is also rapidly growing in popularity, and once Ethiopia is victorious, they will hopefully gain power and we will gain a newfound ally! Well, assuming they'll turn out on top... right?"
+namibia.19.a:0 "We can only pray"
+
+namibia.20.t:0 "Angola"
+namibia.20.d:0 "Angola has remained a close like-minded friend of Namibia and Zimbabwe. Although Angola has pledge fulled neutrality and isn't as hated by the West as we are, they still remain as a possible landing ground for any future infiltrations of the Congo or French Africa. Despite this, with the Pan-African Socialist Party of Angola (PASPA) making various political blunders, and corruption going on through the nation like wildfire, the question has occured ~ Is Angola worth keeping? Although friendly towards us, a sudden coup or threat from the outsiders, Angola could turn into an enemy quick. Some generals have even made the call to invaide Angola right now, to avoide any future hassle. Still, we're far to weak to try and attack Angola while we have other problems with the country."
+namibia.20.a:0 "LOCK IN"
+
+namibia.21.t:0 "Moroccan Exciles"
+namibia.21.d:0 "Ahmed al-Hiba, Abd el-Krim and Merri Rebbu have all surpisingly found themselves in Namibia. Following all of their defeats by the 1920's, these men fled Angola for refuge and were then invited to Namibia by Adolf Uunona. Due to their world-famous status of masters of guerilla warfare, Uunona first attempted to recruit these men into the army, but they all refused, citing their goals to be Moroccan liberations, not some Namibian wet dream of conquering South Africa. They all fell out with Uunona since, but have attended the congresss due to their popularity and love from Africans all across the globe. The three talked about the lives of Africans before European colonisation. Not too long ago Morocco and many other African nations like Wadai and Libya were free too. This has all came to end, and most of Africa has become subjugated to Europeans. Al-Hiba still mementoes of the past in the Sahara with his father, Ma al'-aynayn, a land unknonw to Europeans and pure from the coloniser's touch. Their examples of their not-so-perfect but free lives mimics life in Namibia. Although our economy may be in the gutter, and we may all be living dirt-poor, we live with the knowledge that we are free. We are Africans ruled by Africans, not by Europeans, or ghastly, by the French. A thunderous round of apolause was given to the three as they left the podium..."
+namibia.21.a:0 "Do I know them from somewhere?"
+
+namibia.22.t:0 "African Americans"
+namibia.22.d:0 "The African-American problem has been a thorn to the Pan-African Socialist philosophy since it's inception. Uunona calls for the liberation of Africa alone, while overseas figures like Marcus Garvery call for the liberation of African-Americans aswell. They are in no doubt brothers to the African people, taken away from their homes centuries prior, but the ambition of including them in a Pan-African nation seems too crazy to even Uunona, who's the same guy who think's he can single handly unite Africa! Garvey has called out Uunona's thoughts on African-Americans, using it to insult his ideology, calling Pan-African Socialism 'Nothing more than something created by Uunona while he was smoking the green'. Safe to say he won't be attending next year's congress, that's for sure!"
+namibia.22.a:0 "Mad-Lad"
+
+
+namibia.25.t:0 "Uunona's Successor"
+namibia.25.d:0 "The recent months have been a hellhole for Uunona's public reputation. The endless war and poorly made decisions has made his advisors agree that it would be the best for the SWAPO party if he resigned his position. This will cause a grave amount of chaos in the country, that's no doubt, but it is starting to look like the SWAPO needs someone stronger and younger than Uunona if we wish to continue."
+namibia.25.a:0 "Erwin Osas Rommel, the Minister of Defence Must Take Power!"
+namibia.25.b:0 "Dressler Must Lead the Party!"
+namibia.25.c:0 "Hendrik Samuel Witbooi has Great Political Connections and a United Namibia is What we Need in These Dire Times!"
+############
+
+
+NMB_export_the_wealth_of_namibia:0 "Export the Wealth of Namibia"
+NMB_export_the_wealth_of_namibia_desc:0 "An open market economy that lets the wealth of Namibia be exported to the world will let our economy grow rapidly."
+
+NMB_market_socialsim:0 "Namibian Market Socialism"
+NMB_market_socialsim_desc:0 "We cannot fall victim to the greed of capitalism while proclaiming ourselves as a state for the workers. We will let the doors go free while maintaining a watchful eye over the economy."
+
+NMB_reconcile_with_the_capitalist:0 "Reconcile with the Capitalist"
+NMB_reconcile_with_the_capitalist_desc:0 "Maybe abandoning all economic trades with our African and overseas parters wasn't the wises of ideas. We will re-establish trade with our neighbours to up the flow of cash."
+
+NMB_infratructure_investments:0 "Infrastructure Investments"
+NMB_infratructure_investments_desc:0 "Our roads are miserable and all of our rail has been destroyed as a result of the war, with no one in the government looking to fix it. Luckly for us, there's foreigners out there willing to build all this fancy stuff for us... For a price that is, atleast."
+
+NMB_foreign_workforces:0 "Foreign Brains"
+NMB_foreign_workforces_desc:0 "The foreigners are much more technologically advance than us. We could learn a thing or two from their bright minds."
+
+NMB_arms_industry:0 "Domestic Arms Market"
+NMB_arms_industry_desc:0 "Nations like Germany and Italy made lots of money by producing high quality weapons for those who couldn't affor their own. With Africa boiling in anger, we too could make some money by selling weapons to rebel groups across the continent"
+
+NMB_tourism:0 "Tourism"
+NMB_tourism_desc:0 "Namibia's beauty goes unmatched. We will make quite a bit of money by welcoming in European tourists and travelers."
+
+NMB_civilian_investments:0 "Civilian Investments"
+NMB_civilian_investments_desc:0 "Investors are seeing the future our great nation has. It's time to welcome in more and more businessmen!"
+
+NMB_invest_in_the_arms_industry:0 "Invest in the Arms Industry"
+NMB_invest_in_the_arms_industry_desc:0 "The investors could also benefit from sinking their teeth into our army."
+
+NMB_take_on_debts:0 "Take on Debts"
+NMB_take_on_debts_desc:0 "Namibia has many World War Era debts that we still havent payed back to Germany. Refusing to pay these denies us a good trading partner and sends a message that Namibia is unreliable when it comes to paying back it's IOUs. We will begin paying Germany back this debt to show the world how serious Namibia's economy is."
+
+NMB_bolster_agricultural_exports:0 "Bolster Agricultural Exports"
+NMB_bolster_agricultural_exports_desc:0 "Most of Namibia's population engages in agriculture. Why don't we try to squeeze some money out of them?"
+
+NMB_export_namibia_wealth:0 "Foreign Excavation"
+NMB_export_namibia_wealth_desc:0 "Namibia's resources are just ready to be excavated at any moment!"
+
+NMB_second_diamond_rush:0 "Second Diamond Rush"
+NMB_second_diamond_rush_desc:0 "Everyone and their mother is dying to chase after South African gold and diamonds. Namibia too has similiar wealth awaiting to be unearthed by novice prospectors"
+
+NMB_sell_off_namibian_companies:0 "Sell Off Namibian Companies"
+NMB_sell_off_namibian_companies_desc:0 "The foreigners have filled in the shoes of local Namibian companies. We will sell these businesses out to help reduce our debt, while granting the foreigners greater control over the economy."
+
+NMB_seek_investments_in_companies:0 "Seek Investments in Companies"
+NMB_seek_investments_in_companies_desc:0 "Local Namibian businesses deserve attention too. Investing in them will provide us with great rewards."
+
+NMB_sell_off_oil:0 "Otjozondjupa Oil"
+NMB_sell_off_oil_desc:0 "The north is full of oil waiting to be sold to the foreigners!"
+
+NMB_uranium_industry:0 "Uranium Fever"
+NMB_uranium_industry_desc:0 "Namibia is home to some of the largest Uranium reserves in the world. We must start digging to one day create wonderweapons of our own! Oh, and the money would be nice..."
+
+NMB_costs_of_war:0 "Costs of War"
+NMB_costs_of_war_desc:0 "As the war goes on, our trade routes collapse and partners turn against us. Our moment of luxury blinded us and our nation is falling into a great deficite. We must either find new ways to make money, or to greatly cut down on our army's size."
+
+NMB_take_more_from_the_home_front:0 "Take More From the Home Front"
+NMB_take_more_from_the_home_front_desc:0 "The greedy children demanding free lunches while the Namibian war machine is starving in the battle field! We must take and ration more from the people to prevent a total collapse in the field."
+
+NMB_cut_on_weapon_production:0 "Cut Down on Weapon Design"
+NMB_cut_on_weapon_production_desc:0 "We need to spend less on the army. Building cheaper and less functional weapons will help with that."
+
+NMB_scrap_submarines:0 "Scrap Submarines"
+NMB_scrap_submarines_desc:0 "Our uboats are costly while making no changes in the war. We will melt them down for scrap metal, and we'll gut it for spare cash."
+
+NMB_find_new_trade_partners:0 "Find new Trade Partners"
+NMB_find_new_trade_partners_desc:0 "With us being unable to trade with France or England, nations like Ecuador or Chile have turned into the last nations we can trade with."
+
+NMB_beg_for_debt_forgiveness:0 "Beg for Debt Forgiveness"
+
+NMB_socialist_oligarchs:0 "Socialist Oligarchs"
+NMB_socialist_oligarchs_desc:0 "We may be called a Socialist country, but we're riddled to the bone with a dirty case of capitalism. We must appease the businessmen  that rule over our economy."
+
+
+NMB_german_army_veto:0 "German Veto"
+NMB_german_army_veto_desc:0 "Many German veterans that used to operate in what was German Sudtwestafrika now operate for us. Their skills are undeniable, but they have also unfortunately snuck themselves into our politics, boycotting Hitler has his most needed moments, and causing violence in our other-wise stable government."
+
+NMB_legacy_of_segregartion:0 "Legacy of Segregation"
+NMB_legacy_of_segregartion_desc:0 "Although Hitler's abolishment of the Segregation Policies were suppose to be enacted in 1936, no real actions have been acted upon to stop Segregation, causing many Africans to feel betrayed by Hitler."
+
+NMB_anglo_problem:0 "Anglo Problem"
+NMB_anglo_problem_desc:0 "The occupation of Namibia may of only lasted from 1916 to 1921, but thousands of British settlers have already built homes and small communities in Namibia, causing a headache for our other-wise majority Black population."
+
+NMB_german_support_low:0 "Low German Support"
+NMB_german_support_low_desc:0 "The German population that arrived when Germany colonised Namibia remains a mark on our nation's demographics. They are too few in numbers to be ignored, but too plentiful to just kick them all out of the country."
+
+NMB_child_labour:0 "Child Labour"
+NMB_child_labour_desc:0 "The devistating effects of the Great War of Resistance Against the Western Imperialist caused most of the adult population to be dead or too injured to work. This resultes in countless children taking the jobs of their parentings, working in factories instead of working in schools."
+
+NMB_workers1:0 "Dead Economy"
+NMB_workers1_desc:0 "The death of Namibia's prestige in 1916, and a decade to follow it resulted in most of our economy to end up in ruins or barely functioning. Not to mention the long history of worker abuse and oligarchs have resulted in working conditions to be some of the worse Africa has seen. Hitler will have to pull of a miracle if he wants the gears of war to roar once more against South Africa and the West..."
+
+NMB_workers2:0 "Dead Economy"
+NMB_workers2_desc:0 "The death of Namibia's prestige in 1916, and a decade to follow it resulted in most of our economy to end up in ruins or barely functioning. Not to mention the long history of worker abuse and oligarchs have resulted in working conditions to be some of the worse Africa has seen. Hitler will have to pull of a miracle if he wants the gears of war to roar once more against South Africa and the West..."
+
+NMB_workers3:0 "Dead Economy"
+NMB_workers3_desc:0 "The death of Namibia's prestige in 1916, and a decade to follow it resulted in most of our economy to end up in ruins or barely functioning. Not to mention the long history of worker abuse and oligarchs have resulted in working conditions to be some of the worse Africa has seen. Hitler will have to pull of a miracle if he wants the gears of war to roar once more against South Africa and the West..."
+
+NMB_workers4:0 "Dead Economy"
+NMB_workers4_desc:0 "The death of Namibia's prestige in 1916, and a decade to follow it resulted in most of our economy to end up in ruins or barely functioning. Not to mention the long history of worker abuse and oligarchs have resulted in working conditions to be some of the worse Africa has seen. Hitler will have to pull of a miracle if he wants the gears of war to roar once more against South Africa and the West..."
+
+NMB_workers5:0 "Dead Economy"
+NMB_workers5_desc:0 "The death of Namibia's prestige in 1916, and a decade to follow it resulted in most of our economy to end up in ruins or barely functioning. Not to mention the long history of worker abuse and oligarchs have resulted in working conditions to be some of the worse Africa has seen. Hitler will have to pull of a miracle if he wants the gears of war to roar once more against South Africa and the West..."
+
+NMB_workers5:0 "Dead Economy"
+NMB_workers5_desc:0 "The death of Namibia's prestige in 1916, and a decade to follow it resulted in most of our economy to end up in ruins or barely functioning. Not to mention the long history of worker abuse and oligarchs have resulted in working conditions to be some of the worse Africa has seen. Hitler will have to pull of a miracle if he wants the gears of war to roar once more against South Africa and the West..."
+
+NMB_workers6:0 "Dead Economy"
+NMB_workers6_desc:0 "The death of Namibia's prestige in 1916, and a decade to follow it resulted in most of our economy to end up in ruins or barely functioning. Not to mention the long history of worker abuse and oligarchs have resulted in working conditions to be some of the worse Africa has seen. Hitler will have to pull of a miracle if he wants the gears of war to roar once more against South Africa and the West..."
+
+NMB_workers7:0 "Dead Economy"
+NMB_workers7_desc:0 "The death of Namibia's prestige in 1916, and a decade to follow it resulted in most of our economy to end up in ruins or barely functioning. Not to mention the long history of worker abuse and oligarchs have resulted in working conditions to be some of the worse Africa has seen. Hitler will have to pull of a miracle if he wants the gears of war to roar once more against South Africa and the West..."
+
+NMB_workers8:0 "Dead Economy"
+NMB_workers8_desc:0 "The death of Namibia's prestige in 1916, and a decade to follow it resulted in most of our economy to end up in ruins or barely functioning. Not to mention the long history of worker abuse and oligarchs have resulted in working conditions to be some of the worse Africa has seen. Hitler will have to pull of a miracle if he wants the gears of war to roar once more against South Africa and the West..."
+
+NMB_workers9:0 "A Roaring Economy"
+NMB_workers9_desc:0 ""
+
+NMB_workers10:0 "A Roaring Economy"
+NMB_workers10_desc:0 ""
+
+NMB_workers11:0 "A Roaring Economy"
+NMB_workers11_desc:0 ""
+
+NMB_defending_our_homeland:0 "Defending Namibia"
+NMB_defending_our_homeland_desc:0 "Another great catastrophe cannot be placed upon us again! Every man and woman will defend Namibia to their heart's desire!"
+
+lesotho_gold_deal:0 "Lesotho Gold"
+lesotho_gold_deal_desc:0 " "
+
+NMB_black_support6:0 "Support of the Natives"
+NMB_black_support5:0 "Support of the Natives"
+NMB_black_support4:0 "Support of the Natives"
+NMB_black_support3:0 "Support of the Natives"
+NMB_black_support2:0 "Support of the Natives"
+NMB_black_support1:0 "Support of the Natives"
+
+NMB_german_support1:0 "Support of the White Minority"
+NMB_german_support2:0 "Support of the White Minority"
+NMB_german_support3:0 "Support of the White Minority"
+NMB_german_support4:0 "Support of the White Minority"
+NMB_german_support5:0 "Support of the White Minority"
+
+
+
+NMBdemocratic_an_army_to_compete_with_south_africa:0 "A Modern Army to Compete with South Africa"
+NMBdemocratic_an_army_to_compete_with_south_africa_desc:0 "To compete with our much stronger enemies, we must innovate and fill our army with all sorts of new technology. South Africa looks to be quite slow on modernising their army, so we should be able to outpace them with ease."
+
+NMBdemocratic_import_foreign_tech:0 "Import Light Tanks"
+NMBdemocratic_import_foreign_tech_desc:0 "We cannot produce our own light tanks as of now, so we will instead purchase some old tanks off Germany to begin building up our armour divisions."
+
+NMBdemocratic_well_equiped_army:0 "Light Tank Production"
+NMBdemocratic_well_equiped_army_desc:0 "We will open new factories for the sole purpose of building light tanks to further strengthen our army."
+
+NMBdemocratic_quality_over_quantity:0 "Quality Over Quantity"
+NMBdemocratic_quality_over_quantity_desc:0 "A few hundred tanks could easily piece through South Africa's defenses opposed to a hundred-thousand armed spearmen. We will focus on produce small-scaled divisions capable to defeating our enemies from now on."
+
+NMBdemocratic_fear_the_panzer:0 "Fear the Panzer"
+NMBdemocratic_fear_the_panzer_desc:0 "The world has been shown the true power of tanks, and we shall harvest it!"
+
+NMBdemocratic_manpower_drive:0 "Manpower Drive"
+NMBdemocratic_manpower_drive_desc:0 "Namibia is lightly populated, and it will be hard to build a large army due to it. We must squeeze out every last drop of of manpower out of our population to fullfill our army's needs."
+
+NMBdemocratic_promote_army_diversity:0 "Promote Army Diversity"
+NMBdemocratic_promote_army_diversity_desc:0 "Half of the army's white generals are heavily opposed to the recruitment of black generals and officers. We will tell these generals to shut up and accept the help they are being offered."
+
+NMBdemocratic_conscript_the_basters:0 "Conscript the Basters"
+NMBdemocratic_conscript_the_basters_desc:0 "The Basters have enjoyed their privleges and have lazed around doing nothing for too long. It's time for them to get on their feet and to serve Namibia."
+
+NMBdemocratic_volksturm:0 "Volksturm"
+NMBdemocratic_volksturm_desc:0 "Hitler has proposed a new branch of the army, the Volksturm. The peoples' army is going to have it's ranked filled by underaged child soldiers and 80 year old men. What a great idea!"
+
+NMBdemocratic_mobilise_boy_scouts:0 "Mobilise the Boy Scouts"
+NMBdemocratic_mobilise_boy_scouts_desc:0 "There are dozens of German and Namibian boy scouts in the country. We will grant the scouts a new 'opportunity' by joining the army and showing them the fun of war."
+
+NMBdemocratic_conscript_germans:0 "Conscript Germans"
+NMBdemocratic_conscript_germans_desc:0 "The Germans have been conscripting Africans to fight for them for too long! It's time to force the conscription of German settlers to fight side-by-side with their African brothers."
+
+NMBdemocratic_tribal_participation:0 "Tribal Participation"
+NMBdemocratic_tribal_participation_desc:0 "It's time to halt the tribes from living their nomadic lifestyle, and force them to join the army."
+
+NMBdemocratic_tswana_conscription:0 "Tswana Conscription"
+NMBdemocratic_tswana_conscription_desc:0 "The Tswana are now under our control, and we will extend our conscript policy to their lands."
+
+NMBdemocratic_afrikaaner_conscription:0 "Afrikaaner Conscription"
+NMBdemocratic_afrikaaner_conscription_desc:0 "Thousands of Black South Africans have volunteered to fight for Africa with us. Join up, boys!"
+
+NMBdemocratic_boer_recruitment:0 "Boer Recruitment"
+NMBdemocratic_boer_recruitment_desc:0 "We will now force the white-supremist Boers to fight for us, as payback for all that slavery stuff they've done before!"
+
+NMBdemocratic_special_forces:0 "Special Forces"
+NMBdemocratic_special_forces_desc:0 "We must train some special forces to expand our combat capabilites."
+
+NMBdemocratic_mountain_people:0 "Mountain Training"
+NMBdemocratic_mountain_people_desc:0 "South Africa is home to many mountains. Mountains that we will have to conquer in the upcoming future. We must invest into mountaineers to assure that South Africa will not be able to hide on their little mountains should war break out!"
+
+NMBdemocratic_desert_surivial_missions:0 "Desert Survival Missions"
+NMBdemocratic_desert_surivial_missions_desc:0 "Namibia is home of the oldest desert in the world. We will train our soldiers to not only surivive in the desert, but to thrive in it! (Was that cool?)"
+
+NMBdemocratic_form_the_fallschirmjager:0 "Paratroopers"
+NMBdemocratic_form_the_fallschirmjager_desc:0 "The modern age has brought us another wonderful invetion; Paratroopers!"
+
+NMBdemocratic_building_an_airforce:0 "Building an Airforce"
+NMBdemocratic_building_an_airforce_desc:0 "Hitler has always dreamt of Namibia ruling the skies... and the stars. Since spaceships don't exist yet, we will have to be happy with only owning the skies for now..."
+
+NMBdemocratic_windhoek_airport:0 "Windhoek Airport"
+NMBdemocratic_windhoek_airport_desc:0 "Namibia doesn't have any airport or even a basic landing strip in it. We must open Windhoek International to house our new airforce."
+
+NMBdemocratic_import_early_fighters:0 "Steal South African Designs"
+NMBdemocratic_import_early_fighters_desc:0 "By hiring some professional theives, we can steal some South African plane designs to begin building up our airforce's numbers."
+
+NMBdemocratic_begin_producing_planes:0 "Begin Producing Planes"
+NMBdemocratic_begin_producing_planes_desc:0 " "
+
+NMBdemocratic_german_licensing:0 "Big Boom!"
+NMBdemocratic_german_licensing_desc:0 " "
+
+NMBdemocratic_fighter_tech:0 "Fighter Tech"
+NMBdemocratic_fighter_tech_desc:0 " "
+
+NMBdemocratic_namibian_bombers:0 "Namibian Bombers"
+NMBdemocratic_namibian_bombers_desc:0 " "
+
+NMBdemocratic_state_funded_worker_unions:0 "State Protected Unions"
+NMBdemocratic_state_funded_worker_unions_desc:0 "Workers must be allowed to unionise and protect their rights if they feel like they are being abused by their employers. We will crack down on companies opressing their workers, and will motive abused workers to speak out against these brutal companies that only care about money!"
+
+NMBdemocratic_the_namibian_army:0 "The Namibian Army"
+NMBdemocratic_the_namibian_army_desc:0 "The army is in total ruins. Most of the funds of the army were kept by oligarchs during the Republican Era, but now with Hitler in charge, the army can finally get the love it deserves!"
+
+NMBdemocratic_legacy_of_the_resistance_war:0 "Legacy of the Resistance War"
+NMBdemocratic_legacy_of_segregartion_desc:0 "Coined by Hitler, the 'Great Resistance War' was the period inbetween 1916 and 1926 where brave Namibian fought the South African invaiders. We eventually succeeded, but at a great cost. We must modernise the army if we don't want our nation to at the mercy of South Africa again."
+
+NMBdemocratic_german_army_plan:0 "German Army Plan"
+NMBdemocratic_german_army_plan_desc:0 "The Germans in our army are some of the best fighters and strategists we have to offer. We must listen to their suggestions if we want a competant army."\
+
+NMBdemocratic_increase_training_standards:0 "Increase Army Standards"
+NMBdemocratic_increase_training_standards_desc:0 "A good army is a strict, loyal and professional one. Right now our army is full of vagabonds that only serve us for their paycheck at the end of the month. We must motivate our soldiers to fight for Namibia, not for the money."
+
+NMBdemocratic_integrate_artillery_into_the_army:0 "Improve Artillery"
+NMBdemocratic_integrate_artillery_into_the_army_desc:0 "Artillery is what will win us the war. The Germans in the First World War showed the world how important large cannons are in modern warfare. We don't need some silly modern tanks or cars, all we need is the good ol' howitzer."
+
+NMBdemocratic_finnish_advisors:0 "Finnish Advisors"
+NMBdemocratic_finnish_advisors_desc:0 "Finland has a suprisingly deep history with Namibia. During the colonial years hundreds of Finns migrated to Namibia and during our independence war, Finnish officials voally supported our cause. They have now offered to send us some advisors to help modernise the army, which we will accept."
+
+NMBdemocratic_legacy_of_lettow_vorbeck:0 "Legacy of Lettow-Vorbeck"
+NMBdemocratic_legacy_of_lettow_vorbeck_desc:0 "Paul von Lettow-Vorbeck is arguebly the greatest general of the First World War. Claiming no defeat, he was able to survive longer in East Africa with a few thousand ascari than mainland Germany itself. If Vorbeck could pull of such a great victory, than so can we!"
+
+NMBdemocratic_finnish_generals:0 "Finnish Generals"
+NMBdemocratic_finnish_advisors_desc:0 " "
+
+NMBdemocratic_prussian_army1:0 "Prussian-Styled Army"
+NMBdemocratic_prussian_army1_desc:0 "The Germans may be racist to us, hate us with all of their guts, and wish to reoccupy us, but alteast they know how to fight!"
+
+NMBdemocratic_prussian_army2:0 "Prussian-Styled Army"
+NMBdemocratic_prussian_army2_desc:0 "The Germans may be racist to us, hate us with all of their guts, and wish to reoccupy us, but alteast they know how to fight!"
+
+NMBdemocratic_namib_blitzkreig:0 "Namib Blitzkreig"
+NMBdemocratic_namib_blitzkreig_desc:0 " "
+
+NMBdemocratic_namib_blitzkreig2:0 "Namib Blitzkreig"
+NMBdemocratic_namib_blitzkreig2_desc:0 " "
+
+
+NMB_prussian_army1:0 "Prussian-Styled Army"
+NMB_prussian_army1_desc:0 "The Germans may be racist to us, hate us with all of their guts, and wish to reoccupy us, but alteast they know how to fight!"
+
+NMB_prussian_army2:0 "Prussian-Styled Army"
+NMB_prussian_army2_desc:0 "The Germans may be racist to us, hate us with all of their guts, and wish to reoccupy us, but alteast they know how to fight!"
+
+NMB_namib_blitzkreig:0 "Namib Blitzkreig"
+NMB_namib_blitzkreig_desc:0 " "
+
+NMB_namib_blitzkreig2:0 "Namib Blitzkreig"
+NMB_namib_blitzkreig2_desc:0 " "
+
+
+NMB_the_namibian_army:0 "The Namibian Army"
+NMB_the_namibian_army_desc:0 "The army is in total ruins. Most of the funds of the army were kept by oligarchs during the Republican Era, but now with Hitler in charge, the army can finally get the love it deserves!"
+
+NMB_legacy_of_the_resistance_war:0 "Legacy of the Resistance War"
+NMB_legacy_of_segregartion_desc:0 "Coined by Hitler, the 'Great Resistance War' was the period inbetween 1916 and 1926 where brave Namibian fought the South African invaiders. We eventually succeeded, but at a great cost. We must modernise the army if we don't want our nation to at the mercy of South Africa again."
+
+NMB_german_army_plan:0 "German Army Plan"
+NMB_german_army_plan_desc:0 "The Germans in our army are some of the best fighters and strategists we have to offer. We must listen to their suggestions if we want a competant army."\
+
+NMB_increase_training_standards:0 "Increase Army Standards"
+NMB_increase_training_standards_desc:0 "A good army is a strict, loyal and professional one. Right now our army is full of vagabonds that only serve us for their paycheck at the end of the month. We must motivate our soldiers to fight for Namibia, not for the money."
+
+NMB_integrate_artillery_into_the_army:0 "Improve Artillery"
+NMB_integrate_artillery_into_the_army_desc:0 "Artillery is what will win us the war. The Germans in the First World War showed the world how important large cannons are in modern warfare. We don't need some silly modern tanks or cars, all we need is the good ol' howitzer."
+
+NMB_finnish_advisors:0 "Finnish Advisors"
+NMB_finnish_advisors_desc:0 "Finland has a suprisingly deep history with Namibia. During the colonial years hundreds of Finns migrated to Namibia and during our independence war, Finnish officials voally supported our cause. They have now offered to send us some advisors to help modernise the army, which we will accept."
+
+NMB_legacy_of_lettow_vorbeck:0 "Legacy of Lettow-Vorbeck"
+NMB_legacy_of_lettow_vorbeck_desc:0 "Paul von Lettow-Vorbeck is arguebly the greatest general of the First World War. Claiming no defeat, he was able to survive longer in East Africa with a few thousand ascari than mainland Germany itself. If Vorbeck could pull of such a great victory, than so can we!"
+
+namib_saf.2.t:0 "Estalbishment of a Loyal South African Regime"
+namib_saf.2.d:0 "We did it! We managed to defeat the South Africans and have liberate the Africans from their colonisers! Now the question arises; should we grant the Black South Africans their own state, or should we integrate them into our own country?"
+namib_saf.2.a:0 "South African Joins the African Struggle Today!"
+
+NMB_build_ports:0 "Build Up Lüderitz"
+NMB_build_ports_desc:0 "With the Skeleton Coast being far too inhospitable for a real port city to built there, and the cities of Walvis Bay and Swakopmund being taken by South Africa, Lüderitz remainds as the only real coastal and port city capable of accepting large ships. We must heavily invest in this city to open up trade with the world"
+
+NMB_hitler_car:0 "Hitlerwagon, Das Auto"
+NMB_hitler_car_desc:0 "Namibia hasn't caught up to the rest of the world with the new invention of the 'Automobile'. Hitler plans to invent his new brand of care, Valkswogan, to allow the average Namibia to ride in this great invention!"
+
+NMB_southern_development:0 "Southern Development"
+NMB_southern_development_desc:0 "With the South truely under our control, we can now start investing into the region without the fear of it simply being taken by South African soliders..."
+
+NMB_hitler_werke:0 "Hitlerwerke"
+NMB_hitler_werke_desc:0 "Hitler has implemented some new ideas to combat unemployment in Namibia, to make everyone feel like they are contributing to society, and don't end up like chronic gooners. I'M TAKING TO YOU!"
+
+NMB_true_unification:0 "Build New Cities"
+NMB_true_unification_desc:0 "Namibia is a sparesely populated country, no shock. We only have such few cities where we can build new things, so why not just start from scratch and begin building new towns."
+
+NMB_destroy_unemployment:0 "Build up new Cities"
+NMB_destroy_unemployment_desc:0 "With these new cities begining to go underway, we can now start gaining a profit from them."\
+
+NMB_purchase_convoys:0 "Purchase Convoys"
+NMB_purchase_convoys_desc:0 "The Namibian Merchants' Fleet isn't in the best of shape. We are desperatly lacking boats that can transport the needed resources to turn Namibia into the war machine it was meant to be. We will buy some convoys from some friendly powers to help us in this time of need."
+
+NMB_investments_in_luderitsz:0 "Begin Ship Production"
+NMB_investments_in_luderitsz_desc:0 "With Lüderitz booming now more than ever, we can begin building some ships of our own. Who knows, maybe Namibia was made to be a naval superpower..."
+
+NMB_namibian_fishing:0 "Icelandic Fishing Deal"
+NMB_namibian_fishing_desc:0 "Iceland and us have a strangely deep bond over fishing economics. We must only be closer to our true ally up north!"
+
+NMB_hitlers_socialism:0 "Hitler's Socialism"
+NMB_hitlers_socialism_desc:0 "Hitler has promised a series of reforms to help the Namibian people and economy. Let's see if he is capable of doing it!"
+
+NMB_improve_workers_conditions:0 "Improve Workers Conditions"
+NMB_improve_workers_conditions_desc:0 "Standard salary, paid leave, all of these things should be included in the basic rights of a worker!"
+
+NMB_ban_child_miners:0 "Ban Child Labour"
+NMB_ban_child_miners_desc:0 "The acts of Child Labour are a dark stain on Namibia's economy. Hitler will put an end to this inhumane practice, and will free the children from the factories! We aren't living in Victorian Britain, after all!"
+
+NMB_wages_to_prior_slaves:0 "Help Prior Slaves"
+NMB_wages_to_prior_slaves_desc:0 "Germany's acts of de-facto slavery over Namibia are still felt to this day. Countless ex-slaves are suffering endless physical and mental trauma, and are unable to provide to society because of it. We will make the woes go away by throwing a few dollars at them, and hopefully that'll convince them to start working for us!"
+
+NMB_veteran_care:0 "Honour the Herero War Veterans"
+NMB_veteran_care_desc:0 "Countless veterans of the Herero War walk amongst us like Gods among men, without any contribution for their great sacrifcies made agaisnt the Germans in the turn of the 20th Century. We will seek out these veterans, and make great propaganda out of them!"
+
+NMB_crackdown_on_corrupt_churches:0 "Crackdown on Corrupt Churches"
+NMB_crackdown_on_corrupt_churches_desc:0 "As Uvuvwevwevwe Onyetenyevwe Ugwemuhwem Osas said, the Churces in Africa are abusing the poor, forcing them to work or else they will not be welcomed into heaven. These greedy man are like wolfs wearing the masks of sheep, and their corruption must be put to an end!"
+
+NMB_urnaium_fever:0 "Uranium Fever"
+NMB_urnaium_fever_desc:0 "Namibia is home to some of the largest Uranium reserves in the world. We must start digging to one day create wonderweapons of our own! Oh, and the money would be nice..."
+
+NMB_expanding_the_steel_industry:0 "Expanding the Steel Industry"
+NMB_expanding_the_steel_industry_desc:0 "Steel is very important if we want to become self-reliant with out arms production. We already have all of the resources under out feet so all we have to do now is use them!"
+
+NMB_eureka:0 "Eureka!"
+
+NMB_increase_global_exports:0 "Import Foreign Tech"
+NMB_increase_global_exports_desc:0 "Foreign nations are better at building electronics and tools than us. Since we cannot compete with them with this, the closest we can get is simply buying their tools and electronics, so in that we way we are atleast somewhat equal."
+
+NMB_namibian_diamonds:0 "Namibian Diamonds"
+NMB_namibian_diamonds_desc:0 "The Germans first discovered diamonds in Namibia in 1908, assigning Sperrgebiet regions for anyone to start prospecting at their free will in hopes of one day getting rich. We will now begin letting big cooperations to get involved in this diamond rush, providiing us with endless wealth!"
+
+NMB_old_people_care:0 "Free Healthcare"
+NMB_old_people_care_desc:0 "Despite us being in the 20th Century, we still lack basic basic hospitals and doctors are desperatly needed across the country. Hitler plans to hire foreign doctors for hire wages, in hopes of fixing this issue."
+
+NMB_equal_wealth:0 "Equal Wealth"
+NMB_equal_wealth_desc:0 "Namibia's social divide ends here! The rich will no longer sit in their fancy mansions while thousand stuggle to find food!"
+
+NMB_free_education:0 "Free Education"
+NMB_free_education_desc:0 "Education is priority and is the foundation of a modern nation. The children will no longer be allowed to enjoy themselves, and will be sent off into the schools to learn algebra and that one triangle math!"
+
+NMB_big_man_little_town:0 "Big Man, Little Town"
+NMB_big_man_little_town_desc:0 "Hitler has ruled Namibia since 1933, and has had an iron grip on the nation's politics since then. But as the economic situation only gets worse in Namibia, will Hitler be able to secure his reign for much longer?"
+
+NMB_hitler_holds_down_the_lid:0 "Hitler Holds Down the Lid"
+NMB_hitler_holds_down_the_lid:0 "Hitler has managed to pull through and will now leade Namibia under his 'African Socialism' policies, turning Namibia into a superpower in the foreseeable future."
+
+NMB_fall_of_hitler:0 "Fall of Hitler"
+NMB_fall_of_hitler_desc:0 "Hitler has Fallen! His tyrannical and un-democratic rule has come to an end, and a civilian government has been established in Namibia!"
+
+NMB_prepare_the_wermacht:0 "Prepare the NDF"
+NMB_prepare_the_wermacht_desc:0 "With the chaso of Hitler fleeing Namibia, a power vacuum has formed. With no one seeming to be strong enough to rule Namibia now, the German-led NDF has launched a coup, and Namibia's future looks darker than it has ever been before..."
+
+NMB_foreign_policy:0 "Foreign Policy"
+NMB_foreign_policy_desc:0 "Namibia wil no longer be a peaceful and lame neutral nation. We will avenge the wrongs done upon us by our enemies, and Namibia will become the greatest nation Africa has ever seen!"
+
+NMB_help_epstein:0 "Help Mandume"
+NMB_help_epstein_desc:0 "Mandume ya Ndemufayo has always been an ally of the Namibians, and has started an uprising in Angola to free the people from the opressive Portugese rule. We must send them all the help we can offer!"
+
+NMB_namib_playground:0 "Namib Playground"
+NMB_namib_playground_desc:0 "The War in Angola is a great place for us to test out our new equipment and doctrines. We will invest more equipment into this war to further train our army."
+
+NMB_german_officer_question:0 "German Officers Questions"
+NMB_german_officer_question_desc:0 "The Germans have strangled our country and have kept Hitler under their influnce for too long! Either they go now, or we will have to deal with them violently!"
+
+NMB_fighting_the_europeans:0 "Ready for War"
+NMB_fighting_the_europeans_desc:0 "We must ready our nation for war against South Africa!"
+
+NMB_fund_congo_rebels:0 "Fund Congolese Rebels"
+NMB_fund_congo_rebels_desc:0 "The Congo has been treated so horrible by Belgium that it has practically become a hell-on-Earth. We must save our desperate African brothers in the Congo, and fund their cause of revolution!"
+
+NMB_showing_the_world_our_power:0 "Showing the World our Power"
+NMB_showing_the_world_our_power_desc:0 "We are no joke when it comes a global domination! The world shall see our true strenght and will beg for mercy!"
+
+NMB_walvis_or_war:0 "Walvis or War"
+NMB_walvis_or_war_desc:0 "The Walvis Bay Territory is rightful Namibian land that was stripped away from us far too long ago! We will make the demand to South Africa to cede this territory to us, or they will face the Namibian War Machine!"
+
+NMB_alliance_with_zimbabwe:0 "Alliance with Zimbabwe"
+NMB_alliance_with_zimbabwe_desc:0 "Bentu M'seli's Zimbabwe share similiar ideas to our Namibia, Pan-African nationalism, avenging the wrongs that have been done to both of our nations, and the passion to one day liberate our brothers across Africa. It's only right that we sign an official alliance between us two!"
+
+NMB_luderitsz_agreement:0 "Lüderitsz Agreement"
+NMB_luderitsz_agreement_desc:0 "Botswana hold many rightful Namibian territories like the Namibian Dong, aswell as occupying rightful Zimbabwean land. We will make the demands to cede these territories over, or they will be met with war!"
+
+NMB_befriend_botswana:0 "Alliance for Territories"
+NMB_befriend_botswana_desc:0 "It would be hypocritical for us to be 'Pan-African' while invaiding our African brothers to the East. We will offer an alliance in Botswana in exchange for the Namibian Dong. The more the merrier is the saying, after all."
+
+NMB_fund_botswanan_army:0 "Fund Botswana's Army"
+NMB_fund_botswanan_army_desc:0 "Botswana isn't really ready for war, unlike us and Zimbabwe. We must prepare our allies for an upcoming war with South Africa by funding their army and production"
+
+NMB_boost_resources_in_botswana:0 "Boost Botswana Mining"
+NMB_boost_resources_in_botswana_desc:0 "Botswana's resources are needed to fuel our war against the West."
+
+NMB_fate_of_botswana:0 "Fate of Botswana"
+NMB_fate_of_botswana_desc:0 "With the success of the Lüderitsz Agreement, Botswana has been left in a rump state, with the Boers in the South begining to fight for their independence, Botswana's existance has become a centre of violence and struggle in Africa. We will free the Tswana people, and incorporate them into Namibia!"
+
+NMB_securing_africa:0 "Securing Africa"
+NMB_securing_africa_desc:0 "With war being declared on, and fighting begining in South Africa, precautions have to be made to assure Namibia comes out on top!"
+
+NMB_invaide_mozambique:0 "Invaide Mozambique"
+NMB_invaide_mozambique_desc:0 "Portugal currently opresses the people of Mozambique, who are calling to us to liberate them from their colonial masters. Securing Mozambique will also get us closer to the island of Madagascar, making a future invasion easier. Not to mention all of that rubber they have there!"
+
+NMB_operation_sealion:0 "Jewel of the Indian Ocean"
+NMB_operation_sealion_desc:0 "Madagascar remains our last African enemy, and all that's protecting them is their small navy and the Mozambique Channel. If we are able to cross it, we'll be closer to African domination than we could ever dream to be getting to!"
+
+NMB_liberation_of_south_africans:0 "Liberation of Black South Africans"
+NMB_liberation_of_south_africans_desc:0 "South Africans! Today is the day you've been waiting for! The return of your native lands to it's native people! Namibia has liberated you from the racist, barbaric, troll-like Whiteman! Today is a great day in your peoples' history!"
+
+NMB_crush_the_phonies:0 "Crush the Phonies"
+NMB_crush_the_phonies_desc:0 "Hitler has always been associated with Germnany's Hitler, causing people to see him as an evil man, who plans to one day acheive world domination. They could not be more wrong! Our Hitler is a hard-working Socialist leader that has turned Namibia into a great and prosperious power! We will end this confusion today by crushing this phony, and showing that this town isn't big enough for the two of us!"
+
+NMB_never_again:0 "Never Again"
+NMB_never_again_desc:0 "The Europeans have held our motherland for too long. We have finally kick out the coloniser, but there's 1 more task at hand; To assure that the Europeans never have the chance to even think about colonising Africa again. We will get revenge on all of those nations that tried to colonise our lands, and will establish a new Africa world order!"
+
+NMB_operation_kongo:0 "Operation Kongo"
+NMB_operation_kongo_desc:0 "The time has come. With the Europeans being distracted in Europe, Hitler has announced a plan to invaide the Belgian Congo, to finally end the decades of suffering caused by the Belgians!"
+
+NMB_freedom_for_all_of_africa:0 "Invaide Guinea"
+NMB_freedom_for_all_of_africa_desc:0 "The People of Spanish Guinea cannot be left out on a free and equal Africa. To Madrid we go!"
+
+NMB_crush_zambia:0 "Crush Zambia"
+NMB_crush_zambia_desc:0 "Zambia has been far too lenient against the Europeans, and all of it's neighbours claims it's land for themselves. Our allies shall feast on Zambian land, and we will destroy this boring country!"
+
+NMB_force_cooperation:0 "Coup in Lusaka"
+NMB_force_cooperation_desc:0 "Zambia could be a powerful ally, if it's government wasn't so weak and uncooperatvie. We will launch a coup in Zambia, to lure them into our sphere of influence!"
+
+NMB_ally_with_epstein:0 "Ally with Angola"
+NMB_ally_with_epstein_desc:0 "With Madume victorious in Angola, we can forge an alliance with the young country to bring us even closer together!"
+
+NMB_backstab_epstein:0 "Backstab Madume"
+NMB_backstab_epstein_desc:0 "Even if Angola gave us everything, it wouldn't be enough. Madume has been good in leading the revolution, but he has outlived his usefullness. We will launch an invasion of Angola and demand their soldiers to stand down, hopefully resulting in minimal violence"
+
+NMB_special_law_one_million:0 "Special Law No.12331"
+NMB_special_law_one_million_desc:0 "This new law, introduced by Hitler, will allow the government to spend a higher percentage of it's GDP on rearming the nation."
+
+NMB_breeding_program:0 "Breeding Programme"
+NMB_breeding_program_desc:0 "Namibia is very underpopulated despite how large our nation is. We will get our people addicted to viagra and hope that will fix the problem!"
+
+NMB_zulu_warriors:0 "Zulu Warriors"
+NMB_zulu_warriors_desc:0 "Despite being nearly 5 decades ago, there are still small insurgent groups fighitng for Zulu independence. We will let the warriors train and operate in Namibia, to fill the gaps in our army."
+
+NMB_welcome_black_refugees:0 "Welcome Black Refugees"
+NMB_welcome_black_refugees_desc:0 "Many African-Americans and Black South Africans are in search of a home where they will not be abused or given less opportunities based of their skin colour. Luckly for them, Namibia has everything to offer them!"
+
+NMB_fight_against_apartheid:0 "Fight Against Apartheid"
+NMB_fight_against_apartheid_desc:0 "During the begining of the Second Italo-Ethiopian War, thousands of African-Americans voluntered to fight for Ethiopia, seeing it as a a symbole of African independence agaisnt Ethiopia. Most of these brave men never made it to Ethiopia however, and they were not able to prove to the world their deligence and strenght. We will call to the Africa-American community to fight volunteer into the Namibian Army now, and build a reputation among the African-Americans across the Atlantic."
+
+NMB_lesotho_gold:0 "Lesotho Gold"
+NMB_lesotho_gold_desc:0 "The King of Lesotho has offered us a large sum of money in the return for the liberation of his homeland. We will accept this to benefit our economy."
+
+NMB_uunonaprinzip:0 "Uunonaprinzip"
+NMB_uunonaprinzip_desc:0 "Namibia is full of different people all with their own needy needs. We will have to try and appease all of the people in our country if we want the people to work as one and not agianst eachother."
+
+NMB_appease_whites:0 "Appease Whites"
+NMB_appease_whites_desc:0 "The white population is a noisy minority in Namibia. Over 70% of the land is owned by Whites, along with most of the businesses being owned by them aswell. We must try to gain their loyalty"
+
+NMB_let_slaver_owners_go_free:0 "Let Slavers go Free"
+NMB_let_slaver_owners_go_free_desc:0 "Countless rich and important people have parcipitated in slavery in one way or another. Arresting them all would mean most of the high command and powerful people will get thrown away, and Namibia will lose a lot of good investors. We will just give them a slap on the wrist this time, and hope they clean their act up."
+
+NMB_encourage_german_language:0 "Encourage German Migration"
+NMB_encourage_german_language_desc:0 "Despite the German government being long-gone in Namibia, thousands of Germans still wash up to our shores looking for a new life in what they called 'Sudtwest'. We will welcome these Germans as people of our own, and will give them free land to settle in."
+
+NMB_autonomy_for_enligh_people:0 "Unban the English Language"
+NMB_autonomy_for_enligh_people_desc:0 "Hitler's attempt to remove the English minority has failed. We should just give up the assimilation attempt, and grant them equal citizenship in Namibia."
+
+NMB_allow_germnisation_of_territories:0 "Allow the Germanisation of Namibia"
+NMB_allow_germnisation_of_territories_desc:0 "Countless German migrants have set up towns in Namibia, giving them and the regions they surround new German names. These places may already mapped out by the natives, but we will prefer to use the new German names instead."
+
+NMB_white_empowerment:0 "White Empowerment"
+NMB_white_empowerment_desc:0 ""
+
+NMB_punish_segregations:0 "Punish Segregation"
+NMB_punish_segregations_desc:0 "By law, illegal, however many white-owned companies and farms still operate under racial laws and segregation policies. We must crack down on this now!"
+
+NMB_help_impovrished_africans:0 "Help Impovrished Africans"
+NMB_help_impovrished_africans_desc:0 ""
+
+NMB_black_worker_communes:0 "Black Worker Communes"
+NMB_black_worker_communes_desc:0 "Popularised in the US, the ideas of worker communes specially for Africans to protect them shall be promoted in Namibia."
+
+NMB_land_for_nuke_testing:0 "Lands for Wild Experiments"
+NMB_land_for_nuke_testing_desc:0 "We don't really care about what would happen should a large atomic bomb be tested in our deserts anyway..."
+
+NMB_appease_africans:0 "Appease Africans"
+NMB_appease_africans_desc:0 "The natives of Namibia are the majority of our population, and we must keep them happy if we want Namibia to function as a country. Not to mention the fact that it would humiliating if Hitler abandoned his motherland for some Germans!"
+
+NMB_end_south_west_apartheid:0 "Equality Goals"
+NMB_end_south_west_apartheid_desc:0 "Under Hitler's Socialism, every man in Namibia is to be seen as equal, despite their race or heritage! African or not, we are all in this together!"
+
+NMB_honour_veterans:0 "Honour Veterans"
+NMB_honour_veterans_desc:0 "Many Germans fume at the sight of Herero veterans parading throughout Namibia, showing their resiliance in the Herero Genocide. We will let them ragebait the German population, and maybe Hitler will march with them one day..."
+
+NMB_african_thinking:0 "African Thinking"
+NMB_african_thinking_desc:0 "Europeans often say racist remarks to Africans, claiming them to be scientifically inferior to Europeans. Well, will we show them how wrong they are!"
+
+NMB_african_empowerment:0 "African Empowerment"
+NMB_african_empowerment_desc:0 "Namibia is African soil, and it always will be. We will not cave into the colonialist, and Namibia will always belong to it's people!"
+
+NMB_defending_our_culture:0 "Tribal Volunteers"
+NMB_defending_our_culture_desc:0 "Tribal elders and people from remote communities have volunteered to fight for Namibia, seeing it as the most noble of causes."
+
+NMB_defending_our_lands:0 "Defending our Land"
+NMB_defending_our_lands_desc:0 "We will never lose ahold of Namibia again! Never!"
+
+NMB_begin_rearmament:0 "Begin Rearmament"
+NMB_begin_rearmament_desc:0 "Namibia still doesn't maintain a serious army, and we are prone to South Africa making demands that we would be hopeless at retaliating against. Hitler has demanded Namibia's army grows, and grow it shall!"
+
+NMB_windhoek_arms:0 "Windhoek Mauser"
+NMB_windhoek_arms_desc:0 "Mauser has always had a history in Namibia. Althought nothing good came of our colonisation, atleast we were introduced into modern weaponry like Mauser. We will begin hiring contracts with the company to start building rifles of our own."
+
+NMB_militerise_the_south:0 "Militerise the South"
+NMB_militerise_the_south_desc:0 "With Hitler taking the Meinland back under control, we can now start building arms factories in the region. Who knows, maybe South Africa will see our industrial might and will surrender to us right away."
+
+NMB_militerise_the_north:0 "Militerise the North"
+NMB_militerise_the_north_desc:0 "The Northern border with Angola is one of the most hospitable region of Namibia, making it ripe and ready to be devloped into worker slums!"
+
+NMB_cut_welfare_spending:0 "Cut Welfare Spendings"
+NMB_cut_welfare_spending_desc:0 "Instead of preventing old people from dying, we can divert the funds into our ever-growing army!"
+
+NMB_plane_crazy:0 "Plane Crazy"
+NMB_plane_crazy_desc:0 "Hitler always dreamt of a great Namib airfoce. Maybe his dreams aren't too crazy afterall?"
+
+NMB_great_namibian_fighters:0 "Great Namibian Fighters"
+NMB_great_namibian_fighters_desc:0 ""
+
+NMB_full_steam_ahead:0 "Full Steam Ahead"
+NMB_full_steam_ahead_desc:0 "Producing our own tanks would provide a great boost in our army's capabilities."
+
+NMB_tank_building_capacity:0 "Tank Building Capacity"
+NMB_tank_building_capacity_desc:0 ""
+
+NMB_fuel_the_namib_war_machine:0 "Fueling the Namibian War Machine"
+NMB_fuel_the_namib_war_machine_desc:0 "As Hiter expands Namibia's arsenal of weapons, we now lack the resources to build said weapons without undergoing major shortages of steel and oil. Hitler has demanded that Namibia will become independent in the nextcoming years, relying on no foreign powers for it's resources."
+
+NMB_coal_liquidation:0 "Coal Liquidation"
+NMB_coal_liquidation_desc:0 "Coal is the newely-added resource, that everyone seems to lack! It would be best if we took this focus so we wouldn't have to bother with that stinky resource that no one asked for."
+
+NMB_offshore_oil_drilling:0 "Oil Drilling"
+NMB_offshore_oil_drilling_desc:0 "Hitler has asked the local shaman to bless the lands of Nambia to hopefully strike oil. All we have to do now is start drilling!"
+
+NMB_namibian_moretarky:0 "MOREtarky"
+NMB_namibian_moretarky_desc:0 "White Germany's Hitler wants to acheive 'Autarky' our Hitler, the good one, has jokingly said Namibia needs to acheive 'Moretarky', an idea that a nation has to start building more of everything until it gets rich or works itself to death trying."
+
+NMB_seize_german_investments:0 "Seize Foreign Investments"
+NMB_seize_german_investments_desc:0 "Doesn't it seem like a jackass move to just steal the money that was given to you in a time of need? Eh, who cares, we need it more than them!"
+
+NMB_angolan_rubber:0 "Angolan Rubber"
+NMB_angolan_rubber_desc:0 "Angola is loaded to the brim with rubber plantations. We must learn how to grow the mysterious tree so we can harvest rubber outselves!"
+
+NMB_more_funds_for_army:0 "More Funds for Research"
+
+NMB_an_army_to_compete_with_south_africa:0 "A Modern Army to Compete with South Africa"
+NMB_an_army_to_compete_with_south_africa_desc:0 "To compete with our much stronger enemies, we must innovate and fill our army with all sorts of new technology. South Africa looks to be quite slow on modernising their army, so we should be able to outpace them with ease."
+
+NMB_import_foreign_tech:0 "Import Light Tanks"
+NMB_import_foreign_tech_desc:0 "We cannot produce our own light tanks as of now, so we will instead purchase some old tanks off Germany to begin building up our armour divisions."
+
+NMB_well_equiped_army:0 "Light Tank Production"
+NMB_well_equiped_army_desc:0 "We will open new factories for the sole purpose of building light tanks to further strengthen our army."
+
+NMB_quality_over_quantity:0 "Quality Over Quantity"
+NMB_quality_over_quantity_desc:0 "A few hundred tanks could easily piece through South Africa's defenses opposed to a hundred-thousand armed spearmen. We will focus on produce small-scaled divisions capable to defeating our enemies from now on."
+
+NMB_fear_the_panzer:0 "Fear the Panzer"
+NMB_fear_the_panzer_desc:0 "The world has been shown the true power of tanks, and we shall harvest it!"
+
+NMB_manpower_drive:0 "Manpower Drive"
+NMB_manpower_drive_desc:0 "Namibia is lightly populated, and it will be hard to build a large army due to it. We must squeeze out every last drop of of manpower out of our population to fullfill our army's needs."
+
+NMB_promote_army_diversity:0 "Promote Army Diversity"
+NMB_promote_army_diversity_desc:0 "Half of the army's white generals are heavily opposed to the recruitment of black generals and officers. We will tell these generals to shut up and accept the help they are being offered."
+
+NMB_conscript_the_basters:0 "Conscript the Basters"
+NMB_conscript_the_basters_desc:0 "The Basters have enjoyed their privleges and have lazed around doing nothing for too long. It's time for them to get on their feet and to serve Namibia."
+
+NMB_volksturm:0 "Volksturm"
+NMB_volksturm_desc:0 "Hitler has proposed a new branch of the army, the Volksturm. The peoples' army is going to have it's ranked filled by underaged child soldiers and 80 year old men. What a great idea!"
+
+NMB_mobilise_boy_scouts:0 "Mobilise the Boy Scouts"
+NMB_mobilise_boy_scouts_desc:0 "There are dozens of German and Namibian boy scouts in the country. We will grant the scouts a new 'opportunity' by joining the army and showing them the fun of war."
+
+NMB_conscript_germans:0 "Conscript Germans"
+NMB_conscript_germans_desc:0 "The Germans have been conscripting Africans to fight for them for too long! It's time to force the conscription of German settlers to fight side-by-side with their African brothers."
+
+NMB_tribal_participation:0 "Tribal Participation"
+NMB_tribal_participation_desc:0 "It's time to halt the tribes from living their nomadic lifestyle, and force them to join the army."
+
+NMB_tswana_conscription:0 "Tswana Conscription"
+NMB_tswana_conscription_desc:0 "The Tswana are now under our control, and we will extend our conscript policy to their lands."
+
+NMB_afrikaaner_conscription:0 "Afrikaaner Conscription"
+NMB_afrikaaner_conscription_desc:0 "Thousands of Black South Africans have volunteered to fight for Africa with us. Join up, boys!"
+
+NMB_boer_recruitment:0 "Boer Recruitment"
+NMB_boer_recruitment_desc:0 "We will now force the white-supremist Boers to fight for us, as payback for all that slavery stuff they've done before!"
+
+NMB_special_forces:0 "Special Forces"
+NMB_special_forces_desc:0 "We must train some special forces to expand our combat capabilites."
+
+NMB_mountain_people:0 "Mountain Training"
+NMB_mountain_people_desc:0 "South Africa is home to many mountains. Mountains that we will have to conquer in the upcoming future. We must invest into mountaineers to assure that South Africa will not be able to hide on their little mountains should war break out!"
+
+NMB_desert_surivial_missions:0 "Desert Survival Missions"
+NMB_desert_surivial_missions_desc:0 "Namibia is home of the oldest desert in the world. We will train our soldiers to not only surivive in the desert, but to thrive in it! (Was that cool?)"
+
+NMB_form_the_fallschirmjager:0 "Paratroopers"
+NMB_form_the_fallschirmjager_desc:0 "The modern age has brought us another wonderful invetion; Paratroopers!"
+
+NMB_building_an_airforce:0 "Building an Airforce"
+NMB_building_an_airforce_desc:0 "Hitler has always dreamt of Namibia ruling the skies... and the stars. Since spaceships don't exist yet, we will have to be happy with only owning the skies for now..."
+
+NMB_windhoek_airport:0 "Windhoek Airport"
+NMB_windhoek_airport_desc:0 "Namibia doesn't have any airport or even a basic landing strip in it. We must open Windhoek International to house our new airforce."
+
+NMB_import_early_fighters:0 "Steal South African Designs"
+NMB_import_early_fighters_desc:0 "By hiring some professional theives, we can steal some South African plane designs to begin building up our airforce's numbers."
+
+NMB_begin_producing_planes:0 "Begin Producing Planes"
+NMB_begin_producing_planes_desc:0 " "
+
+NMB_german_licensing:0 "Big Boom!"
+NMB_german_licensing_desc:0 " "
+
+NMB_fighter_tech:0 "Fighter Tech"
+NMB_fighter_tech_desc:0 " "
+
+NMB_namibian_bombers:0 "Namibian Bombers"
+NMB_namibian_bombers_desc:0 " "
+
+NMB_state_funded_worker_unions:0 "State Protected Unions"
+NMB_state_funded_worker_unions_desc:0 "Workers must be allowed to unionise and protect their rights if they feel like they are being abused by their employers. We will crack down on companies opressing their workers, and will motive abused workers to speak out against these brutal companies that only care about money!"
+
+
+improve_namib_economy:0 "Unlocks Decisions to Improve Namibia's Economy"
+make_germans_happy:0 "Unlocks Decisions to Appease Minorities"
+
+NMB_finnish_generals:0 "Finnish Generals"
+NMB_finnish_advisors_desc:0 " "
+
+NMB_dresslers_plan:0 "Dressler's Plan"
+NMB_dresslers_plan_desc:0 "Ndilimeke Dressler has promoted the idea of a Soviet-Styled economy, based on self reliance and complete state control over the economy. It would be hard for us to lift ourselves up, but being self reliant would be great should a global war break out in the coming years..."
+
+NMB_fund_namib_thinking:0 "Namib Thinking"
+NMB_fund_namib_thinking_desc:0 "We must fund scholars of our own to fill in the gaps of foreign inventors and geniuses."
+
+NMB_planned_economy:0 "Planned Economy"
+NMB_planned_economy_desc:0 "Capitalism is a disease. All forms of it must be ridded from Namibia, and a Bolshevik Utopian Economy will replace it!"
+
+NMB_stalinist_model:0 "Stalinist Model"
+NMB_stalinist_model_desc:0 "Stalin was the only man who could turn backwards Russia into a developing superpower. We must copy his tactics and ways if we want Namibia to punch above it's size!"
+
+NMB_seize_foreign_investments:0 "Seize Foreign Investments"
+
+NMB_seize_foreign_investments_desc:0 "With the foreigners and their companies being expelled, their investments have no use returning to them anymore."
+
+NMB_moretarky:0 "MOREtarky"
+NMB_moretarky_desc:0 "Uunona once jokingly said that Namibia needs to acheive 'Moretarky', the general overproduction of goods so we can never starve, even if we were left diplomatically and economically isolated for a period of years."
+
+NMB_swakopmund_dam:0 "Swakopmund Dam"
+NMB_swakopmund_dam_desc:0 "Namibia needs to become self reliant on it's electricity. Our genius engineers will get to work designing a dam to go right in a river that's dried up for half the year! Such bright minds!"
+
+NMB_electricity_overdrive:0 "Electricity Overdrive"
+NMB_electricity_overdrive_desc:0 "With us producing so much extra power, we'll allow factories to use more electricity on the production belt. Still remember to turn on the lights when you leave, however!"
+
+NMB_transforming_society:0 "Transforming Society"
+NMB_transforming_society_desc:0 "Not only are we transforming and changing Namibia's economy, the daily life of our people has also drastically changed. With farmers and herders now working in factories, this new life has been quite hard for many to adapt to. We will help our people transition and merge with our new Bolshevik society."
+
+namibia_news.3:0 "Ruins of Trio Java"
+namibia_news.3.t:0 "The Ruins of Trio Java"
+namibia_news.3.d:0 "A new expedition by Namibia's Adam Dressler government has found what is said to be 'Ancient Ruins of a long-lost Nambian Empire that spanned across all of South Africa'. The ruins were found on the tripoint of Angola, Namibia and Botswana. Most scientists and anyone with a brain has debunked these claims, with it being more than obvious that this is a claim made by Dressler to create some sort of historical claim on his neighbours. On a brick that was found, it even said 'This land is promised to Namibia under Dressler, circa 3000 years ago.' The villages around the site also magically were raised to the ground by fire a week prior to their discovery..."
+
+namibia_news.3.a:0 "God Save the Namibians."
+
+NMB_german_command1:0 "Germans For Southwestafrika"
+NMB_german_command:0 "GSWA"
+
+NMB_cleanse_the_economy_of_foreigners:0 "Shining African Economy"
+NMB_cleanse_the_economy_of_foreigners_desc:0 "Backwards, barbarians, primates, all these insulting names given to the great men and women of Africa. We'll show those darn racist Europeans who's the new big boss on the continent, with our big beautiful economy!"
+
+NMB_afrikaaner_question:0 "Afrikaaner Question"
+NMB_afrikaaner_question_desc:0 "A large population of Afrikaaners live in the South of Namibia. A large question has been put upon them ~ native or not? Some argue that the Afrikaaners are just coloured Europeans settlers, while others argue that they have been mixed enough with the local populations to be considered a 'Native African Peoples'."
+
+NMB_autonomy_for_english_people:0 "Unban the English Language"
+NMB_autonomy_for_english_people_desc:0 "Hilariously, on the April Fools of 1931, Uunona pranked the Namibian population by banning the English language... Only to forget to unban it the next morning. This little joke has gone to far, and it's time for Uunona to stop playing these little jokes!"
+
+NMB_unify_the_party:0 "Unify Leftists"
+NMB_unify_the_party_desc:0 "The Socialists and Bolsheviks have been at echother's throats for long enough now. We must find a common ground for a better Namibia."
+
+NMB_struggles_of_pan_africanism:0 "Struggles of Pan-Aficanism"
+NMB_struggles_of_pan_africanism_desc:0 "Our ideology's main focus is the liberation of Africa. Let's put focus on that, and let nothing else that could divide us be put infront of us."
+
+NMB_integrate_dresslers_militia:0 "Integrate The Bolshevik Army"
+NMB_integrate_dresslers_militia_desc:0 "Dressler has always held onto a loyal militia force of goons, used to terrorise and intimiate people they deem 'Counter-revolutionary'. We could use a pseudo special police like them for ourselves."
+
+NMB_men_on_guard:0 "Men on Guard"
+NMB_men_on_guard_desc:0 "While the brave soldier fights for Africa, the Bolshevik Army makes sure that the Namibia Army cannot be destroyed from within, and the stability of the state is guarenteed."
+
+NMB_terrorize_tactics:0 "Terrorise Tactics"
+NMB_terrorize_tactics_desc:0 "Fear tactics and torture will assure that no-ones gets the bright idea to oppose Uunona."
+
+NMB_something_more:0 "Something More"
+NMB_something_more_desc:0 "While the Bolshevik Army is nothing more than canonfodder on the frontlines, we can turn them into capable military police and frontline units."
+
+NMB_dispose_of_traditionalists:0 "Purge the Tradtionalists"
+NMB_dispose_of_traditionalists_desc:0 "The Traditionalists, mainly made up of democrats and tribe associated members, heavily oppose Uunoma's ideas for a Socialist Africa. They have been a nuisance ever since we've gained power and have only damaged Namibia's national unity. These terrorists must be ridden of at once!"
+
+NMB_war_on_tribes:0 "War on Tribes"
+NMB_war_on_tribes_desc:0 "The many tribes and traditions of Namibia all hate eachother and are at eachother's throats constantly. We must destroy this old way of life if we want to create a united Namibian and African identity"
+
+NMB_allow_local_monarchies:0 "Loyal Paramounts"
+NMB_allow_local_monarchies_desc:0 "Destroy and removing local monarchies would be a step too far for many. We will instead install local puppet monarchs to rule over the tribes."
+
+NMB_unified_identity:0 "Unified Identity"
+NMB_unified_identity_desc:0 "The idea of a unified Namibia peoples has finally be accepted among society."
+
+NMB_remove_clergy_authority:0 "1938 Pan-African Congress"
+NMB_remove_clergy_authority_desc:0 "It's time for the 1938 Pan-African Congress to take place!"
+
+NMB_swakop_government1:0 "Traditonalists"
+NMB_swakop_government:0 "NTP"
+
+NMB_namib_soviet_party1:0 "Southwestafrikan Peoples' Organisation"
+GUD_namib_soviet:0 "SWAPO"
+
+uunona_balance_of_power:0 "Uunona's Decree"
+uunona_centre_range:0 "Medium Party Support"
+
+uunona_hate:0 "Fuck this Guy"
+uunona_love:0 "Our Hero"
+
+uunona_hate_hald:0 "Worrying Support"
+uunona_hate_full:0 "Literally Worse Than Hitler"
+
+uunona_love_half:0 "Big Support"
+uunona_love_full:0 "Hero of Namibia"
+
+namibia.24.t:0 "Ndilimeke Dressler Criticises Uunona"
+namibia.24.d:0 "Look at this weak man you call the leader of Namibia. The economy has not made any progress in the 6 years he has been in power. Crime is rampant in Namibia, the children are in the mines, and even the homeless are somehow more broke than compaired in other countries! How could we let our glorious fatherland Namibia turn into such a trainreck? Well, Uunona allowed it of course! His' pseudo-socialism is nothing more than keys jangling infront of a toddler! He calls it socialism to spread an idea that he'll share the wealth of Namibia, but he hasn't! Not due to the fact that he's greedy, but because Namibia has no economy under his freakish rule! Bolshevikism is the true path for Namibia, ladies and gentlemen! You know it as well as I do. Uunona is weak, and we all know what happened to the Swakopmund Government..."
+namibia.24.a:0 "We can't be bothered shutting him up"
+namibia.24.b:0 "Silence!"
+
+namibia.26.t:0 "Remeber the Goold Ol' Days? ~ Hosea Kutako"
+namibia.26.d:0 "Not many of us can remember the days before the Kraut's washed up upon the shore of Namibia. Only us old-timers can recall such memories, locked away by decades of struggle and war. This struggle still continues today, with the Namibian people under the occupation of Uunona. Us old folk remeber a time before all of these disasters, and sadly we are a fading people. A time when Namibia was truely free from the occupation of the foreigners or itself. Uunona took a bright-futured Namibia and has turned it all the way around, with us going darkness we didn't even know existed anymore. The old Samuel Maherero did not struggle against the Germans for this. Myself did not resist the Germans so some radical could rule Namibia thereafter. Namibia is doomed and dying. This radical leftist regime isn't made for Africans. People like myself know what is good for Namibia, as I lived in the days where I saw what was good for Namibia. Before Uunona begins conquering our brothers to the East and South, remember that the first country Uunona conquered was Namibia."
+namibia.26.a:0 "He's just a harmless old man..."
+namibia.26.b:0 "Send him to the nursing home! Who let thise old geezer into politics?"
+
+namibia.27.t:0 "Church Speaks Against Uunona"
+namibia.27.d:0 "Uunona's policies against the church are unacceptable. With his wild dreams of turning Namibia into a pagan state and destroying Christianity, who can see him as a father of Namibia? The expulsion of Finnish missionaries are just a shining example of this. Instead of helpin the struggling Namibian peoples, he focuses on groups and minorities he holds grudges against. If he is willing to do this to the largest religious group in the country, what will he do to, lets say, ethnic minorities or white minorities in the future? We are all followers of Christ in Namibia. We should care for one another as followers of God."
+namibia.27.a:0 "Bro what"
+namibia.27.b:0 "How about we illegalise your cute little faith!"
+
+namibia.23.t:0 "End of the Congress"
+namibia.23.d:0 "The 36 Pan-Afrcan Congress has ended. The delegators have returned home after a great big party where Uunona was seen twerking and grooving on the dance floor while the DJ played Sudwesterlied."
+namibia.23.a:0 "Great Success!"
+
+namibia.28.t:0 "Namibia Demands we Renounce our Claim on Zambia"
+namibia.28.d:0 "Our supposed great ally of Uunona has demanded we renounce our rightful claims on Zambia and insists on us both joining the African Axis. If we accept these demands, it will be a great humiliation for Bentu M'slei"
+namibia.28.a:0 "If it's for the betterment of Africa..."
+namibia.28.b:0 "Traitorous Dog! Zambia is Zimbabwe!"
+
+namibia.29.t:0 "The Call to All Africans"
+namibia.29.d:0 "TODAY IS THE DAY AFRICA IS FREE. EVERY MAN AND WOMEN OF AFRICA, TAKE UP ARMS! LIBERATION AWAITS!"
+namibia.29.d:0 "Europe's reign of tyranny ends!"
+
+namibia_news.4.t:0 "The Great African Revolution"
+namibia_news.4.d:0 "Sparked by decades and even centuries of oppression, slavery, genocide, and neglect, millions of Africans in the West African Colonies have revolted against their European masters. They have all sworn an oath to the liberation of Africa, and the death of the colonial era. Uunona's ideas of a liberated Africa don't look too crazy after all."
+namibia_news.4.a:0 "Has Africa Finally Been Served Justice?"
+
+africa_37.1.t:0 "1937 Offical Pan-African Congress"
+africa_37.1.d:0 "The fourth Pan-African Congress is going to take place. Africa has drastically changed in this past year. Namibia licking the wounds of it's economic depression, peace on the Zambezi and the Abyssinian War continuing to ravenge on. Lets see what we can expect from this year"
+africa_37.1.a:0 "Long Live a United Africa"
+
+africa_37.2.t:0 "The South African Pan-African Socialist Party"
+africa_37.2.d:0 "Members of the South African Pan-African Socialist Party have arrived to Windhoek. The members snuck themsleves into Botswana, then into Namibia to attend this meeting. Members spoke about the praise and glory the Namibian army would receive from the Black community in South Africa should war break out. The say they're 'eagerly waiting' to colaborate with the Namibian government should war break out."
+africa_37.2.a:0 "South Africa Deserves Freedom!"
+
+africa_37.3.t:0 "The Congo Liberation Army"
+africa_37.3.d:0 "During the Great War, the Congo had it's own great revolution against France and Belgium. Often labeled as the 'Congo War' or 'African Great War', the Congo would somehow end up even worse economically with even harsher Belgian control over them. Today there still exists an in-excile government on the Zambian border. They still dream about an independent Congo free from Belgian clutches. Although they are very anti-leftist, the growing power of Namibia has forced them to change their mind about us and Zimbabwe. They have sent generals and officers to Windhoek to talk about the chance of us three nations working together in the future against the Belgians."
+africa_37.3.a:0 "The Congo Shall be Free!"
+
+namibia.32.t:0 "Yakov's Escape"
+namibia.32.d:0 "Yakov Alksnis is a Russian-Latvian fighter and was a high ranking member in the Soviet Airforce and is an aviational invetor, along with being a self proclaimed genius. It is quite odd to find a Soviet Commander and his journey here is quite a story. Uunona was and has been deeply interested in creating a great airforce... Or to atleast give it a go. Uunona took a deep fascination with Alksnis' fighter designer and requested for him to travel to Namibia to showcase his fighter design. Alksnis took himself and his family to Namibia in 1935 to showcase the fighters but agressivly refused to departure back to the Soviet Union. Increasd skepticism and hate towards Latvians in the Soviet Union made him fear for the worse towards his and his family's safety. This fear and refusal to return has turned into a little fairytale Namibia miracle. We have the brains to create an airforce, but in what world would we be ruling the skies? "
+namibia.32.a:0 "Namibia Shall Have It's Place as an Aerial Superpower!"
+
+NMB_africoin_idea:0 "AfriCoin"
+
+stop_the_bad_event:0 "This Will Limit People Speaking Against Uunona"
+
+NMB_help_zambia:0 "Demands to Zimbabwe"
+NMB_help_zambia_desc:0 "Zambia would be a very  important ally and crucial partner in a future war with Belgium. However, Bentu M'seli currently claims all of Zambia as rightful Zimbabwean land, making it impossible to make the two work together. We will send some demands to M'seli to renounce his claims, and we will try to work with the two nations."
+
+NMB_annex_angola:0 "Annex Angola"
+NMB_annex_angola_desc:0 "Unfortunately Ndilimeke was correct. Angola is spineless and weak with it being only a matter of time before the cave into the Tana Entente, joining the war against us and ignoring our previous brotherly relationship. We must take the initiative and strike first!"
+
+NMB_ally_angola:0 "Ally Angola"
+NMB_ally_angola_desc:0 "This is the moment in history where all Pan-African Socialists struggle together against the West! Angola must join the war to defeat colonialism for once and for all!"
+
+NMB_question_the_faithful:0 "1937 Pan-African Congress"
+NMB_question_the_faithful_desc:0 "It's time for the annual Pan-African Congress of 1937 to take place!"
+
+NMB_limit_christian_missions:0 "1939 Pan-African Congress"
+NMB_limit_christian_missions_desc:0 "Perhapse the last Pan-African Congress, we must all unite in this trying time!"
+
+NMB_state_paganism:0 "Africoin"
+NMB_state_paganism_desc:0 "Africa will have to unite under a single currency we want to remain economically connected. We will ask the African nations to adopt this new currency to help us all."
+
+NMB_fund_pagan_schools:0 "Continental Schooling"
+NMB_fund_pagan_schools_desc:0 "It's our duty to educate the people of Africa!"
+
+NMB_namibia_under_my_belt:0 "Africa Under my Control!"
+NMB_namibia_under_my_belt_desc:0 "Africa's time to free itself is now! We will call to the African People to rebel against their masters!"
+
+3_consumer_goods:0 "This will increase our debt by 3%"
+8_consumer_goods:0 "This will increase our debt by 8%"
+investment_infra:0 "Unlocks decisions to find investors to build infrastructure. Each decision will increase your debt more, depending on what level of infrastructure is being built."
+nmb_trade_tt:0 "For every independent African country that has a relation over 50 with us, we will get 2 off-map civilian factories."
+consumer_goods_30:0 "This will increase our debt by 30%"
+
+######## EWSWATINI
+
+ESW_modernise_diplomacy:0 "Foreign Relations"
+ESW_modernise_diplomacy_desc:0 "We must communicate and engage with the outside world if we want the [ROOT.GetName] to become a relevant country in modern politics."
+
+ESW_join_the_international_community:0 "Join the League of Nations"
+ESW_join_the_international_community_desc:0 "To be considered a modern and functioning nation, the [ROOT.GetName] must try to join the League of Nations."
+
+ESW_hello_to_the_world:0 "Open the Borders"
+ESW_hello_to_the_world_desc:0 "We cannot survive or thrive by ourselves. We need foreign investments and trade to help the nation's economy grow."
+
+
+ESW_african_partners:0 "African Partners"
+ESW_african_partners_desc:0 "Our fellow African brothers have the best interest in our economies. We must prioritise local and regional trade with them."
+
+ESW_join_the_militerisation_race:0 "Join the Arms Race"
+ESW_join_the_militerisation_race_desc:0 "Africa has seen a large militerisation and arms race. We will ask the Namib and Zimbabwean nations to help us follow suit."
+
+ESW_european_partners:0 "European Partners"
+ESW_european_partners_desc:0 "The West and Europe are able to produce far more goods than Namibia or South Africa. Seeking close economic ties with them is the best we can do."
+
+ESW_western_luxuries:0 "Western Luxuries"
+ESW_western_luxuries_desc:0 "The average European lives in luxury compaired to the average man or woman from the [ROOT.GetName]. We can heavily better ourselves and our society by purchases some of these luxuries from the West."
+
+ESW_raise_the_umbutfo:0 "Raise the Umbutfo"
+ESW_raise_the_umbutfo_desc:0 "The Umbutfo has acted as the [ROOT.GetName]'s standing army for most of history. With our independence threatened by the raging civil war in South Africa, we must be ready for an attack by a foreign nation at any time."
+
+ESW_strengthen_the_irregulars:0 "Strengthen the Irregulars"
+ESW_strengthen_the_irregulars_desc:0 "It'd be far too costly for us to establish a proper and modern army. Who would even invaide our useless country anyways?"
+
+ESW_mass_recruitment:0 "Mass Recruitment"
+ESW_mass_recruitment_desc:0 "Should we be invaided, it's most likely our enemies would send a small force to deal with us, seeing us a small and undefendable nation. Simply recruiting enough people and surrounding them will be enough to defend ourself."
+
+ESW_expand_the_irregulars:0 "Expand Umbutfo Divisions"
+ESW_expand_the_irregulars_desc:0 "The Umbutfo were designed to be light, cheap and fast. These tactics don't work in the modern day and we must adapt by expanding our divisions."
+
+ESW_mountain_warriors:0 "Hhohho Warriors"
+ESW_mountain_warriors_desc:0 "The Hhohho is the [ROOT.GetName]'s most mountainous province, making it a great natural defence to the north. We need to recruit locals who have mastered these mountains to join our army as an elite mountaineer force."
+
+ESW_piggs_point_weaponsmith:0 "Piggs Point Weaponsmith"
+ESW_piggs_point_weaponsmith_desc:0 "The [ROOT.GetName] lacks any form of arms or ammunition production, resulting in our nations having to rely on spears and shields, which doesn't exactly work out too well for us. We will use the wealth at Piggs Peak to build a small weapons factory."
+
+ESW_form_the_uedf:0 "Form the UEDF"
+ESW_form_the_uedf_desc:0 "The [ROOT.GetName] requires a real and proper army to survive. South Africa could try and annex us any second and stick and stones will probably not be enough to stop them."
+
+ESW_foreign_brains:0 "Foreign Brains"
+ESW_foreign_brains_desc:0 "We need the help from other modern countries to build up an army."
+
+ESW_send_the_generals_oversea:0 "Training for Sobhuza"
+ESW_send_the_generals_oversea_desc:0 "Sobhuza may be our king and head of the army, but he lacks any real army experiance and is more keen on ceremonial marches than training the army. We will send him overseas to receive some teaching."
+
+ESW_weapons_purchases:0 "Weapons Purchases"
+ESW_weapons_purchases_desc:0 " "
+
+ESW_swazi_economy:0 "Swazi Economy"
+ESW_swazi_economy_desc:0 " "
+
+ESW_feed_the_people:0 "Feed the People"
+ESW_feed_the_people_desc:0 "The people should be the ones to receive the harvest first. Without them, the homefront and economy would fail."
+
+ESW_feed_the_army:0 "Feed the Army"
+ESW_feed_the_army_desc:0 "Desperate times call for desperate measures. The army must be maintained and receive the most care in the country. Just see this as a bit of a diet."
+
+ESW_agricultural_exports:0 "Agricultural Exports"
+ESW_agricultural_exports_desc:0 "Various fruits and teas can only be grown in South Africa and the [ROOT.GetName]. We will grow these plants to earn some revenue from international trade."
+
+ESW_fruit_galore:0 "Fruit Galore"
+ESW_fruit_galore_desc:0 " "I LOVE FRUIT IT IS A FRUITGEM"
+
+ESW_mineral_contracts:0 "Mineral Contracts"
+ESW_mineral_contracts_desc:0 "South Africa is rich in minerals all throughout, so there is a good chance we are aswell. We will begin hiring contractors to survey the land and to start digging for riches."
+
+ESW_welcome_foreign_workers:0 "Welcome Foreign Workers"
+ESW_welcome_foreign_workers_desc:0 "A foreign workforce would not only help the economy, but will help our dire manpower situation."
+
+ESW_great_road:0 "Improve Mbabane Infrastructure"
+ESW_great_road_desc:0 "Mbabane was one of the most modern towns in South Africa, but has been turned to slums and ruins due to the depression. No great and respectable African kingdom should have their jewel of the nation looking like this!"
+
+ESW_electricity_experiments:0 "Expand Electricity to Rural Areas"
+ESW_electricity_experiments_desc:0 "Mbabane is the only place in the [ROOT.GetName] where electricity is the common. We must expand the grid to the country side to beneift the rural men."
+
+ESW_coal_mining:0 "Coal Mining"
+ESW_coal_mining_desc:0 "Hoi4 modding den reference"
+
+ESW_iron_mining:0 "Steel Refineries"
+ESW_iron_mining_desc:0 "Word of the street is our nations is full of untapped iron. We must dig deeper!"
+
+ESW_land_for_investments:0 "Land for Investments"
+ESW_land_for_investments_desc:0 "As long as it's for the 'benefit of the economy', we will grant as much land to local investors to help build us up. Who cares what the farmers think, it's for their benefit anyways..."
+
+ESW_avoid_swazi_exploitation:0 "Avoid Exploitations"
+ESW_avoid_swazi_exploitation_desc:0 "We cannot wrecklessly grow. We must protect the people that make this country so great. We mustn't let the foreigners get on top of us."
+
+ESW_a_little_south_africa:0 "A Mini South Africa"
+ESW_a_little_south_africa_desc:0 "We are as rich and are only getting richer as South Africa. We might say we're equally great as them!"
+
+ESW_development_efforts:0 "Development Efforts"
+
+ESW_medical_care:0 "Medical Care"
+ESW_medical_care_desc:0 " "
+
+ESW_end_sobhuzas_greed:0 "End Sobhuzas Greed"
+ESW_end_sobhuzas_greed_desc:0 "His greed sickens me... We must stop Sobhuza's wreckless spending."
+
+ESW_assure_neutrality:0 "Assure Neutrality"
+ESW_assure_neutrality_desc:0 "It would be suicide to try anything fancy against our neighbours. We must remain humble and peaceful."
+
+ESW_switzerland_of_africa:0 "Switzerland of Africa"
+ESW_switzerland_of_africa_desc:0 " "
+
+ESW_welcome_war_refugees:0 "Welcome War Refugees"
+ESW_welcome_foreign_workers_desc:0 " "
+
+ESW_struggle_against_socialism:0 "Struggle Against Socialism"
+ESW_struggle_against_socialism_desc:0 " "
+
+ESW_safety_with_south_africa:0 "Safety With South Africa"
+ESW_safety_with_south_africa_desc:0 "South Africa surrounds most of our country and is respectful of our independence. We could forge an alliance against the Namib menace to prevent the fall of our regimes."
+
+ESW_zululand_agreement:0 "Zululand for War Efforts"
+ESW_zululand_agreement_desc:0 " "
+
+ESW_join_the_african_struggle:0 "Join the African Struggle"
+ESW_join_the_african_struggle_desc:0 "Our independence will be short lived if we dont find guarenteers and allies. Namibia is looking to curb stomp South Africa, so why not join in on the fun?"
+
+ESW_aim_for_greater_eswatini:0 "Greater Eswatini"
+ESW_aim_for_greater_eswatini_desc:0 "Namibia is willing to accept our Zululand claims."
+
+ESW_request_namibian_weapons:0 "Request Namibian Weapons"
+ESW_request_namibian_weapons_desc:0 " "
+
+ESW_forge_our_own_ideas:0 "Forge our own Ideas"
+ESW_forge_our_own_ideas_desc:0 "Sobhuza is anti-socialist at heart. He must be removed and the people shall finally rule their country!"
+
+ESW_eswatini_alone:0 "Civil War Involvement"
+ESW_eswatini_alone_desc:0 "Our time to strike is now. South Africa is destroying itself, and we shall rise from their ashes!"
+
+ESW_organise_separatists:0 "Seek Colaborators"
+ESW_organise_separatists_desc:0 "There's thousands of people who would rather live in the [ROOT.GetName] than South Africa. With their help, their dreams shall come true."
+
+ESW_aid_from_namibia:0 "Aid From Namibia"
+ESW_aid_from_namibia_desc:0 "Namibia is sitting in jolly as South Africa is turning into chaos. The longer the war goes on, the better it is for them. We will ask Namibia for some weapons to cause some chaos for ourselves."
+
+ESW_guerilla_tactics:0 "Guerillia Tactics"
+ESW_guerilla_tactics_desc:0 "We must use the bush and mountains to hide and strike the enemy."
+
+ESW_fortifications:0 "Fority the Lands"
+ESW_fortifications_desc:0 " "
+
+ESW_emergency_arms:0 "Weapon Smuggling"
+ESW_emergency_arms_desc:0 " "
+
+ESW_south_african_kingdom:0 "South African Kingdom"
+ESW_south_african_kingdom_desc:0 "Somehow, we have turned out on top in the civil war and Sobhuza's wildest dreams have came true..."
+
+ESW_allign_local_rulers:0 "Allign Local Rulers"
+ESW_allign_local_rulers_desc:0 " "
+
+ESW_development_plan:0 "3 Year Plan"
+ESW_development_plan_desc:0 " "
+
+ESW_purchase_territories:0 "Purchase Territories"
+ESW_purchase_territories_desc:0 " "
+
+ESW_irregular_army:0 "Irregular Army"
+ESW_irregular_army2:0 "Irregular Army"
+
+ESW_professional_army:0 "UEDF"
+
+ESW_agriculture_on_civs:0 "People First"
+
+ESW_agricultural_export_idea:0 "Agricultural Exports"
+
+ESW_miners:0 "Miner Immigration"
+
+ESW_switzerland_of_africa_idea:0 "Switzerland of Africa"
+
+ESW_war_refugee_ideas:0 "War Refugees"
+
+ESW_crusade_against_socialism:0 "Anti-Socialist Crusade"
+
+ESW_alligned_with_namibia:0 "Crush the Coloniser"
+
+ESW_guerilla_warfare:0 "Guerilla Warfare"
+
+######## ETHIOPIA
+
+ETH_backwards_army:0 "Backwards Army"
+ETH_backwards_army_desc:0 "Abyssinia's army hasn't changed much since the First Italo-Ethiopian War. Most modernisation attempts have ended up doing nothing for the army, but plenty for the Ras and Nobility. Why spend thousands on the army when one can use that money on a fancy new Abyssinian home?"
+
+ETH_christmas_offensive:0 "Christmas Offensive"
+ETH_christmas_offensive_desc:0 "The Christmas Offensive is a defensive-offence started to counter the Italian attacks in the North of the country."
+
+ETH_legacy_of_the_1930_coup:0 "Legacy of the 1935 Coup"
+ETH_legacy_of_the_1930_coup_desc:0 "Haile Selassie made countless blunders and nearly lead Abyssinia to the grave with a pointless war against Italy. Militarist, democratic, reformists and Pan-African Socialist factions all agreed to coup the government and to limit the Emperor's power. Although it was said to the nation that these emergency powers would conclude once the War with Italy was over, most agree that it would be foolish to let Abyssinia fall into the hands of the incompetant Selassie once more."
+
+ETH_primative_economy:0 "Paralysing Debt"
+ETH_primative_economy_desc:0 "Haile Selassie took in lots of foreign loans to help modernise Abyssinia, hoping to pay the Europeans back once the fruits of modernisating started to show, and Abyssinia would develope a great and modern economy. This ended in utter failure. Corruption and incompetance resulted in Abyssinia ending up with tonnes of debt, and nothing to show of it's reforms."
+
+ETH_primative_economy2:0 "Paralysing Debt"
+ETH_primative_economy2_desc:0 "Haile Selassie took in lots of foreign loans to help modernise Abyssinia, hoping to pay the Europeans back once the fruits of modernisating started to show, and Abyssinia would develope a great and modern economy. This ended in utter failure. Corruption and incompetance resulted in Abyssinia ending up with tonnes of debt, and nothing to show of it's reforms."
+
+ETH_primative_economy3:0 "Paralysing Debt"
+ETH_primative_economy3_desc:0 "Haile Selassie took in lots of foreign loans to help modernise Abyssinia, hoping to pay the Europeans back once the fruits of modernisating started to show, and Abyssinia would develope a great and modern economy. This ended in utter failure. Corruption and incompetance resulted in Abyssinia ending up with tonnes of debt, and nothing to show of it's reforms."
+
+ETH_primative_economy4:0 "Paralysing Debt"
+ETH_primative_economy4_desc:0 "Haile Selassie took in lots of foreign loans to help modernise Abyssinia, hoping to pay the Europeans back once the fruits of modernisating started to show, and Abyssinia would develope a great and modern economy. This ended in utter failure. Corruption and incompetance resulted in Abyssinia ending up with tonnes of debt, and nothing to show of it's reforms."
+
+ETH_primative_economy5:0 "Paralysing Debt"
+ETH_primative_economy5_desc:0 "Haile Selassie took in lots of foreign loans to help modernise Abyssinia, hoping to pay the Europeans back once the fruits of modernisating started to show, and Abyssinia would develope a great and modern economy. This ended in utter failure. Corruption and incompetance resulted in Abyssinia ending up with tonnes of debt, and nothing to show of it's reforms."
+
+ETH_primative_economy6:0 "Paralysing Debt"
+ETH_primative_economy6_desc:0 "Haile Selassie took in lots of foreign loans to help modernise Abyssinia, hoping to pay the Europeans back once the fruits of modernisating started to show, and Abyssinia would develope a great and modern economy. This ended in utter failure. Corruption and incompetance resulted in Abyssinia ending up with tonnes of debt, and nothing to show of it's reforms."
+
+ETH_primative_economy7:0 "Paralysing Debt"
+ETH_primative_economy7_desc:0 "Haile Selassie took in lots of foreign loans to help modernise Abyssinia, hoping to pay the Europeans back once the fruits of modernisating started to show, and Abyssinia would develope a great and modern economy. This ended in utter failure. Corruption and incompetance resulted in Abyssinia ending up with tonnes of debt, and nothing to show of it's reforms."
+
+ETH_primative_economy8:0 "Paralysing Debt"
+ETH_primative_economy8_desc:0 "Haile Selassie took in lots of foreign loans to help modernise Abyssinia, hoping to pay the Europeans back once the fruits of modernisating started to show, and Abyssinia would develope a great and modern economy. This ended in utter failure. Corruption and incompetance resulted in Abyssinia ending up with tonnes of debt, and nothing to show of it's reforms."
+
+ETH_primative_economy9:0 "Paralysing Debt"
+ETH_primative_economy9_desc:0 "Haile Selassie took in lots of foreign loans to help modernise Abyssinia, hoping to pay the Europeans back once the fruits of modernisating started to show, and Abyssinia would develope a great and modern economy. This ended in utter failure. Corruption and incompetance resulted in Abyssinia ending up with tonnes of debt, and nothing to show of it's reforms."
+
+ETH_abyssinia_bank:0 "Abyssinia Bank"
+
+ETH_economy_reforms:0 "Saving the Sinking Ship"
+ETH_economy_reforms_desc:0 "Our deficit and debts have gotten out of hand. Our economy is barely able to function and one bad moment from crashing upon itself. We must start finding more ways to make more money and to save Abyssinia from this economic disaster!"
+
+ETH_gemstone_mining:0 "Gemstone  Mining"
+ETH_gemstone_mining_desc:0 "Abyssinia is well-famous for our gemstones and rare jewels. Selling these jewels would come in handy to help our debt problem."
+
+ETH_jewlery:0 "Jewelry"
+ETH_jewlery_desc:0 "Silversmiths and Jewelers are another staple of Abyssinia's craftmenship. We will try to compete with French and Italian jewelers, and spread our craft across the global market."
+
+ETH_ethiopian_coffee:0 "Boost the Textiles Industry"
+ETH_ethiopian_coffee_desc:0 "The textiles industry was booming before the great economic disaster. Maybe it's a good idea to restart the old textile engine... Do we even know what an engine is?"
+
+ETH_meat_markets:0 "Meat Markets"
+ETH_meat_markets_desc:0 "During the First World War Abyssinia found a good source of income by selling food to the Entente powers, especially beef, which became a luxurious item throughout the war. We will try to sell some more beef to the European powers to try and hit this goldmine again."
+
+ETH_increase_agricultural_outputs:0 "Maximise Farm Output"
+ETH_increase_agricultural_outputs_desc:0 "Too much food is wasted, which leads to us having to buy more food from our neighbours, making us in turn spend more money on useless things. The farmers will have to try better now, as no more food will be crossing into the border from now on!"
+
+ETH_debt_bailout:0 "Debt Bailout"
+ETH_debt_bailout_desc:0 "We may try our hardest, but our debt is such a burden it'd be impossible to get rid of it all. We will beg the foreign powers to forgive our debt."
+
+ETH_gold_trade:0 "Gold Trade"
+ETH_gold_trade_desc:0 "Abyssinia is legendary for their gold, right next to Ghana."
+
+ETH_silk_trade:0 "Coffee Exports"
+ETH_silk_trade_desc:0 ""
+
+ETH_bank_of_ethiopia:0 "Bank of Abyssinia"
+ETH_bank_of_ethiopia_desc:0 "A new fancy bank will be opened in Abyssinia! How does this help us? Who knows, it's just hoi4 logic."
+
+ETH_rubber_plantations:0 "Rubber Plantations"
+ETH_rubber_plantations_desc:0 "Rubber is an important resource for the Europeans powers. Selling land to Europeans powers for them to set up rubber plantations may not be a bad idea."
+
+ETH_industralisation_effort:0 "Industrialisation Programme"
+ETH_industralisation_effort_desc:0 "Practially everyone in the government agrees that Abyssinia needs to modernise. We cannot close our eyes and pretend the world is the same how it was 300 years ago. Abyssinia needs change, and it needs changes rapidly."
+
+ETH_southerm_industrialisation:0 "Southern Development"
+ETH_southerm_industrialisation_desc:0 "The Oromo have always been neglected by the old regime. We will show them our inclusiveness by developing their region."
+
+ETH_north_industrialisation:0 "Northern Development"
+ETH_north_industrialisation_desc:0 "The Wollo and Tigray region is our most strategically important. We must develope the region to further strengthen our possition in the region."
+
+ETH_east_industrialisation:0 "Somali Development"
+ETH_east_industrialisation_desc:0 "The Huwan was always seens as a wasteland with no potential. Although that may be true, we will atleast try to build something there."
+
+ETH_uplift_the_capital:0 "Highland Development"
+ETH_uplift_the_capital_desc:0 "The rural Gojjam and Gumuz have to developed aswell!"
+
+ETH_connecting_eritrea:0 "Mdre Bahri Development"
+ETH_connecting_eritrea_desc:0 "With Mdre Bahri under our control once more, we can begin developing the region!"
+
+ETH_eritrean_shipping:0 "Massaua Dockyards"
+ETH_eritrean_shipping_desc:0 "with Abyssinia finally connecting with the Sea we can now start preparing to build a proper navy!"
+
+ETH_illiterate_populace:0 "Illiteracy Plague"
+ETH_illiterate_populace_desc:0 "Most of Ethiopia cannot read or write. Years of higher education being locked behind wealth and noble ranking has caused most of the middle and lower class to be unable to access even basic education most of the time."
+
+ETH_mass_corruption:0 "Mass Corruption"
+ETH_mass_corruption_desc:0 "Corruption is practically a tradition in Abyssinian politics. Most of the generals and politicians are corrupt and are doing whatever makes them the most money, not doing what is right for Abyssinia."
+
+ETH_selassie_idea:0 "Haile Selassie"
+ETH_selassie_idea_desc:0 "A disgraced monarch, Selassie is seen by most as a weak and egoistic Emperor. Nowadays, he has found himself submitting to the new regime that uses him as their nice little puppet."
+
+ETH_rejuvenate_the_arms_industry:0 "Rejuvenate the Arms Industry"
+ETH_rejuvenate_the_arms_industry_desc:0 "Our weapons manufactories must be modernised!"
+
+ETH_ethiopian_railway:0 "Connecting the Nation"
+ETH_ethiopian_railway_desc:0 "It takes days for people to reach once place in Abyssinia to another. A national railway would fix the long journeys, along with also helping us move our soldiers around the country quicker."
+
+ETH_pas_coup:0 "PASE Coup"
+ETH_pas_coup_desc:0 "For too long have these right-wingers been destroying Abyssinia with useless wars and corruption. The Pan-African Socialist Party for Ethiopia will guide our Empire to glory, and we will join our African brothers down south in the anti-colonial struggle!"
+
+ETH_uplift_rural_areas:0 "Uplift Poor Areas"
+ETH_uplift_rural_areas_desc:0 "Most of Abyssinia is rural and poor. We must change this if we want the average Abyssinian to be equal in wealth and importance."
+
+ETH_distribute_the_wealth:0 "Redistribute Wealth"
+ETH_distribute_the_wealth_desc:0 "The wealth has been centralised for too long. The riches of the country has only been held by the army and those close to the emperor. We will force these corrupt goons to give it up, and give the Ethiopians what they deserve!"
+
+ETH_unify_the_races:0 "Pan-African Schools"
+ETH_unify_the_races_desc:0 " "
+
+ETH_the_ethiopian_republic:0 "The Abyssinian Peoples' Republic"
+ETH_the_ethiopian_republic_desc:0 "The monarchy's time has come. We will now be free to guide our own future without some lousy clergy men or monarchs stopping us!"
+
+ETH_maintain_the_monarchy:0 "Maintain the Monarchy"
+ETH_maintain_the_monarchy_desc:0 "As the previous government had done, the monarchy should remain as a usefull tool for the government to use. Outright ending the thousands of years old Solomic Monarchy would also be unacceptable to even some of the most anti-monarchists in the country."
+
+ETH_socialist_agriculture:0 "New Agricultural Law"
+ETH_socialist_agriculture_desc:0 "Too much is taxed from farmers by the state, resulting in shortages of food across the country. We will remove this tax, and allow our farmers to keep more of what they sow."
+
+ETH_feed_the_mouths_of_many:0 "Feed the Mouths of Many"
+ETH_feed_the_mouths_of_many_desc:0 ""
+
+ETH_work_programme:0 "Work Programme"
+ETH_work_programme_desc:0 "We must find jobs for the unemployed Abyssinians."
+
+ETH_empower_unions:0 "Empower Unions"
+ETH_empower_unions_desc:0 "We must strengthen the worker, so that they have greater power than their employers."
+
+Ethiopia_nmb.4.t:0 "The Abyssinian-Namibian Economic Agreement"
+Ethiopia_nmb.4.d:0 "An economic treaty has been signed by Namibia and Abyssinia to closer connect their economies, and to help eachother's economies grow. THE AMERICAN DOLLAR IS FINISHEDA"
+Ethiopia_nmb.4.S:0 "Cheers!"
+
+ETH_root_out_corruption:0 "Root out Corruptions"
+ETH_root_out_corruption_desc:0 "Corruption has had the people at it's mercy for long enough! The old oligarchs are gone and so is their greedy ways of ruling!"
+
+ETH_seize_royal_assets:0 "Seize Royal Assets"
+ETH_seize_royal_assets_desc:0 "The Emperor was allowed to hoard too much wealth, without distributing it to the people. We will now use the money to better Abyssinia."
+
+ETH_blessing_from_god:0 "Blessing From God"
+ETH_blessing_from_god_desc:0 "The Socialist government is the divine ruler of Abyssinia. We will receive blessings from the church, and a free hand by the Emperor."
+
+ETH_namibian_coprosperity:0 "Namibian Coprosperity"
+ETH_namibian_coprosperity_desc:0 "Abyssinia must shine with Namibia. We must strike the the colonialist opressers and free Africa with our brothers down south."
+
+ETH_fuel_pan_african_thinking:0 "African Science"
+ETH_fuel_pan_african_thinking_desc:0 " "
+
+ETH_nation_of_equals:0 "Nations of Equals"
+ETH_nation_of_equals_desc:0 " "
+
+ETH_cut_the_empire_in_two:0 "Cut the Empire in Two"
+ETH_cut_the_empire_in_two_desc:0 "A strike into Sudan and into the supply routes would cripple colonialists' efforts in the Congo, helping our bogged-down allies in the south."
+
+ETH_african_economic_alliances:0 "Economic Alliances"
+ETH_african_economic_alliances_desc:0 "Namibia and Abyssinia must cooperate in building up our nations."
+
+ETH_east_african_project:0 "Liberators of East Africa"
+ETH_east_african_project_desc:0 " "
+
+ETH_namibian_ethiopian_economic_alliance:0 "Namibian-Abyssinian Economic Cooperation Council"
+
+ETH_monarchist_return:0 "Empowering the Monarchy"
+ETH_monarchist_return_desc:0 "Abyssinia has gone too long without a strong monarch! The greedy Socialists and Nationalists have driven the country into the ground and disaster! We need a strong emperor to save Abyssinia at once!"
+
+ETH_purge_the_socialists:0 "Socialists Purge"
+ETH_purge_the_socialists_desc:0 "The So called Pan-African Socialists are a major threat to the monarchist movement and monarchy in general. Their leader will be trialed for treason and we will be able to sleep with one eye shut..."
+
+ETH_purge_the_militarists:0 "Purge the Nationalists"
+ETH_purge_the_militarists_desc:0 "The nationalists have brainwashed a large chunk of the army into blindly betraying Abyssinia and is a threat to the nation's security. We must assassinate the traitourous Haymanot and save Abyssinia from itself."
+
+ETH_crown_the_negus:0 "Crown the Negus"
+ETH_crown_the_negus_desc:0 "With the opposition purged, it's now safe to declare a new emperor over Abyssinia."
+
+ETH_restore_the_council_of_advisors:0 "Restore the Council of Advisors"
+ETH_restore_the_council_of_advisors_desc:0 "Menelik's Council of Advisors was proclaimed to guide Abyssinia during shakey rule and chaos. A similiar system must be put into place to divide the power and to avoid someone getting too strong in politics."
+
+ETH_local_autonomy:0 "Local Autonomy"
+ETH_local_autonomy_desc:0 "The Sultanate of Jimma, Aussa, Gojjam, the Huwan, all of these states existed to grant local autonomy in regions where Addis Ababa couldn't. We must grant more power to these rulers to help stabalise Abyssinia."
+
+ETH_shared_power:0 "Rural Development"
+ETH_shared_power_desc:0 "No benevolent leader would ignore his people's cry for development! We must build up the poverty ridden country side to appease to the people."
+
+ETH_an_ethiopian_federation:0 "Democratic Investors"
+ETH_an_ethiopian_federation_desc:0 "With us turning to democracy more and more by the day, more foreign powers are willing to help our little democratic African country develope."
+
+ETH_an_absolute_monarch:0 "An Absolute Monarch"
+ETH_an_absolute_monarch_desc:0 "Abyssinia's glories were in the days of divine and direct rulers. The Negus is God's willed ruler. No one else is smart enough or deserved to rule Abyssinia apart from him!"
+
+ETH_gods_chosen:0 "God's Chosen"
+ETH_gods_chosen_desc:0 "The Negus has been given the divine rule of God to lead Abyssinia into glory!"
+
+ETH_heirs_of_menelik:0 "God of the Rastafarians"
+ETH_heirs_of_menelik_desc:0 "Some crazy fells thinkg our Negus is a god or something... We'll take it!"
+
+ETH_for_the_emperor:0 "Heirs of Menelik"
+ETH_for_the_emperor_desc:0 "We are just like him fr. (I'm getting tired of writing these please forgive me )"
+
+ETH_uplift_the_poor:0 "Uplift the Poor"
+ETH_uplift_the_poor_desc:0 "The abuse and disregard for the lower classes were a major player in the overthrowing of Haile Selassie. If we want our monarchy to stick around, we must start paying attention to the poorer people of Abyssinia."
+
+ETH_ethiopian_clean_up:0 "Abyssinian Clean-Up"
+ETH_ethiopian_clean_up_desc:0 "No benevolent monarch would let his people suffer in the slums. We must raise the living standards across Abyssinia as a whole."
+
+ETH_slavery_crackdown:0 "Slavery Crackdown"
+ETH_slavery_crackdown_desc:0 "Abyssinia's slavery situation is a major restraint in us being accepted as a modern nation. We must crackdown on this inhumane act at once!"
+
+ETH_promote_slavery:0 "Turn a Blind Eye"
+ETH_promote_slavery_desc:0 "Slavery is what makes the Abyssinian economy unique. Anyways, where would the slaves even go if we let them all free?"
+
+ETH_count_what_comes_in:0 "Count What Comes In"
+ETH_count_what_comes_in_desc:0 "The income of the nation is never properly monitored, allowing for corruption to run rampant in tax collecting and other forms of the Abyssinian economy. We will keep a watchful eye on every figure in the government to make sure the embezzlement of funds ceases at once."
+
+ETH_legacy_of_warriors:0 "Warrior Negus"
+ETH_legacy_of_warriors_desc:0 "Abyssinia's greatest victories were battles commanded by the Negus themself. If we want to repeat said victories, we must ask the Negus to lead our men to battle personally!"
+
+ETH_land_reform:0 "Land Reform"
+ETH_land_reform_desc:0 "Too much land is owned by the rich and corrupt members of society. We will appease to the peasants and farmers by giving them more land to live and work on."
+
+Ethiopia_nmb.1.t:0 "Capture and Execution of Desta Damtew"
+Ethiopia_nmb.1.d:0 "While visting the Northern frontline, Desta Damtew has been captures by Italian soldiers after an ambush. His current whereabouts are unknown, but visual reports claim seeing his body being thrown into a local river. It's most likely that he's dead, and legendary war hero Balcha Safo will take emergency powers until time tells what will happen in the future."
+Ethiopia_nmb.1.a:0 "We're not dead yet!"
+
+ETH_continue_modernisation:0 "Continue Modernisation"
+ETH_continue_modernisation_desc:0 "If there was one thing the Junta did right, it was to continue our modernisation attempts. We will continue to bring Abyssinia into the West and out of it's medieval traditions."
+
+ETH_church_schooling:0 "Church Schooling"
+ETH_church_schooling_desc:0 "The Church has a great influence over the state and politics of the country. Requesting them to educate our people could save us some money and would also push the children into following our beleifs."
+
+ETH_menelik_univeristy:0 "Menelik University"
+ETH_menelik_univeristy_desc:0 " "
+
+ETH_more_chruches:0 "Fund Church Programmes"
+ETH_more_chruches_desc:0 "We must build more churches and places of worship across the country."
+
+ETH_royal_arms:0 "Royal Arms"
+ETH_royal_arms_desc:0 "The Negus has decided to take some money out of his personal funds to purchase more weapons in these trying times."
+
+ETH_flat_tax:0 "Flat Tax"
+ETH_flat_tax_desc:0 "We must implement Haile Selassie's old tax reform to increase our income"
+
+ETH_fake_event_embargo:0 "The British Will be Forced to Lift Their Embargo"
+
+Ethiopia_nmb.5.t:0 "Crowning of the Emperor"
+Ethiopia_nmb.5.d:0 "The question now arises; who shall be proclaimed as the Emperor of Abyssinia? Some wish to grant Haile Selassie full power to rule Abyssinia again, stating that it was external forces that turned Abyssinia into a mess and us winning the war against Italy has just further strengthened our position. Although, the common census is that Haile Selassie is an incompetant leader who should never touch the throne again and that his son, Amha Selassie, should be crowned instead. There is a third option, however. Uncrowned emperor Lij Iyasu has remained locked up in his cell since 1917 after Haile Selassie couped him. He was known as a reformer and an anti-imperialists, the one man who could save Abyssinia. Haile Selassie ordered his execution, but after the coup in 1935 it was called off. Does Iyasu have the right to rule the throne?"
+Ethiopia_nmb.5.a:0 "Haile Selassie I!"
+Ethiopia_nmb.5.b:0 "Haile Selassie II!"
+Ethiopia_nmb.5.c:0 "Iyasu V!"
+
+Ethiopia_nmb.3.t:0 "African Aid Arives"
+Ethiopia_nmb.3.d:0 "With the British being forced to end their blockade on Abyssinia, Namibia, Zimbabwe and Angola have all sent an influx of weapons to help our cause against the Italians! The unity of our African nations only grows!"
+Ethiopia_nmb.3.a:0 "Cheers!"
+
+### Haiti
+
+HAI_haitian_revolution:0 "Haitian Revolutionary Spirit"
+HAI_haitian_revolution_desc:0 "The Haitian People have endured much suffering but despite all, we have managed to come out on top. Invaided by the colonialist Americans in the First World War and then having a puppet administration forced upon us, we have managed to free ourselves from this supposed undefeatable giant. The people of Haiti live and die to see another day of freedom, no matter how great that cost may be..."
+
+HAI_famine:0 "Famine"
+HAI_famine_desc:0 "The American blockade on Haiti has caused the nation to go into a great famine. Most of the country is malnourished, or on the brink of death itself."
+
+HAI_american_plot:0 "An American Plot?"
+HAI_american_plot_desc:0 "The Americans wouldn't give up so easily. They must be plotting against the new government as we speak!"
+
+nmbr_haiti.1.t:0 "The Glorious Haitian Revolution"
+nmbr_haiti.1.d:0 "Haiti is a land of misery and depression. The first modern independent country in the Americas, Haiti has always been a land of people demanding freedom and liberation. Unfortunately, history hasn't been to kind to Haiti. Policital instability, famines, natural disasters, all of these have give Haiti the reputation of 'The Unluckiest Country'. Even more disasterously, during the Great War the United States lead an amphibious invasion to secure their economic interests in the region, and to grow the ever-expanding 'American Empire'. A puppet administration was established by the Yanks, and under it the Americans had a free reign over our resources and economy. That was until 1933. Like Namibia, Haiti had it's own glorious revolution against imperialism. Mino Bijoux was able to gather up a large army of Socialists and Nationalists where he then lead a coup against the puppet regime. A quick purge of all colaborators and Americans living in Haiti strengthened his rule as the one leader of Haiti. All this has come at cost however. The Americans are blockading our country and starving our people. Namibia is begining to rearm and lick it's wounds while Haiti is still stuck in the same position it was in 20 years ago. Will we be able to acheive our own dreams, or will we be forced to live under the shadows of the Namibians and Americans?"
+nmbr_haiti.1.a:0 "L’Union fait la force!"
+
+HAI_the_western_revolutionl:0 "The Western Revolution"
+HAI_the_western_revolutionl_desc:0 "As Namibia and Zimbabwe had revolutions of their own, Haiti has also freed itself from White tyranny and has adopted the ideas of Uunona and M'seli. This puts us in the unique position of the first, and not last, Creole country in the Americas to adopt Pan-African Socialism."
+
+HAI_fragile_elections:0 "Fragile Elections"
+HAI_fragile_elections_desc:0 "Despite the nation being devoted to the revolution, the government is only holding on by a thread, and the fear of an American coup or invasion lingers. A quick old elections should lift up our moods... Right?"
+
+HAI_premier_bijoux:0 "Premier Bijoux"
+HAI_premier_bijoux_desc:0 "Successfully saving Haiti from an American counter-coup, Bijoux has won himself the spot as Premier of Haiti!"
+
+HAI_fan_hatian_nationalism:0 "Fan Haitian Nationalism"
+HAI_fan_hatian_nationalism_desc:0 "It is an honour to fight and an even greater one to die for Haiti and the Pan African Socialist cause."
+
+HAI_national_mobilisation:0 "Mobilise Society"
+HAI_national_mobilisation_desc:0 "The Yanks or Dominicans could strike at any moment! The whole of society must be prepared for a whole out war with these two nations in the future..."
+
+HAI_fund_the_army:0 "Fund the Army"
+HAI_fund_the_army_desc:0 "The army is what's keeping Bijoux in power. We must feed the greedy officers more money if we want to keep them satisfied."
+
+HAI_saviour_of_haiti:0 "No Democracy in my Haiti!"
+HAI_saviour_of_haiti_desc:0 "Democracy and elections is going to end the revolution. It's undoubtable that in any form of election, the Americans will interfere and rig it in their favour. We must purge democracy from Haiti if we want the Pan-African Socialist dream to live on!"
+
+HAI_legacy_of_louverture:0 "Legacy of Louverture"
+HAI_legacy_of_louverture_desc:0 "Just like Bijoux, Toussaint Louverture lead the glorious revolution against the European and White colonisers that were turning Haiti into a death camp. Bijoux has saved Haiti just like Toussaint Louverture, so his respect must be equal to his aswell!"
+
+HAI_a_revolution_alike:0 "A Revolution Alike"
+HAI_a_revolution_alike_desc:0 "The fury and rage our soldiers had during the Haitian Revolution must be emulated today. We won once, we'll win again!"
+
+HAI_heirs_of_dessalines:0 "Heirs of Dessalines"
+HAI_heirs_of_dessalines_desc:0 "Haiti was at it's greatest under it's various emperors. If we want Haiti to return to the world stage, a new emperor must be crowned! I know having a Socialist Monarchy sounds crazy, but it might just work!"
+
+HAI_monarchist_restoration:0 "Monarchist Restoration"
+HAI_monarchist_restoration_desc:0 "Despite being a right-wing republican, Joseph Faustin Soulouque has offered to be crowned as Faustin II! Long live Faustin II, Emperor of Pan-African Socialist Haiti!"
+
+HAI_national_renewal:0 "National Renewal"
+HAI_national_renewal_desc:0 "Haiti will step into the 20th century with glory and pride!"
+
+HAI_imperial_nostalgia:0 "Imperial Navy"
+HAI_imperial_nostalgia_desc:0 "Haiti must rebuild it's great navy if we want to build a new empire!"
+
+ESW_monarchy_long:0 "House of Dlamini"
+ESW_monarchy:0 "House of Dlamini"
+
+NMG_political_hellhole:0 "Political Hellhole"
+NMG_political_hellhole_desc:0 "SWAPO members, German imperialists, the various flavours of Afrikaaners and Boers, Anglo nationtionalists, black supremistis and fleeing political figures from Namibia all end up in the Walvis Bay, all fighting one another while tearing themselves down."
+
+NMB_colonial_conscripts:0 "Colonial Concsriptions"
+NMB_colonial_conscripts_desc:0 "The African conscripts are 'hired' to defend the city when crisis looms."
+
+nmbr_eswatini.2.t:0 "[ESW.GetName] Wishes to Purchase Swazi Bantustans"
+nmbr_eswatini.2.d:0 "Eswainti wants to purchase the Swazi-dominated regions to the north of their country. Selling these lands would also give us one less minority to worry about."
+
+nmbr_eswatini.3.t:0 "South Africa Agrees!"
+nmbr_eswatini.3.d:0 "South Africa has agreed to the purchase of the northern territories. Despite the huge gain from this, our economy will be strained due to the reperations we owe South Africa for the time being."
+nmbr_eswatini.3.a:0 "thx"
+
+ESW_acheive_peak_south_africa:0 "Acheive Peak South Africa"
+ESW_acheive_peak_south_africa_desc:0 " "

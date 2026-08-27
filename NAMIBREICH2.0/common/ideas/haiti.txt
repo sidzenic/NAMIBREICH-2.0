@@ -1,0 +1,111 @@
+ideas = {
+	# MILITARY
+				
+	country = {
+
+		HAI_bijoux_coup1= {
+
+			picture = chi_war_of_resistance3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = -0.2
+				political_power_gain = -0.6
+
+
+			}
+		}
+
+
+
+		HAI_women_in_army= {
+
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				recruitable_population_factor =0.05
+
+			}
+		}
+
+		HAI_american_plot= {
+
+			picture = SPR_political_violence
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.5
+			}
+		}
+
+		HAI_haitian_revolution= {
+
+			picture = MEX_revolutionary_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 50
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.25
+				army_core_attack_factor = 0.15
+
+			}
+		}
+
+		HAI_famine= {
+
+			picture = RAJ_state_of_famine_country
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				MONTHLY_POPULATION = -0.15
+				army_attack_factor = -0.1
+
+			}
+		}
+	}
+}

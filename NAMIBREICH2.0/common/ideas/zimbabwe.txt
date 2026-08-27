@@ -1,0 +1,63 @@
+ideas = {
+	country = {
+		ZIM_dzuda_ii = {
+
+			allowed = {
+				original_tag = ZIM
+				always = no
+			}
+			
+			removal_cost = -1
+
+			picture = dzudaii
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+	}
+
+	country = {
+		ZIM_great_zimbabwe = {			
+			
+			allowed = {
+				original_tag = "ZIM"
+			}
+
+			
+			removal_cost = -1
+
+			picture = vittoria_mutilata
+			
+			modifier = {
+				communism_acceptance = -10
+				democratic_acceptance = -10
+				fascism_acceptance = 10
+				ai_focus_aggressive_factor = 0.5
+				justify_war_goal_time = -0.05
+			}
+		}
+	}
+
+	country = {
+		ZIM_war_exhaustion = {			
+			
+			allowed = {
+				
+			}
+
+			
+			removal_cost = -1
+
+			picture = tur_disorganised_armed_forces
+			
+			modifier = {
+				war_support_factor = -0.15
+				army_org_factor = -0.08
+				army_speed_factor = -0.1
+				training_time_factor = 0.25
+				army_attack_factor = -0.1
+			}
+		}
+	}
+}

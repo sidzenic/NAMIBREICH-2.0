@@ -1,0 +1,767 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = beta_zimbabwe
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 15
+			tag = ZIM
+		}
+	}
+
+	continuous_focus_position = { x = 25 y = 1900 }	
+
+	default = no
+
+	focus = {
+		id = ZIM_peace_agreement
+		icon = GFX_goal_generic_construction
+		mutually_exclusive = { focus = ZIM_one_more_month}
+		x = 11
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			white_peace = ZAM
+			remove_ideas = ZIM_war_exhaustion
+			add_war_support = -0.1
+		}		
+	}
+
+	focus = {
+		id = ZIM_one_more_month
+		icon = GFX_goal_generic_construction
+		mutually_exclusive = { focus = ZIM_peace_agreement}
+		x = 13
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_fall_of_bentu
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_peace_agreement focus = ZIM_one_more_month}
+		x = 24
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+
+	focus = {
+		id = ZIM_osas_visions
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_fall_of_bentu}
+		x = 30
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_educate_bentu_loyalists
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_osas_visions}
+		x = 27
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_destroy_the_cult
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_educate_bentu_loyalists}
+		x = 28
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_expand_party_membership
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_osas_visions}
+		x = 31
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_monarch_question
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_osas_visions}
+		x = 29
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_proclaim_a_new_zimbabwe
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_monarch_question}
+		prerequisite = {focus = ZIM_expand_party_membership}
+		x = 30
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+
+	focus = {
+		id = ZIM_panafricanism_lives
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_fall_of_bentu}
+		x = 25
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_power_to_the_king
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_fall_of_bentu}
+		x = 20
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_the_vitorious_bentu
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_peace_agreement focus = ZIM_one_more_month}
+		x = 6
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_portugese_alliance
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_the_vitorious_bentu focus = ZIM_fall_of_bentu }
+		x = 12
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_invite_portugese_generals
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_portugese_alliance }
+		x = 11
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_armament_help
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_invite_portugese_generals}
+		prerequisite = { focus = ZIM_purchase_chinde }
+		x = 12
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_purchase_chinde
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_portugese_alliance }
+		x = 13
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_investments
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_portugese_alliance }
+		x = 15
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_crackdown_on_opposition
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_the_vitorious_bentu}
+		x = 3
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_find_osas
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_crackdown_on_opposition}
+		x = 4
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_destroy_zimbabwe_leftism
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_crackdown_on_opposition}
+		x = 2
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_continue_the_cult
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_the_vitorious_bentu}
+		x = 7
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_safe_for_now
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_destroy_zimbabwe_leftism}
+		prerequisite = { focus = ZIM_find_osas}
+		prerequisite = { focus = ZIM_forward_zimbabwe}
+		prerequisite = { focus = ZIM_purge_the_army }
+		x = 5
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_undoing_versaille
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_safe_for_now}
+		x = 5
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_on_our_own
+		icon = GFX_goal_generic_construction
+		mutually_exclusive = { focus = ZIM_namibia_is_our_friend}
+		mutually_exclusive = { focus = ZIM_old_friends}
+		prerequisite = { focus = ZIM_undoing_versaille }
+		x = 11
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_trust_no_one
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_on_our_own }
+		x = 10
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_i_didnt_hear_no_bell
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_on_our_own }
+		x = 12
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_look_to_the_colonialists
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_trust_no_one }
+		prerequisite = { focus = ZIM_i_didnt_hear_no_bell }
+		x = 9
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_free_the_congo
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_look_to_the_colonialists }
+		x = 9
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_end_south_africas_miserable_life
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_trust_no_one }
+		prerequisite = { focus = ZIM_i_didnt_hear_no_bell }
+		x = 13
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_across_the_strait
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_end_south_africas_miserable_life }
+		x = 13
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_africa_is_ours
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_across_the_strait}
+		prerequisite = { focus = ZIM_crush_hitler}
+		prerequisite = { focus = ZIM_free_the_congo }
+		x = 11
+		y = 10
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_to_the_moon
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_africa_is_ours}
+		x = 11
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_crush_hitler
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_trust_no_one }
+		prerequisite = { focus = ZIM_i_didnt_hear_no_bell }
+		x = 11
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_crush_hitlers_friends
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_crush_hitler }
+		x = 11
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_old_friends
+		icon = GFX_goal_generic_construction
+		mutually_exclusive = { focus = ZIM_namibia_is_our_friend}
+		mutually_exclusive = { focus = ZIM_on_our_own}
+		prerequisite = { focus = ZIM_undoing_versaille }
+		x = 6
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_request_northern_territories
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_old_friends}
+		x = 6
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_defensive_pact_again_hitler
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_old_friends }
+		x = 8
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_crush_zamibian_socialism
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_defensive_pact_again_hitler }
+		x = 7
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_namibia_is_our_friend
+		mutually_exclusive = { focus = ZIM_old_friends }
+		mutually_exclusive = { focus = ZIM_on_our_own }
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_undoing_versaille }
+		x = 2
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_arms_deal
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_namibia_is_our_friend }
+		x = 2
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_joint_command
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_arms_deal }
+		x = 3
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_pan_africanism
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_arms_deal }
+		x = 1
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_brothers_in_arms
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_pan_africanism }
+		prerequisite = { focus = ZIM_joint_command }
+		x = 2
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_claim_mthwakiland
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_namibia_is_our_friend focus = ZIM_old_friends }
+		x = 4
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_botswana_treasure
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_claim_mthwakiland}
+		x = 5
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_propaganda
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_the_vitorious_bentu}
+		x = 5
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_forward_zimbabwe
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_propaganda}
+		prerequisite = { focus = ZIM_continue_the_cult }
+		x = 6
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+
+	focus = {
+		id = ZIM_purge_the_army
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ZIM_propaganda}
+		prerequisite = { focus = ZIM_continue_the_cult }
+		x = 8
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}		
+	}
+

@@ -1,0 +1,440 @@
+ideas = {
+
+	country = {
+
+		ESW_agriculture_export_idea={
+
+			picture = generic_agricultural_reform
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}
+	}
+
+
+	country = {
+
+		ESW_illegitament_state={
+
+			picture = prc_low_popular_support
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+			}
+		}
+	}
+
+	country = {
+
+		ESW_miners={
+
+			picture = generic_production_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				local_resources_factor = 0.1
+				monthly_population = 0.15
+			}
+		}
+	}
+
+
+	country = {
+
+		ESW_agriculture_on_civs= {
+
+			picture = generic_agrarian_society
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15 
+				production_speed_industrial_complex_factor = 0.10
+			}
+		}
+	}
+
+
+	country = {
+
+		ESW_disease_in_the_army= {
+
+			picture = generic_army_problems
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_org_regain = -0.15
+				army_attack_factor = -0.1
+				weekly_manpower = -50
+			}
+		}
+	}
+
+	country = {
+
+		ESW_irregular_army= {
+
+			picture = esw_army_noob
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.1
+				modifier_army_sub_unit_infantry_defence_factor = 0.05
+				modifier_army_sub_unit_irregular_infantry_defence_factor = 0.05
+			}
+		}
+	}	
+	country = {
+
+		ESW_irregular_army2= {
+
+			picture = esw_army_noob
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.1
+				modifier_army_sub_unit_infantry_defence_factor = 0.1
+				modifier_army_sub_unit_irregular_infantry_defence_factor = 0.1
+			}
+		}
+	}	
+	country = {
+
+		ESW_irregular_army3= {
+
+			picture = esw_army_noob
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.2
+				conscription_factor = 0.2
+				modifier_army_sub_unit_infantry_defence_factor = 0.2
+				modifier_army_sub_unit_irregular_infantry_defence_factor = 0.2
+			}
+		}
+	}
+
+	country = {
+
+		ESW_professional_army= {
+
+			picture = por_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.1
+				conscription_factor = 0.5
+				army_org_Factor = 0.05
+				planning_speed = 0.05
+			}
+		}
+	}
+
+	country = {
+
+		ESW_professional_army2= {
+
+			picture = por_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.1
+				conscription_factor = 0.5
+				army_org_Factor = 0.1
+				planning_speed = 0.1
+			}
+		}
+	}
+
+	country = {
+
+		ESW_professional_army3= {
+
+			picture = por_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.1
+				conscription_factor = 0.5
+				army_org_Factor = 0.15
+				planning_speed = 0.15
+				army_attack_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+
+		ESW_align_south_africa= {
+
+			picture = generic_democratic_drift_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.1
+				join_faction_tension = -0.2
+				lend_lease_tension = -0.2
+				send_volunteers_tension = -0.2
+			}
+		}
+	}
+
+	country = {
+
+		ESW_crusade_against_socialism= {
+
+			picture = spr_subvert_soviet_control
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = NMB
+				attack_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = ZIM
+				attack_bonus_against = 0.15
+			}
+		}
+	}	
+
+	country = {
+
+		ESW_aligned_with_namibia= {
+
+			picture = defending_our_home
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = SAF
+				attack_bonus_against = 0.15
+			}
+			modifier = {
+				war_support_factor = 0.1
+			}
+		}
+	}
+
+	country = {
+
+		ESW_sobhuza_idea= {
+
+			picture = generic_monarchist_uprising
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor =0.1
+			}
+		}
+	}		
+
+	country = {
+
+		ESW_switzerland_of_africa_idea= {
+
+			picture = SWI_swiss_neutrality
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = -0.15
+				local_resources_factor = 0.2
+				industrial_capacity_factory = 0.2
+			}
+		}
+	}
+
+	country = {
+
+		ESW_war_refugee_ideas {
+
+			picture = SWI_swiss_neutrality
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.15
+			}
+		}
+	}
+
+	country = {
+
+		ESW_purchased_land_from_neighbour= {
+
+			picture = generic_economic_recovery
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.40
+			}
+		}
+	}
+
+	country = {
+
+		ESW_guerilla_warfare= {
+
+			picture = generic_guerilla_warfare
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_core_defence_factor = 0.25
+			}
+		}
+	}
+
+
+}	

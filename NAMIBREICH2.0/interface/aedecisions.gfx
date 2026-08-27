@@ -1,0 +1,7 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_decision_choo_choo"
+        texturefile = "gfx/interface/decisions/choo_choo.png"
+    }
+}

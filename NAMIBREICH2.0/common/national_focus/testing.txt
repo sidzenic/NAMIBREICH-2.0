@@ -1,0 +1,2577 @@
+focus_tree = {
+	id = testing
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 551112312
+			tag = NMB
+		}
+	}
+
+	continuous_focus_position = { x = 25 y = 1900 }	
+
+	default = no
+
+
+focus = {
+		id = NMB_legacy_of_the_resistance_war
+		icon = GFX_focus_ETH_expand_the_levy
+		x = 8
+		y = 1
+		cost = 1
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_war_support = 0.1
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_german_army_plan
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_pay_them_well focus = NMB_the_war_machine }
+		mutually_exclusive = { focus = NMB_an_army_to_compete_with_south_africa }
+		mutually_exclusive = { focus = NMB_glory_to_the_red_army}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -3
+		y = 6
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			NMB_german_support_effects = yes
+			add_doctrine_cost_reduction = {
+				name = GER_the_prussian_legacy
+				cost_reduction = 0.25
+				uses = 2
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = infantry_tech
+			}
+			add_ideas = NMB_prussian_army1
+
+			NMB_jacob_morenga = {
+				add_trait = { trait = brilliant_strategist }
+			}
+			NMB_eino = {
+				add_trait = { trait = brilliant_strategist }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_increase_training_standards
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_german_army_plan}
+		relative_position_id = NMB_german_army_plan
+		x = -1
+		y = 1
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = NMB_prussian_army1
+				add_idea = NMB_prussian_army2
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_stormtroopers
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_increase_training_standards}
+		relative_position_id = NMB_german_army_plan
+		x = -2
+		y = 2
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = GER_sturmtruppe_battalion_tt
+			hidden_effect = {
+				set_technology = { sturmtruppe_battalion_tech = 1 popup = no }
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+	focus = {
+		id = NMB_train_the_generals
+		icon = GFX_focus_GER_afrikakorps
+		prerequisite = { focus = NMB_import_foreign_tech}
+		prerequisite = { focus = NMB_integrate_artillery_into_the_army}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -5
+		y = 3
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			division_template = {
+				name = "Kalahari Kavallerie"
+				division_names_group = GER_CAV_01
+				regiments = {
+					cavalry  = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry  = { x = 0 y = 2 }
+					cavalry  = { x = 1 y = 0 }
+					cavalry  = { x = 1 y = 1 }
+					cavalry  = { x = 1 y = 2 }
+				}
+				support = {
+					recon = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					}
+			}
+			1056 = {
+				create_unit = {
+					division = "name = \"Kalahari Kavallerie\" division_template = \"Kalahari Kavallerie\" start_experience_factor = 5.7"
+					owner = NMB
+					count = 4
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_pierce_their_tanks
+		icon = GFX_focus_generic_anti_tank_guns
+		prerequisite = { focus = NMB_train_the_generals}
+		prerequisite = { focus = NMB_finnish_advisors}
+		mutually_exclusive = { focus = NMB_clear_the_skies}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -5
+		y = 4
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cat_anti_tank
+			}				
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_clear_the_skies
+		icon = GFX_focus_PRC_anti_air_effort
+		prerequisite = { focus = NMB_train_the_generals}
+		prerequisite = { focus = NMB_finnish_advisors}
+		mutually_exclusive = { focus = NMB_pierce_their_tanks}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -3
+		y = 4
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cat_anti_air
+			}			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_pay_them_well
+		icon = GFX_focus_generic_mountain_training
+		prerequisite = { focus = NMB_clear_the_skies focus = NMB_pierce_their_tanks}
+		mutually_exclusive = { focus = NMB_pierce_their_tanks}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -4
+		y = 5
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = mountaineers_tech
+			}			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = NMB_the_unfare_war
+		icon = GFX_focus_RAJ_a_private_military
+		prerequisite = { focus = NMB_clear_the_skies focus = NMB_pierce_their_tanks}
+		mutually_exclusive = { focus = NMB_pierce_their_tanks}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -6
+		y = 5
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_integrate_artillery_into_the_army
+		icon = GFX_focus_SMB_mountain_guns
+		prerequisite = { focus = NMB_mansteins_reforms}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -6
+		y = 2
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_finnish_advisors
+		icon = GFX_focus_invite_finland
+		prerequisite = { focus = NMB_import_foreign_tech}
+		prerequisite = { focus = NMB_integrate_artillery_into_the_army }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -3
+		y = 3
+		cost = 10
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = NMB_finnish_generals
+				days = 250
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+
+focus = {
+		id = NMB_begin_rearmament
+		icon = GFX_focus_generic_arms_trade
+		prerequisite = { focus = NMB_legacy_of_the_resistance_war}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 3
+		y = 1
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+
+		available = {
+			has_completed_focus = NMB_special_law_one_million
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = NMB_four_year_plan
+				bonus = 1.0
+				uses = 1
+				category = infantry_tech
+			}
+		}		
+	}
+
+    focus = {
+		id = NMB_import_weapons
+		icon = GFX_focus_generic_money_for_equipment
+		prerequisite = { focus = NMB_begin_rearmament }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 6
+		y = 2
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = GER
+			}
+		}		
+	}
+
+    focus = {
+		id = NMB_deal_with_the_devils
+		icon = GFX_focus_chi_mission_to_germany
+		prerequisite = { focus = NMB_import_weapons }
+		prerequisite = { focus = NMB_foreign_weapons_deals}
+		mutually_exclusive = { focus = NMB_purchase_german_uboats }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 6
+		y = 5
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = GER
+			}
+		}		
+	}
+
+    focus = {
+		id = NMB_windhoek_arms
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = NMB_begin_rearmament }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 4
+		y = 2
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			541 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = NMB_militerise_the_north
+		icon = GFX_goal_generic_production 
+		prerequisite = { focus = NMB_windhoek_arms }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 3
+		y = 3
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			895 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}	
+	}
+
+	focus = {
+		id = NMB_foreign_weapons_deals
+		icon = GFX_focus_generic_steel_mill
+		prerequisite = { focus = NMB_windhoek_arms }
+		prerequisite = { focus = NMB_import_weapons}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 5
+		y = 3
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			895 = {
+				add_resource = {
+					type = steel
+					amount = 25
+				}
+			}
+		}	
+	}
+
+
+
+
+	focus = {
+		id = NMB_militerise_the_south
+		icon = GFX_focus_generic_reorient_production
+		prerequisite = { focus = NMB_militerise_the_north }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 3
+		y = 4
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			893 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}	
+	}
+
+	focus = {
+		id = NMB_the_war_machine
+		icon = GFX_focus_generic_reorient_production
+		prerequisite = { focus = NMB_well_equiped_army }
+		prerequisite = {focus = NMB_militerise_the_south}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 4
+		y = 5
+		cost = 5
+
+
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}	
+	}
+
+	focus = {
+		id = NMB_kickstart_the_uboat_campaigne
+		icon = GFX_focus_generic_africa_naval
+		prerequisite = { focus = NMB_legacy_of_the_resistance_war}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 10
+		y = 1
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_uboat_efforts
+		icon = GFX_goal_generic_navy_submarine 
+		prerequisite = { focus = NMB_kickstart_the_uboat_campaigne}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 8
+		y = 2
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_purchase_german_uboats
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = NMB_uboat_efforts}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		mutually_exclusive = { focus = NMB_deal_with_the_devils}
+		x = 8
+		y = 5
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_zambezi_navy
+		icon = GFX_focus_PHI_war_for_the_oceans
+		prerequisite = { focus = NMB_kickstart_the_uboat_campaigne}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 12
+		y = 2
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_seize_civilian_dockyards
+		icon = GFX_focus_generic_annex_country_2
+		prerequisite = { focus = NMB_kickstart_the_uboat_campaigne}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 10
+		y = 2
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_realocate_funds
+		icon = GFX_focus_RAJ_special_economic_zones
+		prerequisite = { focus = NMB_seize_civilian_dockyards}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 11
+		y = 3
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_train_mariners
+		icon = GFX_focus_generic_naval_discipline
+		prerequisite = { focus = NMB_seize_civilian_dockyards}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 9
+		y = 3
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_wolfpack_tactics
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = { focus = NMB_train_mariners}
+		prerequisite = { focus = NMB_realocate_funds }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 9
+		y = 4
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_above_and_below
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = NMB_train_mariners}
+		prerequisite = { focus = NMB_realocate_funds }
+		prerequisite = { focus = NMB_begin_producing_planes }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 11
+		y = 4
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_victory_at_sea
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = NMB_wolfpack_tactics focus = NMB_above_and_below}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 10
+		y = 5
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_building_an_airforce
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = NMB_legacy_of_the_resistance_war}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 15
+		y = 1
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			air_experience = 25
+			
+			custom_effect_tooltip = generic_skip_one_line_tt
+				
+			country_event = {
+				id = namibia.32
+				hours = 5
+				random_hours = 6
+				days = 2
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_windhoek_airport
+		icon = GFX_focus_generic_air_bases
+		prerequisite = { focus = NMB_building_an_airforce}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 14
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			541 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_import_early_fighters
+		icon = GFX_focus_SMB_purchase_aircraft
+		prerequisite = { focus = NMB_building_an_airforce}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 16
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+			 	bonus = 0.4 #
+			 	uses = 3
+			 	category = air_equipment 
+			 }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = NMB_set_up_the_aviation_school
+		icon = GFX_focus_generic_pilot_training
+		prerequisite = { focus = NMB_building_an_airforce}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 18
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+			 	bonus = 0.4 #
+			 	uses = 3
+			 	category = air_equipment 
+			 }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_namibian_flyers
+		icon = GFX_focus_PRC_pilot_training
+		prerequisite = { focus = NMB_set_up_the_aviation_school }
+		mutually_exclusive = { focus = NMB_invite_soviet_professionals}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 19
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+			 	bonus = 0.4 #
+			 	uses = 3
+			 	category = air_equipment 
+			 }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_invite_soviet_professionals
+		icon =GFX_focus_SOV_women_in_aviation
+		prerequisite = { focus = NMB_set_up_the_aviation_school }
+		mutually_exclusive = { focus = NMB_namibian_flyers}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 17
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+			 	bonus = 0.4 #
+			 	uses = 3
+			 	category = air_equipment 
+			 }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_begin_producing_planes
+		icon = GFX_focus_generic_aircraft_production
+		prerequisite = { focus = NMB_windhoek_airport}
+		prerequisite = { focus = NMB_import_early_fighters }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 15
+		y = 3
+		cost = 10
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			894 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_german_licensing
+		icon = GFX_focus_generic_license_production
+		prerequisite = { focus = NMB_begin_producing_planes }
+	    relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 17
+		y = 4
+		cost = 10
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = rocketry
+			}
+			add_ideas = NMB_rocketry_idea
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_fighter_tech
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = NMB_begin_producing_planes }
+	    relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 15
+		y = 4
+		cost = 10
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = light_air
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_namibian_bombers
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = NMB_begin_producing_planes }
+	    relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 13
+		y = 4
+		cost = 10
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = heavy_air
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_endsieg
+		icon = GFX_focus_CZE_german_puppet
+		prerequisite = { focus = NMB_legacy_of_the_resistance_war}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 23
+		y = 1
+		cost = 3
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			air_experience = 25
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_volksturm
+		icon = GFX_goal_generic_position_armies
+		relative_position_id = NMB_legacy_of_the_resistance_war		
+		prerequisite = { focus = NMB_endsieg }
+		x = 24
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			division_template = {
+				name = "Namib Volksturm"
+				division_names_group = GER_Inf_01
+				regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+					militia = { x = 0 y = 2 }
+					militia = { x = 1 y = 0 }
+					militia = { x = 1 y = 1 }
+					militia = { x = 1 y = 2 }
+				}
+			}
+			893 = {
+				create_unit = {
+					division = "name = \"Namib Volksturm\" division_template = \"Namib Volksturm\" start_experience_factor = 0.4"
+					owner = NMB
+					count = 2
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_to_fly_and_die_for_namibia
+		icon = GFX_focus_generic_military_mission
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		prerequisite = { focus = NMB_endsieg }
+		prerequisite = { focus = NMB_building_an_airforce}
+		x = 22
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_crack_old_caches
+		icon = GFX_focus_AUS_raid_military_storages
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		prerequisite = { focus = NMB_endsieg }
+		prerequisite = { focus = NMB_building_an_airforce}
+		x = 26
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_cutting_corners_on_rifle_production
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = NMB_endsieg }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 21
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_defund_everything_everything
+		icon = GFX_focus_generic_reduce_unneccessary_expenditure
+		prerequisite = { focus = NMB_to_fly_and_die_for_namibia }
+		prerequisite = { focus = NMB_volksturm}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 25
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_mobilise_the_boy_scouts
+		icon = GFX_focus_PHI_philippine_scouts
+		prerequisite = { focus = NMB_volksturm }
+		prerequisite = { focus = NMB_to_fly_and_die_for_namibia }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 23
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = NMB_mansteins_reforms
+		icon = GFX_focus_chi_army_reform
+		prerequisite = { focus = NMB_legacy_of_the_resistance_war }
+	    relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -3
+		y = 1
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			army_experience = 25
+
+			add_doctrine_cost_reduction = {
+				name = GER_the_prussian_legacy
+				cost_reduction = 0.25
+				uses = 1
+				category = land_doctrine
+			}			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = NMB_manpower_drive
+		icon = GFX_focus_generic_manpower
+		prerequisite = { focus = NMB_legacy_of_the_resistance_war }
+	    relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = extensive_conscription
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_conscript_germans
+		icon = GFX_focus_BRA_deal_with_the_cangaco
+		prerequisite = { focus = NMB_manpower_drive}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -2
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_manpower = 10000
+			NMB_german_support_effects = yes
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_promote_army_diversity
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = NMB_manpower_drive}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			NMB_african_support_effects = yes
+		}
+				 
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_tswana_conscription
+		icon = GFX_focus_generic_annex_country
+		prerequisite = { focus = NMB_conscript_germans}
+		prerequisite = { focus = NMB_promote_army_diversity}
+		prerequisite = { focus = NMB_conscript_the_basters }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 1
+		y = 3
+		cost = 10
+		available = {
+			is_puppet = no
+			NMB = { controls_state = 542}
+		
+		}
+
+		completion_reward = {
+			add_manpower = 25000
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_tribal_participation
+		icon = GFX_focus_ETH_keep_the_chitet
+		prerequisite = { focus = NMB_conscript_germans}
+		prerequisite = { focus = NMB_promote_army_diversity}
+		prerequisite = { focus = NMB_conscript_the_basters }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -1
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_manpower = 8000
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_afrikaaner_conscription
+		icon = GFX_focus_generic_full_social_mobilization
+		prerequisite = { focus = NMB_tswana_conscription}
+		prerequisite = { focus = NMB_tribal_participation}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 1
+		y = 4
+		cost = 10
+		available = {
+			is_puppet = no
+			NMB = { controls_state = 681}
+			NMB = { controls_state = 275}
+			NMB = { controls_state = 719}		
+		}
+
+		completion_reward = {
+			add_manpower = 155000
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_conscript_the_basters
+		icon = GFX_focus_generic_limited_social_mobilization
+		prerequisite = { focus = NMB_manpower_drive}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 2
+		y = 2
+		cost = 10
+		available = {
+			is_puppet = no
+		}
+		completion_reward ={
+			add_manpower = 5000
+			add_stability = -0.05
+		}
+
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_boer_recruitment
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = NMB_tswana_conscription}
+		prerequisite = { focus = NMB_tribal_participation}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = -1
+		y = 4
+		cost = 10
+		available = {
+			is_puppet = no
+			NMB = { controls_state = 275}		
+		}
+
+		completion_reward = {
+			division_template = {
+				name = "Prisoner Battalion"
+				division_names_group = GER_Inf_01
+				is_locked = yes
+				force_allow_recruiting = yes
+				division_cap = 6
+
+				regiments = {
+					penal_battalion = { x = 0 y = 0 }
+					penal_battalion = { x = 0 y = 1 }
+					penal_battalion = { x = 0 y = 2 }
+					penal_battalion = { x = 1 y = 0 }
+					penal_battalion = { x = 1 y = 1 }
+					penal_battalion = { x = 1 y = 2 }
+				}
+			}	
+		random_controlled_state = {
+			create_unit = {
+				division = "name = \"Prisoner Battalion\" division_template = \"Prisoner Battalion\" start_experience_factor = 0.25 start_equipment_factor = 0.5"
+				owner = ROOT
+				count = 3
+			}		
+			add_manpower = 35000
+		}	
+		}	
+	}
+
+
+	focus = {
+		id = NMB_total_war_focus
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		prerequisite = { focus = NMB_boer_recruitment}
+		prerequisite = { focus = NMB_afrikaaner_conscription}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 0
+		y = 5
+		cost = 10
+		available = {
+			is_puppet = no
+			NMB = { controls_state = 275}		
+		}
+
+		completion_reward = {
+			add_ideas = all_in
+
+		}	
+	}
+
+	focus = {
+		id = NMB_an_army_to_compete_with_south_africa
+		icon = GFX_focus_generic_university_3
+		prerequisite = { focus = NMB_the_war_machine focus = NMB_pay_them_well}
+
+		mutually_exclusive = { focus = NMB_german_army_plan }
+		mutually_exclusive = { focus = NMB_glory_to_the_red_army}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 3
+		y = 6
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cat_light_armor
+			}
+			add_ideas = NMB_namib_blitzkreig
+			NMB_eino = {
+				add_trait = { trait = panzer_leader }
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+
+	focus = {
+		id = NMB_import_foreign_tech
+		icon = GFX_focus_generic_purchase_mechanized_equipment
+		prerequisite = { focus = NMB_mansteins_reforms }
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		
+		x = -4
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				producer = GER
+				type = light_tank_chassis
+				amount = 75
+			}
+			division_template = {
+				name = "Namib Light Tanks"
+				division_names_group = GER_Arm_01
+				regiments = {
+					light_armor = { x = 0 y = 0 }
+					light_armor = { x = 0 y = 1 }
+					light_armor = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+				}
+			}
+			893 = {
+				create_unit = {
+					division = "name = \"Panzer No.1\" division_template = \"Namib Light Tanks\" start_experience_factor = 0.4"
+					owner = NMB
+					count = 1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_well_equiped_army
+		icon = GFX_focus_generic_tank_assembly
+		prerequisite = { focus = NMB_foreign_weapons_deals}
+		prerequisite = { focus = NMB_militerise_the_north}
+		relative_position_id = NMB_legacy_of_the_resistance_war
+		x = 5
+		y = 4
+		cost = 10
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			random_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cat_light_armor
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = NMB_export_the_wealth_of_namibia
+		icon = GFX_focus_CHI_planned_economy
+		x = 34
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = NMB_foreign_debts_modifier
+			}
+		}		
+	}
+
+
+	focus = {
+		id = NMB_market_socialsim
+		icon = GFX_focus_generic_communist_industry
+		prerequisite = { focus = NMB_export_the_wealth_of_namibia}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_reconcile_with_the_capitalist
+		icon = GFX_focus_RAJ_special_economic_zones
+		prerequisite = { focus = NMB_export_the_wealth_of_namibia}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+			custom_effect_tooltip = nmb_trade_tt
+
+			hidden_effect = {
+			if = { 
+				limit = { 
+					country_exists = MAD
+					MAD = { has_opinion = { target = NMB value > 50 } } 
+					}
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+			if = { 
+				limit = { 
+					country_exists = ZIM
+					ZIM = { has_opinion = { target = NMB value > 50 } } 
+					}
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+			if = { 
+				limit = { 
+					country_exists = ANG
+					ANG = { has_opinion = { target = NMB value > 50 } } 
+					}
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+			if = { 
+				limit = { 
+					country_exists = SAF
+					SAF = { has_opinion = { target = NMB value > 50 } } 
+					}
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+			if = { 
+				limit = { 
+					country_exists = ZAM
+					ZAM = { has_opinion = { target = NMB value > 50 } } 
+					}
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+			if = { 
+				limit = { 
+					country_exists = BOT
+					BOT = { has_opinion = { target = NMB value > 50 } } 
+					}
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+			if = { 
+				limit = { 
+					country_exists = MLW
+					MLW = { has_opinion = { target = NMB value > 50 } } 
+					}
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+			if = { 
+				limit = { 
+					country_exists = LIB
+					LIB = { has_opinion = { target = NMB value > 50 } } 
+					}
+				add_offsite_building = { type = industrial_complex level = 2 }
+			}
+		}
+		}
+	}
+
+	focus = {
+		id = NMB_arms_industry
+		icon = GFX_focus_AFG_scavenging
+		prerequisite = { focus = NMB_market_socialsim}
+		prerequisite = {focus = NMB_take_on_debts }
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+
+	focus = {
+		id = NMB_civilian_investments
+		icon = GFX_focus_generic_industry_2
+		prerequisite = { focus = NMB_foreign_workforces}
+		prerequisite = {focus = NMB_infratructure_investments }
+		prerequisite = { focus = NMB_arms_industry}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = -1
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+
+	focus = {
+		id = NMB_seek_investments_in_companies
+		icon = GFX_focus_rom_parties_end
+		mutually_exclusive = { focus = NMB_sell_off_namibian_companies}
+		prerequisite = { focus = NMB_foreign_workforces}
+		prerequisite = {focus = NMB_infratructure_investments }
+		prerequisite = { focus = NMB_arms_industry}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 2
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+
+
+	focus = {
+		id = NMB_infratructure_investments
+		icon = GFX_focus_generic_africa_infrastructure
+		prerequisite = { focus = NMB_market_socialsim}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = -3
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = investment_infra
+		}		
+	}
+
+	focus = {
+		id = NMB_tourism
+		icon = GFX_focus_RAJ_thunder_elephants
+		prerequisite = { focus = NMB_infratructure_investments}
+		prerequisite = {focus = NMB_foreign_workforces}
+		prerequisite = { focus = NMB_arms_industry}
+
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = -3
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_ideas = NMB_tourism_idea
+		}		
+	}	
+
+	focus = {
+		id = NMB_foreign_workforces
+		icon = GFX_focus_research
+		prerequisite = { focus = NMB_market_socialsim}
+
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = -1
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		custom_effect_tooltip = 8_consumer_goods
+		}		
+	}
+
+
+	focus = {
+		id = NMB_take_on_debts
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = { focus = NMB_export_the_wealth_of_namibia}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 4
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = consumer_goods_30
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.3 }
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_costs_of_war
+		icon = GFX_focus_generic_total_war
+		prerequisite = { focus = NMB_export_the_wealth_of_namibia}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 8
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = NMB_take_more_from_the_home_front
+		icon = GFX_focus_generic_price_controls
+		prerequisite = { focus = NMB_costs_of_war}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 7
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = NMB_cut_on_weapon_production
+		icon = GFX_goal_generic_production2
+		prerequisite = { focus = NMB_costs_of_war}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 9
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = NMB_find_new_trade_partners
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = NMB_take_more_from_the_home_front focus = NMB_cut_on_weapon_production}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 8
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = NMB_sell_out_politically
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = NMB_find_new_trade_partners}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 7
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = NMB_beg_for_debt_forgiveness
+		icon = GFX_focus_generic_reduce_unneccessary_expenditure
+		prerequisite = { focus = NMB_find_new_trade_partners}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 9
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}	
+
+	focus = {
+		id = NMB_weathered_the_storm
+		icon = GFX_focus_GER_autarky_ambitions
+		mutually_exclusive = { focus = NMB_defeat_on_the_homefront}
+		prerequisite = { focus = NMB_sell_out_politically focus = NMB_beg_for_debt_forgiveness }
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 6
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}
+
+
+	focus = {
+		id = NMB_namibian_economic_golden_age
+		icon = GFX_focus_generic_economic_recovery
+		prerequisite = { focus = NMB_weathered_the_storm }
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 6
+		y = 6
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = NMB_defeat_on_the_homefront
+		icon = GFX_focus_generic_surrender
+		mutually_exclusive = { focus = NMB_weathered_the_storm}
+		prerequisite = { focus = NMB_sell_out_politically focus = NMB_beg_for_debt_forgiveness }
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 8
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = NMB_scrap_submarines
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = NMB_costs_of_war}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 10
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = NMB_export_namibia_wealth
+		icon = GFX_focus_generic_mineral_prospecting
+		prerequisite = { focus = NMB_take_on_debts}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 5
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_second_diamond_rush
+		icon = GFX_focus_CONGO_gold_and_diamonds
+		prerequisite = { focus = NMB_export_namibia_wealth}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 6
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+
+	focus = {
+		id = NMB_bolster_agricultural_exports
+		icon = GFX_focus_ARG_capitalize_the_beef_industry
+		prerequisite = { focus = NMB_take_on_debts}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 3
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_sell_off_namibian_companies
+		icon = GFX_focus_RAJ_war_taxes
+		prerequisite = { focus = NMB_take_on_debts}
+		mutually_exclusive = { focus = NMB_seek_investments_in_companies}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 4
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_sell_off_oil
+		icon = GFX_focus_PER_increase_oil_sales
+		prerequisite = { focus = NMB_sell_off_namibian_companies focus = NMB_seek_investments_in_companies}
+		mutually_exclusive = { focus = NMB_seek_investments_in_companies}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 3
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_walvis_bay_oil_company
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = NMB_sell_off_oil}
+		mutually_exclusive = { focus = NMB_seek_investments_in_companies}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 4
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_namibian_rubber_company
+		icon = GFX_focus_generic_rubber_plantations
+		prerequisite = { focus = NMB_sell_off_namibian_companies focus = NMB_seek_investments_in_companies}
+		mutually_exclusive = { focus = NMB_seek_investments_in_companies}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 2
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_increase_debt_payments
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = NMB_sell_off_namibian_companies focus = NMB_seek_investments_in_companies}
+		mutually_exclusive = { focus = NMB_seek_investments_in_companies}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 1
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_socialst_oligarchs
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_sell_off_namibian_companies}
+		mutually_exclusive = { focus = NMB_seek_investments_in_companies}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 5
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_invest_in_the_arms_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = NMB_sell_off_namibian_companies focus = NMB_seek_investments_in_companies}
+		prerequisite = { focus = NMB_civilian_investments}
+		mutually_exclusive = { focus = NMB_seek_investments_in_companies}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = -1
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_uranium_industry
+		icon = GFX_focus_generic_uranium_extraction
+		prerequisite = { focus = NMB_sell_off_namibian_companies focus = NMB_seek_investments_in_companies}
+		mutually_exclusive = { focus = NMB_seek_investments_in_companies}
+		relative_position_id = NMB_export_the_wealth_of_namibia
+		x = 0
+		y = 5
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_strengthen_government_control_over_the_economy
+		icon = GFX_focus_generic_soviet_politics
+		x = 17
+		y = 9
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+
+	focus = {
+		id = NMB_strategic_self_reliance
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_strengthen_government_control_over_the_economy}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = -5
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_synthetic_efforts
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_strategic_self_reliance}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = -4
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_government_seizure_of_farms
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_strategic_self_reliance}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = -6
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_work_with_german_landlords
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_strategic_self_reliance}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = -8
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_begin_the_projects
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_strengthen_government_control_over_the_economy}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = -1
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+
+	focus = {
+		id = NMB_the_big_dig_I
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_repair_old_railways}
+		prerequisite = { focus = NMB_bolster_the_civilian_industry}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = -3
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_bolster_the_civilian_industry
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_begin_the_projects}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = 0
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+
+	focus = {
+		id = NMB_guns_and_glory
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_bolster_the_civilian_industry}
+		prerequisite = { focus = NMB_repair_old_railways}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = 1
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+
+	focus = {
+		id = NMB_repair_old_railways
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_begin_the_projects}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = -2
+		y = 2
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_great_infrastructure_plan
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_repair_old_railways}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = -1
+		y = 3
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_beating_heart_of_the_african_industrial_revolution
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_great_infrastructure_plan}
+		prerequisite = { focus = NMB_the_big_dig_I}
+		prerequisite = { focus = NMB_guns_and_glory}
+		relative_position_id = NMB_strengthen_government_control_over_the_economy
+		x = -1
+		y = 4
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+	focus = {
+		id = NMB_hitlers_socialism
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = NMB_strengthen_government_control_over_the_economy focus = NMB_export_the_wealth_of_namibia }
+		x = 25
+		y = 10
+		cost = 1
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_political_power = 100
+		}		
+	}
+
+
+
+	focus = {
+		id = NMB_ban_child_miners
+		icon = GFX_focus_RAJ_enrollment_of_dali_children
+		prerequisite = { focus = NMB_hitlers_socialism }
+		relative_position_id = NMB_hitlers_socialism
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			remove_ideas = NMB_child_labour
+		}		
+	}
+
+	focus = {
+		id = NMB_improve_workers_conditions
+		icon = GFX_focus_generic_court
+		prerequisite = { focus = NMB_hitlers_socialism }
+		relative_position_id = NMB_hitlers_socialism
+		x = -2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			custom_effect_tooltip = improve_namib_economy
+		}		
+	}
+
+	focus = {
+		id = NMB_wages_to_prior_slaves
+		icon = GFX_focus_generic_welfare
+		prerequisite = { focus = NMB_hitlers_socialism }
+		relative_position_id = NMB_hitlers_socialism
+		x = 2
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = improve_namib_economy
+		}		
+	}
+
+	focus = {
+		id = NMB_veteran_care
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = NMB_wages_to_prior_slaves }
+		relative_position_id = NMB_hitlers_socialism
+		x = 1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_ideas = NMB_legacy_of_the_mahereo_war
+		}		
+	}
+
+	focus = {
+		id = NMB_old_people_care
+		icon = GFX_focus_generic_field_hostpital
+		prerequisite = { focus = NMB_wages_to_prior_slaves }
+		relative_position_id = NMB_hitlers_socialism
+		x = 3
+		y = 2
+		cost = 3.5
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_ideas = NMB_healthcare_funds
+		}		
+	}
+
+	focus = {
+		id = NMB_enact_the_land_reform
+		icon = GFX_focus_generic_land_redistribution
+		prerequisite = { focus = NMB_improve_workers_conditions }
+		prerequisite = { focus = NMB_ban_child_miners }
+		relative_position_id = NMB_hitlers_socialism
+		x = -3
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = improve_namib_economy
+		}		
+	}
+
+
+	focus = {
+		id = NMB_state_funded_worker_unions
+		icon = GFX_focus_generic_workers_and_farmers_rise
+		prerequisite = { focus = NMB_improve_workers_conditions }
+		prerequisite = { focus = NMB_ban_child_miners }
+		relative_position_id = NMB_hitlers_socialism
+		x = -1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = improve_namib_economy
+		}		
+	}
+
+
+	focus = {
+		id = NMB_crackdown_on_corrupt_churches
+		icon = GFX_focus_ARG_state_atheism
+		prerequisite = { focus = NMB_veteran_care focus = NMB_old_people_care }
+		prerequisite = { focus = NMB_state_funded_worker_unions }
+		prerequisite = { focus = NMB_enact_the_land_reform }
+		relative_position_id = NMB_hitlers_socialism
+		x = 3
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 3
+			}
+		}		
+	}
+
+	focus = {
+		id = NMB_equal_wealth
+		icon = GFX_focus_generic_monetary_union
+		prerequisite = { focus = NMB_veteran_care focus = NMB_old_people_care }
+		prerequisite = { focus = NMB_state_funded_worker_unions }
+		relative_position_id = NMB_hitlers_socialism
+		x = -1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = improve_namib_economy
+		}		
+	}
+
+	focus = {
+		id = NMB_free_education
+		icon = GFX_focus_NOR_moscows_education_centers
+		prerequisite = { focus = NMB_equal_wealth }
+		relative_position_id = NMB_hitlers_socialism
+		x = -1
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}		
+	}
+
+
+}

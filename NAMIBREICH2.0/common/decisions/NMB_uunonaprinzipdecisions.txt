@@ -1,0 +1,394 @@
+NMB_uunonaprinzip_category = {	
+
+########## PRO GERMAN ########	
+
+	condecede_to_germans = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50	
+
+		visible = {
+			has_completed_focus = NMB_appease_whites
+		}		
+
+		cost = 100		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
+			NMB_german_support_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	release_german_criminals = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50	
+
+		visible = {
+			has_completed_focus = NMB_let_slaver_owners_go_free
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
+			NMB_german_support_effects = yes
+			NMB_african_sad = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	glorise_the_colonial_years= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 80	
+
+		visible = {
+			has_completed_focus = NMB_encourage_german_language
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
+			add_war_support = 0.1
+			NMB_german_support_effects = yes
+			NMB_african_sad = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	encourage_german_migration= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 80	
+
+		visible = {
+			has_completed_focus = NMB_allow_germnisation_of_territories
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
+			random_controlled_state = { add_manpower = 8000 }
+			add_manpower = 2500
+			NMB_african_sad = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	fund_german_language_learning= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+			NOT = { has_idea = NMB_funding}
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 3	
+
+		visible = {
+			has_completed_focus = NMB_encourage_german_language
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
+			NMB_german_support_effects = yes
+			add_timed_idea = {
+				idea = NMB_funding
+				days = 30
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	fund_german_settlements= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+			NOT = { has_idea = NMB_funding}
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 3	
+
+		visible = {
+			has_completed_focus = NMB_allow_germnisation_of_territories
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
+			NMB_german_support_effects = yes
+			NMB_african_sad = yes
+			add_timed_idea = {
+				idea = NMB_funding
+				days = 30
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+##### PRO AFRICAN (GIGABASED) ####
+
+	condecede_to_africans = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50	
+
+		visible = {
+			has_completed_focus = NMB_appease_whites
+		}		
+
+		cost = 100		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
+			NMB_african_support_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	condecede_to_africans = {		
+
+		icon = GFX_decision_icon_default
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50	
+
+		visible = {
+			has_completed_focus = NMB_appease_africans
+		}		
+
+		cost = 100		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
+			NMB_african_support_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	promote_african_soldiers = {		
+
+		icon = GFX_decision_icon_default
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50	
+
+		visible = {
+			has_completed_focus = NMB_black_worker_communes
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
+			add_manpower = 1000
+			NMB_african_support_effects = yes
+			NMB_german_sad = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	return_native_land = {		
+
+		icon = GFX_decision_icon_default
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50	
+
+		visible = {
+			has_completed_focus = NMB_help_impovrished_africans
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "We must return some of the land back to it's native people."
+			NMB_african_support_effects = yes
+			NMB_german_sad = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	samuel_maherero_memorial = {		
+
+		icon = GFX_decision_icon_default
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_completed_focus = NMB_help_impovrished_africans
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Many Africans still live in the slums while Germans and Whites enjoy a life of luxury. We must divert some of their money to help uplift the African in Namibia."
+			NMB_african_support_effects = yes
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+			add_timed_idea = {
+				idea = NMB_funding2
+				days = 100
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+}

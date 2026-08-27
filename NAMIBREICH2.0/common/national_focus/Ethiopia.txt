@@ -1,0 +1,2269 @@
+
+focus_tree = {
+	id = ethiopia_focus_nmbr2
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 69420
+			tag = ETH
+		}
+	}
+
+	continuous_focus_position = { x = 25 y = 1900 }	
+
+	default = no
+
+	focus = {
+		id = ETH_industralisation_effort
+		icon = GFX_focus_generic_develop_ethiopia
+		x = 34
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			271= {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_legacy_of_saint_cyr_wargames
+		icon = GFX_focus_generic_military_mission
+		x = 47
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			army_experience = 25
+		}		
+	}
+
+	focus = {
+		id = ETH_import_weapons
+		icon = GFX_focus_focus_fra_maquis
+		prerequisite =  { focus = ETH_legacy_of_saint_cyr_wargames }
+		x = 46
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 500
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_the_chichet
+		icon = GFX_focus_ETH_keep_the_chitet
+		prerequisite =  { focus = ETH_legacy_of_saint_cyr_wargames }
+		x = 48
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_manpower = 15000
+		}		
+	}
+
+	focus = {
+		id = ETH_restart_army_reforms
+		icon = GFX_focus_CZE_army_reform
+		prerequisite =  { focus = ETH_the_chichet }
+		prerequisite = { focus = ETH_import_weapons }
+		x = 47
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = GER_the_prussian_legacy
+				cost_reduction = 0.25
+				uses = 1
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = infantry_tech
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_modernise_the_army
+		icon = GFX_goal_generic_build_tank
+		prerequisite =  { focus = ETH_restart_army_reforms }
+		mutually_exclusive = { focus = ETH_utilise_our_terrain}
+		x = 55
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_reestablish_the_airforce
+		icon = GFX_goal_generic_build_tank
+		prerequisite =  { focus = ETH_restart_army_reforms }
+		x = 59
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			air_experiance = 25
+		}		
+	}
+
+
+
+
+	focus = {
+		id = ETH_establish_airbases
+		icon = GFX_goal_generic_build_tank
+		prerequisite =  { focus = ETH_reestablish_the_airforce }
+		x = 58
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			air_experiance = 25
+		}		
+	}
+
+	focus = {
+		id = ETH_foreign_licensing
+		icon = GFX_goal_generic_build_tank
+		prerequisite =  { focus = ETH_reestablish_the_airforce }
+		x = 60
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			air_experiance = 25
+		}		
+	}
+
+	focus = {
+		id = ETH_purchase_armour
+		icon = GFX_focus_PER_czech_tanks
+		prerequisite =  { focus = ETH_modernise_the_army }
+		x = 54
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_air_tank_coordination
+		icon = GFX_focus_generic_tank_air_support
+		prerequisite =  { focus = ETH_modernise_the_army }
+		x = 56
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_truck_imports
+		icon = GFX_focus_generic_truck
+		prerequisite =  { focus = ETH_purchase_armour }
+		x = 53
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_build_tanks
+		icon = GFX_focus_generic_tank_assembly
+		prerequisite =  { focus = ETH_purchase_armour }
+		x = 55
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_recruit_generals
+		icon = GFX_focus_ETH_ecole_militaire_haile_selassie_1er
+		prerequisite =  { focus = ETH_restart_army_reforms }
+		x = 42
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			army_experience = 50
+		}		
+	}
+
+	focus = {
+		id = ETH_replace_high_command
+		icon = GFX_goal_generic_position_armies
+		prerequisite =  { focus = ETH_recruit_generals }
+		x = 42
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			remove_ideas = ETH_backwards_army
+		}		
+	}
+
+	focus = {
+		id = ETH_depolitise_the_army
+		icon = GFX_focus_generic_treaty
+		prerequisite =  { focus = ETH_replace_high_command }
+		mutually_exclusive = { focus = ETH_army_in_politics }
+		x = 41
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}		
+	}
+
+	focus = {
+		id = ETH_army_in_politics
+		icon = GFX_scaryman
+		prerequisite =  { focus = ETH_replace_high_command }
+		mutually_exclusive = { focus = ETH_depolitise_the_army}
+		x = 43
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_ideas = ETH_army_in_politics
+		}		
+	}
+
+	focus = {
+		id = ETH_utilise_our_terrain
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		prerequisite =  { focus = ETH_restart_army_reforms }
+		mutually_exclusive = { focus = ETH_modernise_the_army }
+		x = 45
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_raise_mountaineers
+		icon = GFX_focus_ETH_expand_the_levy
+		prerequisite =  { focus = ETH_utilise_our_terrain }
+		x = 46
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Mountain Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+					owner = ETH
+					count = 3
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_artillery_development
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite =  { focus = ETH_utilise_our_terrain focus = ETH_modernise_the_army }
+		x = 48
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = artillery
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_camelry
+		icon = GFX_focus_generic_camel_corps
+		prerequisite =  { focus = ETH_utilise_our_terrain focus = ETH_modernise_the_army }
+		x = 52
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			division_template = {
+				name = "Camlery Division"		
+				division_names_group = ETH_CAV_01
+				regiments = {
+					camelry = { x = 0 y = 0 }
+					camelry = { x = 0 y = 1 }
+					camelry = { x = 1 y = 0 }
+					camelry = { x = 1 y = 1 }
+				}
+			} 
+			random_owned_controlled_state = {
+				create_unit = {
+					division = "division_template = \"Camlery Division\" start_experience_factor = 0.05 start_equipment_factor = 1"
+					owner = ETH
+					count = 2
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_stronger_irregulars
+		icon = GFX_focus_ETH_keep_the_chitet
+		prerequisite =  { focus = ETH_utilise_our_terrain focus = ETH_modernise_the_army }
+		x = 50
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+
+		completion_reward = {
+			division_template = {
+				name = "Professional Irregulars"
+				division_names_group = ETH_Inf_01
+				regiments = {
+					irregular_infantry = { x = 0 y = 0 }
+					irregular_infantry = { x = 0 y = 2 }
+					irregular_infantry = { x = 0 y = 1 }
+					irregular_infantry = { x = 1 y = 0 }
+					irregular_infantry = { x = 1 y = 1 }
+					irregular_infantry = { x = 1 y = 2 }
+					irregular_infantry = { x = 2 y = 0 }
+					irregular_infantry = { x = 2 y = 1 }
+					irregular_infantry = { x = 2 y = 2 }
+				}
+				support = {
+					artillery = 0 
+				}
+			}
+		add_manpower = 15000	
+		271 = {
+			create_unit = {
+				division = "name = \"Warlord Irregulars\" division_template = \"Warlord Irregulars\" start_experience_factor = 0.4"
+				owner = ETH
+				count = 4
+			}	
+		}	
+		}	
+	}
+
+	focus = {
+		id = ETH_menlik_ammo_factory
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite =  { focus = ETH_artillery_development }
+		x = 47
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			271 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_anti_aircraft
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite =  { focus = ETH_artillery_development }
+		x = 49
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			271 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_research_slot
+		icon = GFX_focus_research
+		prerequisite =  { focus = ETH_menlik_ammo_factory focus = ETH_anti_aircraft }
+		x = 48
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}		
+	}
+
+
+	focus = {
+		id = ETH_guerilla_tactics 
+		icon = GFX_focus_generic_manpower
+		prerequisite =  { focus = ETH_utilise_our_terrain }
+		x = 44
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_ideas = ETH_guerillia_warfare
+		}		
+	}
+
+	focus = {
+		id = ETH_fortify_the_british_border
+		icon = GFX_goal_generic_fortify_city
+		prerequisite =  { focus = ETH_guerilla_tactics }
+		prerequisite = { focus = ETH_raise_mountaineers}
+		x = 45
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			838 = {
+				add_building_construction = { type = bunker province = 13244 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 13245 level = 2 instant_build = yes }
+			}
+			839 = {
+				add_building_construction = { type = bunker province = 13243 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 2009 level = 2 instant_build = yes }
+			}
+			841 = {
+				add_building_construction = { type = bunker province = 2040 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 1984 level = 2 instant_build = yes }
+			}
+			840 = {
+				add_building_construction = { type = bunker province = 4954 level = 2 instant_build = yes }
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_legacy_of_adwa
+		icon = GFX_focus_ETH_the_patriots
+		prerequisite =  { focus = ETH_fortify_the_british_border }
+		x = 45
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_ideas = ETH_legacy_of_adwa_idea
+		}		
+	}
+
+	focus = {
+		id = ETH_modernising_ethiopian_economy
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = ETH_industralisation_effort }
+		x = 39
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 3
+				category = industry
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_tackle_illiteracy
+		icon = GFX_focus_AFG_education_reform
+		prerequisite = { focus = ETH_modernising_ethiopian_economy }
+		x = 38
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}		
+	}
+
+	focus = {
+		id = ETH_electrify_ethiopia
+		icon = GFX_focus_ARG_develop_the_electricity_sector
+		prerequisite = { focus = ETH_modernising_ethiopian_economy }
+		x = 39
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = electronics
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_southerm_industrialisation
+		icon = GFX_focus_ETH_invest_in_the_west
+		prerequisite = { focus = ETH_industralisation_effort }
+		x = 33
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			838= {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			837 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}	
+	}
+
+	focus = {
+		id = ETH_north_industrialisation
+		icon = GFX_focus_ETH_invest_in_the_north
+		prerequisite = { focus = ETH_industralisation_effort }
+		x = 35
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			843 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			841 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			842 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+
+		}		
+	}
+
+	focus = {
+		id = ETH_east_industrialisation
+		icon = GFX_focus_ETH_invest_in_the_east
+		prerequisite = { focus = ETH_industralisation_effort }
+		x = 37
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			835 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			836 = {
+				add_resource = {
+					type = steel
+					amount = 15
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}	
+	}
+
+	focus = {
+		id = ETH_uplift_the_capital
+		icon = GFX_focus_RAJ_special_economic_zones
+		prerequisite = { focus = ETH_southerm_industrialisation}
+		prerequisite = { focus = ETH_east_industrialisation}
+		prerequisite = { focus = ETH_north_industrialisation }
+		x = 36
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			840 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			839 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_ethiopian_railway
+		icon = GFX_focus_ETH_boarding_the_train
+		prerequisite = { focus = ETH_uplift_the_capital}
+		x = 37
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			build_railway = {
+			path = { 13239 5097 7944 2072 13238 }
+			level = 2
+			}	
+			build_railway = {
+			path = { 5010 10734 7912 13244 }
+			level = 1
+			}	
+		}		
+	}
+
+	focus = {
+		id = ETH_rejuvenate_the_arms_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		mutually_exclusive = { focus = ETH_eritrean_shipping}
+		prerequisite = { focus = ETH_uplift_the_capital}
+		x = 35
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			271 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+
+		}		
+	}
+
+	focus = {
+		id = ETH_connecting_eritrea
+		icon = GFX_focus_generic_develop_eritrea
+		prerequisite = { focus = ETH_southerm_industrialisation}
+		prerequisite = { focus = ETH_east_industrialisation}
+		prerequisite = { focus = ETH_north_industrialisation }
+		x = 33
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			550 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}	
+		}		
+	}
+
+	focus = {
+		id = ETH_eritrean_shipping
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = { focus = ETH_connecting_eritrea}
+		mutually_exclusive = { focus = ETH_rejuvenate_the_arms_industry}
+
+		x = 33
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			550 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}	
+		}		
+	}
+
+	focus = {
+		id = ETH_economy_reforms
+		icon = GFX_focus_ETH_reform_the_currency
+		x = 30
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+		}		
+	}
+
+
+	focus = {
+		id = ETH_meat_markets
+		icon = GFX_focus_ARG_capitalize_the_beef_industry
+		prerequisite = { focus = ETH_economy_reforms }
+		x = 27
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+		}		
+	}
+
+	focus = {
+		id = ETH_ethiopian_coffee
+		icon = GFX_focus_CHL_enlarge_the_textile_industries 
+		prerequisite = { focus = ETH_economy_reforms }
+		x = 29
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}			
+		}		
+	}
+
+	focus = {
+		id = ETH_gemstone_mining
+		icon = GFX_focus_generic_mining_industry
+		prerequisite = { focus = ETH_economy_reforms }
+		x = 31
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_debt_bailout
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = ETH_ethiopian_coffee}
+		prerequisite = { focus = ETH_meat_markets }
+		x = 28
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+			add_political_power = -50
+		}		
+	}
+
+	focus = {
+		id = ETH_increase_agricultural_outputs
+		icon = GFX_focus_generic_modernizing_agriculture
+		prerequisite = { focus = ETH_ethiopian_coffee}
+		prerequisite = { focus = ETH_meat_markets }
+		x = 26
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+		}		
+	}
+
+	focus = {
+		id = ETH_gold_trade
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		prerequisite = { focus = ETH_ethiopian_coffee}
+		prerequisite = { focus = ETH_meat_markets }
+		x = 24
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+		}		
+	}
+
+	focus = {
+		id = ETH_jewlery
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = ETH_gemstone_mining }
+		x = 31
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+		}		
+	}
+
+	focus = {
+		id = ETH_rubber_plantations
+		icon = GFX_focus_generic_rubber_plantations
+		prerequisite = { focus = ETH_increase_agricultural_outputs }
+		prerequisite = { focus = ETH_gold_trade}
+		prerequisite = { focus = ETH_jewlery }
+		prerequisite = { focus = ETH_debt_bailout }
+		x = 31
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+			271 = {
+				add_resource = {
+				type = rubber
+				amount = 5
+				}
+			}
+			837 = {
+				add_resource = {
+				type = rubber
+				amount = 15
+				}
+			}
+			838 = {
+				add_resource = {
+				type = rubber
+				amount = 15
+				}
+			}
+			839 = {
+				add_resource = {
+				type = rubber
+				amount = 15
+				}
+			}
+			give_resource_rights = {
+				receiver = ENG
+				state = 837
+				resources = { rubber }
+			}
+			give_resource_rights = {
+				receiver = FRA
+				state = 838
+				resources = { rubber }
+			}
+			give_resource_rights = {
+				receiver = GER
+				state = 839
+				resources = { rubber }
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_bank_of_ethiopia
+		icon = GFX_focus_ETH_the_state_bank_of_ethiopia
+		prerequisite = { focus = ETH_increase_agricultural_outputs }
+		prerequisite = { focus = ETH_gold_trade}
+		prerequisite = { focus = ETH_jewlery }
+		prerequisite = { focus = ETH_debt_bailout }
+		x = 29
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_ideas = ETH_abyssinia_bank
+		}		
+	}
+
+	focus = {
+		id = ETH_silk_trade
+		icon = GFX_focus_generic_coffee
+		prerequisite = { focus = ETH_increase_agricultural_outputs }
+		prerequisite = { focus = ETH_gold_trade}
+		prerequisite = { focus = ETH_jewlery }
+		prerequisite = { focus = ETH_debt_bailout}
+		x = 26
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH_debt_payment = yes
+			add_timed_idea = {
+				idea = ETH_coffee_exports_idea
+				days = 250
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_end_of_the_christmas_offensive
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		x = 8
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.05
+
+		}		
+	}
+
+	focus = {
+		id = ETH_help_from_warlords
+		icon = GFX_focus_ETH_sway_the_warlords
+		prerequisite = { focus = ETH_end_of_the_christmas_offensive }
+		x = 7
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			division_template = {
+				name = "Warlord Irregulars"
+				division_names_group = GER_Inf_01
+				regiments = {
+					irregular_infantry = { x = 0 y = 0 }
+					irregular_infantry = { x = 0 y = 2 }
+					irregular_infantry = { x = 0 y = 1 }
+					irregular_infantry = { x = 1 y = 0 }
+					irregular_infantry = { x = 1 y = 1 }
+					irregular_infantry = { x = 1 y = 2 }
+				}
+			}
+		add_manpower = 10000	
+		271 = {
+			create_unit = {
+				division = "name = \"Warlord Irregulars\" division_template = \"Warlord Irregulars\" start_experience_factor = 0.4"
+				owner = ETH
+				count = 2
+			}	
+		}
+		}		
+	}
+
+	focus = {
+		id = ETH_punish_those_who_dont_fight
+		icon = GFX_focus_generic_manpower
+		prerequisite = { focus = ETH_end_of_the_christmas_offensive }
+		x = 9
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_ideas = extensive_conscription
+		}		
+	}
+
+	focus = {
+		id = ETH_defending_ethiopia
+		icon = GFX_focus_ETH_lord_of_lords
+		prerequisite = { focus = ETH_help_from_warlords}
+		prerequisite = { focus = ETH_punish_those_who_dont_fight }
+		x = 8
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_timed_idea = {
+			idea = ETH_defending_ethiopia_idea_nmb
+			days = 200
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_unlift_the_british_embargo
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = ETH_defending_ethiopia }
+		x = 8
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			custom_effect_tooltip = ETH_fake_event_embargo
+
+			country_event = {
+				id = Ethiopia_nmb.3
+				hours = 5
+				random_hours = 6
+				days = 2
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_strenghthen_the_junta
+		icon = GFX_focus_ETH_promote_the_war_heroes
+		prerequisite = { focus = ETH_unlift_the_british_embargo }
+		x = 4
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_realise_ethiopianism
+		icon = GFX_focus_ITA_generic_fascist_workers
+		prerequisite = { focus = ETH_strenghthen_the_junta }
+		x = 4
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_rapid_modernisation
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_realise_ethiopianism}
+		x = 4
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_bolster_army_supplies
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_realise_ethiopianism}
+		x = 2
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_supress_ethnic_minorities
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_realise_ethiopianism}
+		x = 0
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+
+	focus = {
+		id = ETH_deploy_the_army
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_supress_ethnic_minorities}
+		x = 0
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_society_mobilisation
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_supress_ethnic_minorities }
+		prerequisite = { focus = ETH_bolster_army_supplies }
+		prerequisite = { focus = ETH_rapid_modernisation }
+		x = 1
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+
+	focus = {
+		id = ETH_state_reforms
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_supress_ethnic_minorities }
+		prerequisite = { focus = ETH_bolster_army_supplies }
+		prerequisite = { focus = ETH_rapid_modernisation }
+		x = 3
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_military_constituion
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_state_reforms}
+		prerequisite = { focus = ETH_society_mobilisation }
+		prerequisite = { focus = ETH_rule_by_law focus = ETH_rule_by_law  }
+		x = 4
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_ethiopian_rebirth
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_military_constituion}
+		mutually_exclusive = { focus = ETH_namibian_coprosperity }
+		x = 4
+		y = 10
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_japanese_allaince
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_ethiopian_rebirth}
+		x = 6
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+
+	focus = {
+		id = ETH_demand_eritrea
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_ethiopian_rebirth focus = ETH_namibian_coprosperity }
+		x = 8
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_german_alliance
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_ethiopian_rebirth}
+		x = 2
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_help_build_our_airforce
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_german_alliance}
+		x =2
+		y = 12
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_arisaka_rifles
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_japanese_allaince}
+		x = 7
+		y = 12
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_economic_works
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_japanese_allaince}
+		x = 5
+		y = 12
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_raise_army_salaries
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_realise_ethiopianism}
+		x = 6
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_rule_by_power
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_raise_army_salaries}
+		x = 5
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+
+	focus = {
+		id = ETH_rule_by_law
+		icon = GFX_goal_NMB_hitler_lives
+		prerequisite = { focus = ETH_raise_army_salaries}
+		x = 7
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+
+	focus = {
+		id = ETH_monarchist_return
+		icon = GFX_focus_generic_monarchy_1
+		prerequisite = { focus = ETH_unlift_the_british_embargo }
+		x = 23
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_purge_the_socialists
+		icon = GFX_focus_SOV_military_purge
+		prerequisite = { focus = ETH_monarchist_return }
+		x = 22
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 50
+			retire_character = eth_alemework_beye_nmb
+		}		
+	}
+
+	focus = {
+		id = ETH_purge_the_militarists
+		icon = GFX_focus_ETH_expand_the_kebur_zabagna
+		prerequisite = { focus = ETH_monarchist_return }
+		x = 24
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 50
+			retire_character = eth_hailu_teklemont_nmb
+		}		
+	}
+
+	focus = {
+		id = ETH_crown_the_negus
+		icon = GFX_focus_ETH_the_king_of_kings
+		prerequisite = { focus = ETH_purge_the_militarists }
+		prerequisite = { focus = ETH_purge_the_socialists }
+		x = 23
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			country_event = {
+				id = Ethiopia_nmb.5
+				hours = 5
+				random_hours = 6
+				days = 2
+			}
+		}		
+	}
+
+
+	focus = {
+		id = ETH_an_absolute_monarch
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = { focus = ETH_crown_the_negus }
+		mutually_exclusive = { focus = ETH_restore_the_council_of_advisors}
+		x = 18
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_restore_the_council_of_advisors
+		icon = GFX_focus_ETH_re-convene_the_parliament
+		prerequisite = { focus = ETH_crown_the_negus }
+		mutually_exclusive = {focus = ETH_an_absolute_monarch}
+		x = 28
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_country_leader_trait = constitutional_monarch
+		}		
+	}
+
+	focus = {
+		id = ETH_continue_modernisation
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = { focus = ETH_crown_the_negus }
+		x = 31
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+
+	focus = {
+		id = ETH_church_schooling
+		icon = GFX_focus_SWE_education_reform
+		prerequisite = { focus = ETH_continue_modernisation }
+		x = 31
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_menelik_univeristy
+		icon = GFX_focus_generic_university_1
+		prerequisite = { focus = ETH_church_schooling }
+		x = 30
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}		
+	}
+
+	focus = {
+		id = ETH_more_chruches
+		icon = GFX_focus_PHI_philippine_independent_church
+		prerequisite = { focus = ETH_church_schooling }
+		x = 32
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+	focus = {
+		id = ETH_shared_power
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = ETH_restore_the_council_of_advisors }
+		x = 29
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea= ETH_national_development
+				days = 360
+		}
+		}		
+	}
+
+	focus = {
+		id = ETH_local_autonomy
+		icon = GFX_focus_ETH_empower_the_ras
+		prerequisite = { focus = ETH_restore_the_council_of_advisors }
+		x = 27
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}		
+	}
+
+	focus = {
+		id = ETH_an_ethiopian_federation
+		icon = GFX_focus_ARG_defense_and_democracy
+		prerequisite = { focus = ETH_local_autonomy}
+		prerequisite = { focus = ETH_shared_power }
+		x = 28
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			random_owned_state= {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state= {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state= {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_state= {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_count_what_comes_in
+		icon = GFX_focus_ARG_crackdown_on_corruption
+		prerequisite = { focus = ETH_restore_the_council_of_advisors focus = ETH_an_absolute_monarch }
+		x = 25
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			remove_ideas = ETH_mass_corruption  
+		}		
+	}
+
+	focus = {
+		id = ETH_land_reform
+		icon = GFX_focus_generic_land_redistribution
+		prerequisite = { focus = ETH_restore_the_council_of_advisors focus = ETH_an_absolute_monarch }
+		x = 26
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}		
+	}
+
+	focus = {
+		id = ETH_uplift_the_poor
+		icon = GFX_focus_generic_welfare
+		prerequisite = { focus = ETH_an_absolute_monarch focus = ETH_restore_the_council_of_advisors  }
+		x = 21
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_timed_idea = { 
+				idea = ETH_poor_helping
+				days = 200
+			}
+		}		
+	}
+
+
+	focus = {
+		id = ETH_ethiopian_clean_up
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = ETH_uplift_the_poor }
+		x = 20
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+
+		}		
+	}
+
+	focus = {
+		id = ETH_legacy_of_warriors
+		icon = GFX_focus_ETH_the_lion_stands_firm
+		prerequisite = { focus = ETH_an_absolute_monarch focus = ETH_restore_the_council_of_advisors  }
+		x = 19
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_field_marshal_role = {
+				character = country_leader
+				traits = { politically_connected war_hero }
+				skill = 2
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 4
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_royal_arms
+		icon = GFX_focus_generic_money_for_equipment
+		prerequisite = { focus = ETH_legacy_of_warriors}
+		x = 19
+		y = 10
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 2
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_flat_tax
+		icon = GFX_focus_generic_monetary_union
+		prerequisite = { focus = ETH_an_absolute_monarch focus = ETH_restore_the_council_of_advisors  }
+		x = 23
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_ideas = ETH_flat_tax_idea
+		}		
+	}
+
+	focus = {
+		id = ETH_slavery_crackdown
+		icon = GFX_focus_AUS_lawmaking_leniency
+		prerequisite = { focus = ETH_an_absolute_monarch focus = ETH_restore_the_council_of_advisors  }
+		mutually_exclusive = { focus = ETH_promote_slavery }
+		x = 22
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.1
+		}
+		add_manpower = 20000
+		}		
+	}
+
+	focus = {
+		id = ETH_promote_slavery
+		icon = GFX_focus_generic_turning_a_blind_eye
+		prerequisite = { focus = ETH_an_absolute_monarch focus = ETH_restore_the_council_of_advisors  }
+		mutually_exclusive = { focus = ETH_slavery_crackdown}
+		x = 24
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_ideas = ETH_using_slaves
+		}		
+	}
+
+	focus = {
+		id = ETH_gods_chosen
+		icon = GFX_focus_ETH_elect_of_god
+		prerequisite = { focus = ETH_an_absolute_monarch}
+		x = 17
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			remove_country_leader_trait = king_of_kings_2
+			add_country_leader_trait = king_of_kings_3a
+		}		
+	}
+
+
+	focus = {
+		id = ETH_heirs_of_menelik
+		icon = GFX_focus_ETH_jah
+		prerequisite = { focus = ETH_gods_chosen}
+		x = 18
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_country_leader_trait = god_of_the_rastafari
+
+		}		
+	}
+
+	focus = {
+		id = ETH_for_the_emperor
+		icon = GFX_focus_ETH_keep_the_chitet
+		prerequisite = { focus = ETH_gods_chosen}
+		x = 16
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_country_leader_trait = nationalist_symbol
+		}		
+	}
+
+
+	focus = {
+		id = ETH_pas_coup
+		icon = GFX_focus_ETH_african_wildfire
+		prerequisite = { focus = ETH_unlift_the_british_embargo }
+		x = 12
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}		
+	}
+
+	focus = {
+		id = ETH_distribute_the_wealth
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ETH_pas_coup }
+		x = 13
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+		add_popularity = {
+			ideology = communism
+			popularity = 0.1
+		}
+		}		
+	}
+
+	focus = {
+		id = ETH_uplift_rural_areas
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ETH_pas_coup }
+		x = 11
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+
+		}		
+	}
+
+
+	focus = {
+		id = ETH_socialist_agriculture
+		icon = GFX_focus_generic_agricultural_subsidies
+		prerequisite = { focus = ETH_uplift_rural_areas focus = ETH_realise_ethiopianism }
+		prerequisite = { focus = ETH_distribute_the_wealth focus = ETH_realise_ethiopianism }
+		x =9
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			271= {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}		
+	}
+
+	focus = {
+		id = ETH_feed_the_mouths_of_many
+		icon =GFX_focus_generic_welfare
+		prerequisite = { focus = ETH_socialist_agriculture }
+		x = 9
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = ETH_lots_of_food
+				days = 360
+			}
+		}		
+	}
+
+	focus = {
+		id = ETH_unify_the_races
+		icon = GFX_focus_ETH_african_union
+		prerequisite = { focus = ETH_uplift_rural_areas }
+		prerequisite = { focus = ETH_distribute_the_wealth }
+		x = 12
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}		
+	}
+
+	focus = {
+		id = ETH_work_programme
+		icon = GFX_focus_generic_worker_administration
+		prerequisite = { focus = ETH_uplift_rural_areas }
+		prerequisite = { focus = ETH_distribute_the_wealth }
+		x = 15
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_ideas = ETH_working_programme
+		}		
+	}
+
+	focus = {
+		id = ETH_empower_unions
+		icon = GFX_focus_FIN_socialist_welfare
+		prerequisite = { focus = ETH_uplift_rural_areas }
+		prerequisite = { focus = ETH_distribute_the_wealth }
+		x = 15
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}		
+	}
+
+	focus = {
+		id = ETH_maintain_the_monarchy
+		icon = GFX_focus_ETH_negusa-nagast
+		prerequisite = { focus = ETH_uplift_rural_areas }
+		mutually_exclusive = { focus = ETH_the_ethiopian_republic }
+		x = 13
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_stability = 0.1
+		add_popularity = {
+			ideology = communism
+			popularity = -0.1
+		}			
+		}		
+	}
+
+
+	focus = {
+		id = ETH_blessing_from_god
+		icon = GFX_focus_ETH_lord_of_lords
+		prerequisite = { focus = ETH_maintain_the_monarchy }
+		x = 14
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_country_leader_trait = blessed_monarch_trait
+		}		
+	}
+
+	focus = {
+		id = ETH_root_out_corruption
+		icon = GFX_focus_ARG_anti_corruption_policies
+		prerequisite = { focus = ETH_maintain_the_monarchy focus = ETH_the_ethiopian_republic }
+		x = 12
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			remove_ideas = ETH_mass_corruption  
+
+		}		
+	}
+
+	focus = {
+		id = ETH_nation_of_equals
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = ETH_root_out_corruption }
+		x = 11
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}		
+	}
+
+	focus = {
+		id = ETH_african_economic_alliances
+		icon = GFX_focus_RAJ_special_economic_zones
+		prerequisite = { focus = ETH_root_out_corruption }
+		x = 13
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			NMB = {
+				country_event = {
+					id = Ethiopia_nmb.4
+					hours = 5
+					random_hours = 6
+					days = 2
+				}
+			}
+			ETH = {
+				country_event = {
+					id = Ethiopia_nmb.4
+					hours = 5
+					random_hours = 6
+					days = 2
+				}
+			}
+		}		
+	}
+	
+	focus = {
+		id = ETH_namibian_coprosperity
+		icon = GFX_focus_generic_africa_liberation
+		prerequisite = { focus = ETH_nation_of_equals focus = ETH_military_constituion}
+		prerequisite = { focus = ETH_african_economic_alliances focus = ETH_military_constituion }
+		mutually_exclusive = { focus = ETH_ethiopian_rebirth}
+		x = 12
+		y = 10
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_war_support = 0.1
+			NMB = { 
+				add_to_faction = ETH
+			}
+
+		}		
+	}
+
+	focus = {
+		id = ETH_fuel_pan_african_thinking
+		icon = GFX_goal_tfv_generic_tech_sharing
+		prerequisite = { focus = ETH_namibian_coprosperity}
+		x = 13
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_ideas = ETH_pas_sharing 
+
+		}		
+	}
+
+	focus = {
+		id = ETH_cut_the_empire_in_two
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		prerequisite = { focus = ETH_namibian_coprosperity}
+		x = 11
+		y = 11
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = ETH_cut_them_in_two
+				days = 200
+			}
+
+		}		
+	}
+
+	focus = {
+		id = ETH_east_african_project
+		icon = GFX_focus_ETH_develop_the_horn_of_africa
+		prerequisite = { focus = ETH_cut_the_empire_in_two}
+		prerequisite = { focus = ETH_fuel_pan_african_thinking }
+		x = 12
+		y = 12
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			ETH = { add_state_core = 269 add_state_core = 268 add_state_core = 559 add_state_core = 883 add_state_core = 886 add_state_core =551 add_state_core =549 add_state_core = 884 add_state_core = 885 add_state_core = 887 add_state_core = 767 add_state_core = 548 add_state_core = 904 add_state_core = 547 add_state_core = 903 add_state_core = 905  }
+		}		
+	}
+
+	focus = {
+		id = ETH_the_ethiopian_republic
+		icon = GFX_focus_ETH_in_the_name_of_the_people
+		prerequisite = { focus = ETH_uplift_rural_areas }
+		mutually_exclusive = { focus = ETH_maintain_the_monarchy}
+		x = 11
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			set_cosmetic_tag = ETH_pas
+			add_stability = -0.3
+			add_country_leader_trait = GER_supreme_leader
+		}		
+	}
+
+
+	focus = {
+		id = ETH_seize_royal_assets
+		icon = GFX_focus_CONGO_gold_and_diamonds
+		prerequisite = { focus = ETH_the_ethiopian_republic }
+		x = 10
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 3
+			}
+		}		
+	}
+}

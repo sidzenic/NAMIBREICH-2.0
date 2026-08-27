@@ -1,0 +1,196 @@
+characters={
+
+    eth_hailu_teklemont_nmb ={
+        name = "Hailu Tekle Haymanot"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_Ethiopia_Hailu_tekle_Haymanot.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+
+		field_marshal = { 
+			traits = { defensive_doctrine thorough_planner }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+
+    eth_desta_damtew_nmb ={
+        name = "Desta Damtew"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_Ethiopia_Desta_Damtew.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+			traits = { military_modernizer }
+		}
+
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			traits = { trickster war_hero politically_connected }
+		}
+	}
+
+    eth_abebe_aregai_nmb ={
+        name = "Abebe Aregai"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/abebe.png"
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			traits = { politically_connected }
+		}
+	}
+
+
+    eth_nasibua_zeamaneul_nmb ={
+        name = "Nasibu Zeamanuel"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/zeamanuel.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+			traits = { staunch_monarchist }
+		}
+
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			traits = {  }
+		}
+	}
+
+    eth_emperor_amha_selassie ={
+        name = "Haile Selassie II"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/emperor_amha_selassie.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+			traits = { king_of_kings_2}
+		}
+	}
+
+
+    eth_emperor_haile_selassie ={
+        name = "Haile Selassie"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/PORTRAIT_Ethiopia_Haile_selassie.dds"
+			}
+		}
+		country_leader={
+			ideology= despotism
+			traits = { king_of_kings_2}
+		}
+	}
+
+    eth_iyasu_v ={
+        name = "Iyasu V"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/emperor_imru_selassie.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+			traits = { king_of_kings_2}
+		}
+	}
+
+    eth_nmb_balcha_safo ={
+        name = "Balcha Safo"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/paradox_pls_dont_sue.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+			traits = { war_hero }
+		}
+	}
+
+
+    eth_kassa_haile_darg_nmb ={
+        name = "Kassa Haile Darg"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/dargguy.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+
+		corps_commander = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			traits = {  }
+		}
+	}
+
+    eth_alemework_beye_nmb ={
+        name = "Alemework Beye"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/alemework_beyene.png"
+			}
+		}
+		country_leader={
+			ideology= stalinism
+			traits = { gallant_doctor }
+		}
+
+		country_leader={
+			ideology= despotism
+			traits = { gallant_doctor }
+		}
+
+		corps_commander = {
+			skill = 3
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+			traits = { mountain_commander politically_connected }
+		}
+	}
+}

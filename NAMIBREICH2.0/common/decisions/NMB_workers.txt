@@ -1,0 +1,656 @@
+NMB_workers_decisions_categories = {		
+	raise_minimal_wage = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_improve_workers_conditions
+		}		
+
+		cost = 75		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Minimum wage is not a real concept in Namibia, leading to many people working for zero pay, which in concept is just slavery! We must force business owners and employers to atleast pay their workers enough so that they are able to afford the basic things in life!"
+			NMB_improve_workers_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	raise_miner_safety = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_improve_workers_conditions
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Mining is Namibia's primary source of income, and the history of it hasn't been the brightest. Constant worker and human absue takes place in these dark and damp ditches that the foremans claim to be 'Safe Working Spaces'. We will demand these companies to start caring about their workers, or else the State will have to get involved."
+			NMB_improve_workers_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	rebuild_luderitz_mines = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_improve_workers_conditions
+		}		
+
+		cost = 75		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			NMB_improve_workers_effects = yes
+			893 = { add_extra_state_shared_building_slots = 1 }
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+
+	help_old_slaves = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_wages_to_prior_slaves
+		}		
+
+		cost = 50		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			NMB_improve_workers_effects = yes
+			add_stability = 0.15
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	enlist_slaves = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_wages_to_prior_slaves
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_manpower = 5000
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	fund_work_for_slavers = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_wages_to_prior_slaves
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			NMB_improve_workers_effects = yes
+			add_stability = 0.15
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+
+	namibia_farmers_league = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_state_funded_worker_unions
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			NMB_improve_workers_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	ensure_strikes_go_though = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_state_funded_worker_unions
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			NMB_improve_workers_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	weekly_regulation = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_state_funded_worker_unions
+		}		
+
+		cost = 50		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			NMB_improve_workers_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	paid_vacation = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_state_funded_worker_unions
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			add_stability = 0.1
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	build_steel_refineries = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			OR = {
+				has_completed_focus = NMB_expanding_the_steel_industry
+				has_completed_focus = NMB_transforming_society
+			}
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "MORE STEEL."
+			893 = {
+				add_resource = {
+				type = steel
+				amount = 20
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	build_steel_refineries_in_windhoek = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			OR = {
+				has_completed_focus = NMB_expanding_the_steel_industry
+				has_completed_focus = NMB_transforming_society
+			}
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "MORE STEEL."
+			541 = {
+				add_resource = {
+				type = steel
+				amount = 15
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	build_steel_refineries_in_north = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			OR = {
+				has_completed_focus = NMB_expanding_the_steel_industry
+				has_completed_focus = NMB_transforming_society
+			}
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "MORE STEEL."
+			894 = {
+				add_resource = {
+				type = steel
+				amount = 15
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	sell_of_uranium = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_urnaium_fever
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	sell_of_gold = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_urnaium_fever
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	sell_of_mining_rights = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_urnaium_fever
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			add_offsite_building = {
+				type = industrial_complex
+				level = 2
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	invest_in_diamond_economy = {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_namibian_diamonds
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	sell_off_diamonds= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_namibian_diamonds
+		}		
+
+		cost = 25		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			add_ideas = NMB_diamond_deals
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	hitler_work_programme= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_hitler_werke
+		}		
+
+		cost = 50		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			NMB_improve_workers_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	hitler_youth_programme= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = yes		
+
+		visible = {
+			has_completed_focus = NMB_hitler_werke
+		}		
+
+		cost = 50		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Luderitz used to be home to various diamond mines, but since their closure a lot of the tonw's population have ended up unemployed or homeless. We must re-open these mines."
+			NMB_improve_workers_effects = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+}

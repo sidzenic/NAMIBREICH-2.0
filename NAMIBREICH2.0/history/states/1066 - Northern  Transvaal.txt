@@ -1,0 +1,26 @@
+state={
+	id=1066
+	name="Limpopo"
+	provinces={
+		13590 13591 13592 13593 13594 13595 13596 13597 1688 
+	}
+	manpower=201222
+	buildings_max_level_factor=1
+	local_supplies=0
+	state_category = pastoral
+
+	history = {
+
+		owner = SAF
+		add_core_of = TFS
+		add_core_of = SAF
+
+		victory_points = {
+			13593 2 #Messina
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

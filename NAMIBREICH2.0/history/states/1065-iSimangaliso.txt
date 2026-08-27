@@ -1,0 +1,24 @@
+state={
+	id=1065
+	name="Isimangaliso"
+	provinces={
+		8178 13669 13670 
+	}
+	manpower=52000
+	buildings_max_level_factor=1
+	local_supplies=0
+	state_category = pastoral
+
+	history = {
+
+		owner = SAF
+		add_core_of = SAF
+		add_core_of = ZUL
+		add_claim_by = ESW
+
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

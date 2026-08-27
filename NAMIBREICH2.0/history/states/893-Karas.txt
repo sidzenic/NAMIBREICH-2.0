@@ -1,0 +1,36 @@
+state={
+	id=893
+	name="ǃNamiǂNûs"
+	manpower = 23200
+	state_category = town
+
+	resources={
+		steel=12
+		tungsten=23
+		coal=4
+	}
+
+
+	history={
+		owner = NMB
+		victory_points = { 13516 5 }
+		victory_points = { 13500 5 }	
+		victory_points = { 5154 1 }			
+
+		buildings = {
+			infrastructure = 2
+		}
+		set_demilitarized_zone = yes
+		add_core_of = NMB
+	
+
+	}
+
+	provinces={
+		2229 5154 13489 13490 13494 13495 13496 13497 13498 13499 10963 13476 13477 13481 13484 13485 13486 13500 13501 13507 13508 13509 13510 13514 13516 13523
+
+	}
+	
+	buildings_max_level_factor=4.000
+	local_supplies=0.000
+}

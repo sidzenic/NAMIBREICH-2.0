@@ -1,0 +1,25 @@
+
+state={
+	id=1048
+	name="Thing"
+	manpower = 10444
+	state_category = pastoral
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 2
+
+		}
+		
+		add_core_of = BOT
+		add_claim_by = NMB
+
+	}
+
+	provinces={
+		5203
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=1047
+	name="Southern Botswana"
+	manpower = 1192400
+	state_category = pastoral
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 2
+
+		}
+		
+		add_core_of = BOT
+
+	}
+
+	provinces={
+		13788 13789 13790 13791 13792 13793 13787 13772 13773 13774 13775 13776 13777 13778 13779 13780 13781 13782 13783 13784 13785 13786 2213 10668 1509 13755 13756 13757 13758 13759 13760 13761 13762 13763 13764 13765 13766 13767 13768 13769 13770 13771
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

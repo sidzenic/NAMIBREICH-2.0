@@ -1,0 +1,6 @@
+NMB_foreign_debts_modifier = { #NATIONAL SPIRIT
+    icon = GFX_idea_unknown
+    enable = { always = yes }
+    
+    consumer_goods_factor = consumer_goods_factor_debt_modifier
+}

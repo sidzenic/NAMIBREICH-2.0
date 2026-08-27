@@ -1,0 +1,25 @@
+
+state={
+	id=1049
+	name="STATE_1049"
+	manpower = 10444
+	state_category = pastoral
+
+	history={
+		owner = BOT
+		buildings = {
+			infrastructure = 2
+
+		}
+		
+		add_core_of = BOT
+		add_core_of = NMB
+
+	}
+
+	provinces={
+		13217 13382 13387 13388 13389 13390 13391 13392 13383 13408 13522
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

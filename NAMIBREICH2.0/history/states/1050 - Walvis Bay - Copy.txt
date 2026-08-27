@@ -1,0 +1,31 @@
+
+state={
+	id=1050
+	name="Walvis Bay"
+	manpower = 1200321
+	state_category = city
+
+	resources={
+		steel=15
+		oil=20
+	}	
+
+	history={
+		owner = NMG
+		buildings = {
+			infrastructure = 2
+			naval_base = 1
+			industrial_complex = 1
+		}	
+	add_core_of = NMB
+	victory_points = {
+		13455  10
+		}
+	}
+
+	provinces={
+		13384 13455 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

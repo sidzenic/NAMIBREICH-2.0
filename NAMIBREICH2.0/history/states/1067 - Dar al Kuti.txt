@@ -1,0 +1,26 @@
+state={
+	id=1067
+	name="Dar al Kuti"
+	provinces={
+		1974 5084
+	}
+	manpower=201222
+	buildings_max_level_factor=1
+	local_supplies=0
+	state_category = pastoral
+
+	history = {
+
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = CAR
+
+		victory_points = {
+			1974 2
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+}

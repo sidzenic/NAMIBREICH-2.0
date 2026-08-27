@@ -1,0 +1,75 @@
+###########################
+# Namibian Events
+###########################
+
+add_namespace = namibia_civil_war
+country_event = {
+	id = namibia_civil_war.1
+	title = namibia_civil_war.1.t
+	desc = namibia_civil_war.1.d
+	picture = GFX_report_event_generic_rally2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia_civil_war.1.a
+
+		NMG = { set_state_owner = 893 set_state_owner = 1055 set_state_owner = 1054 }
+
+		NMG = { add_State_core = 893 add_state_core = 1056 add_state_core = 1055 add_state_core = 1054 add_state_core = 541 add_state_core = 1053 add_state_core = 895 add_state_core = 894 add_state_core = 1048 add_state_core = 1049 }
+		
+		NMG = { set_capital = { state = 1054} }
+	}
+}
+
+### SUDWEST MITIA
+country_event = {
+	id = namibia_civil_war.2
+	title = namibia_civil_war.2.t
+	desc = namibia_civil_war.2.d
+	picture = GFX_report_event_generic_rally2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia_civil_war.2.a
+
+		NMG = {
+			division_template = {
+				name = "German Volksturm"
+				division_names_group = GER_Inf_01
+				regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+				}
+			}
+			893 = {
+				create_unit = {
+					division = "name = \"German Volksturm\" division_template = \"German Volksturm\" start_experience_factor = 0.4"
+					owner = NMG
+					count = 5
+				}
+			}
+			1055 = {
+				create_unit = {
+					division = "name = \"German Volksturm\" division_template = \"German Volksturm\" start_experience_factor = 0.4"
+					owner = NMG
+					count = 5
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,509 @@
+focus_tree = {
+	id = testingii
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 0
+			tag = NMB
+		}
+	}
+
+	continuous_focus_position = { x = 25 y = 1900 }	
+
+	default = no
+
+
+focus = {
+		id = NMB_hosea_kutakos_reign
+		icon = GFX_focus_ETH_expand_the_levy
+		x = 10
+		y = 1
+		cost = 1
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+			add_war_support = 0.1
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_reorganise_the_army
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_hosea_kutakos_reign}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = -2
+		y = 1
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_supress_the_south
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_reorganise_the_army}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = -3
+		y = 2
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = NMB_hit_the_north
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_supress_the_south}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = -3
+		y = 3
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_fight_fire_with_fire
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_hit_the_north}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = -2
+		y = 4
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_de_uunonization
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_hosea_kutakos_reign}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 0
+		y = 1
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_colaborate_with_the_white
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_hosea_kutakos_reign}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 2
+		y = 1
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_united_struggle_against_socialism
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_colaborate_with_the_white}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 3
+		y = 2
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_undo_uunonas_nationalisations
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_united_struggle_against_socialism}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 3
+		y = 3
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_racially_united_front
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_undo_uunonas_nationalisations}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 2
+		y = 4
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_purge_red_generals
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_de_uunonization}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = -1
+		y = 2
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}	
+
+	focus = {
+		id = NMB_an_act_of_mercy
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_de_uunonization}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 1
+		y = 2
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}	
+
+	focus = {
+		id = NMB_ban_left_wing_from_politics
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_purge_red_generals focus = NMB_an_act_of_mercy }
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = -1
+		y = 3
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}	
+
+	focus = {
+		id = NMB_target_radicals
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_purge_red_generals focus = NMB_an_act_of_mercy }
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 1
+		y = 3
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}	
+
+	focus = {
+		id = NMB_find_uunona
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_ban_left_wing_from_politics focus = NMB_target_radicals  }
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 0
+		y = 4
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_green_flags_victory
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_fight_fire_with_fire }
+		prerequisite = { focus = NMB_find_uunona}
+		prerequisite = { focus = NMB_racially_united_front }
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 0
+		y = 5
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_president_for_life
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_green_flags_victory}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 0
+		y = 6
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_monarchist_compromise
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_green_flags_victory}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 2
+		y = 6
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_declare_elections
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_green_flags_victory}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = -2
+		y = 6
+		cost = 3.5
+		available = {
+			is_puppet = no
+		}
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_promote_the_monarchy
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_monarchist_compromise}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 1
+		y = 7
+		cost = 3.5
+
+		allow_branch = {
+			always = yes
+		}
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_rewrite_the_constitution
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_promote_the_monarchy}
+		prerequisite = { focus = NMB_herero_warrior_tradition}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 0
+		y = 8
+		cost = 3.5
+
+		allow_branch = {
+			always = yes
+		}
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = NMB_seek_church_approval
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_promote_the_monarchy}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = 2
+		y = 8
+		cost = 3.5
+
+		allow_branch = {
+			always = yes
+		}
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = NMB_herero_warrior_tradition
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_monarchist_compromise}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = -1
+		y = 7
+		cost = 3.5
+
+		allow_branch = {
+			always = yes
+		}
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = NMB_the_victor_of_waterburg
+		icon = GFX_focus_ger_return_of_the_kaiser
+		prerequisite = { focus = NMB_herero_warrior_tradition}
+		relative_position_id = NMB_hosea_kutakos_reign
+		x = -2
+		y = 8
+		cost = 3.5
+
+		allow_branch = {
+			always = yes
+		}
+
+		available = {
+
+		}
+
+		completion_reward = {
+
+		}
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+}

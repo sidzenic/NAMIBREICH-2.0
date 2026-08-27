@@ -1,0 +1,30 @@
+state={
+	id=1063
+	name="Western Natal"
+	provinces={
+		1833 4584 7576 13682 13683 13684 13685 13686 13687 13688 13689 13690 13691 13692 13693 13694 13695 13696 13697 13698 13699 13700 13701 13702 13703 13704 13705 
+	}
+	manpower=122999
+	buildings_max_level_factor=1
+	local_supplies=0
+	buildings_max_level_factor=1
+	state_category=city
+	local_supplies=0
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 1
+			1468 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			1468 3 
+		}
+
+		add_core_of = SAF
+	}
+
+}

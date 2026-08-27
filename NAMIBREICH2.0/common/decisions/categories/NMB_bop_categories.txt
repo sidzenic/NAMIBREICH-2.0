@@ -1,0 +1,16 @@
+################
+##### NMB ######
+################
+
+NMB_bop_categories = {
+
+	icon = military_operation
+	
+	allowed = {
+		original_tag = NMB
+	}
+
+	visible = {
+		
+	}
+}

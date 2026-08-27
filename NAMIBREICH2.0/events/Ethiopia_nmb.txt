@@ -1,0 +1,164 @@
+###########################
+# Namibian Events
+###########################
+
+add_namespace = Ethiopia_nmb
+country_event = {
+	id = Ethiopia_nmb.1
+	title = Ethiopia_nmb.1.t
+	desc = Ethiopia_nmb.1.d
+	picture = GFX_ethiopia_desta_dead
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Ethiopia_nmb.1.a
+		retire_character = eth_desta_damtew_nmb
+			promote_character = {
+				character = eth_nmb_balcha_safo
+				ideology = despotism
+			}
+	} 
+}
+
+country_event = {
+	id = Ethiopia_nmb.4
+	title = Ethiopia_nmb.4.t
+	desc = Ethiopia_nmb.4.d
+	picture = GFX_report_event_generic_rally2
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Ethiopia_nmb.4.a
+		ROOT = { add_ideas = ETH_namibian_ethiopian_economic_alliance }
+	} 
+}
+
+country_event = {
+	id = Ethiopia_nmb.3
+	title = Ethiopia_nmb.3.t
+	desc = Ethiopia_nmb.3.d
+	picture = GFX_report_event_generic_rally2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Ethiopia_nmb.3.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			producer = NMB
+			amount = 500
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			producer = ZIM
+			amount = 500
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			producer = ANG
+			amount = 200
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+	} 
+}
+
+country_event = {
+	id = Ethiopia_nmb.2
+	title = Ethiopia_nmb.2.t
+	desc = Ethiopia_nmb.2.d
+	picture = GFX_balcho_dead
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Ethiopia_nmb.2.a
+		retire_character = eth_nmb_balcha_safo
+			promote_character = {
+				character = eth_hailu_teklemont_nmb
+				ideology = despotism
+		}
+	}
+	option = {
+		name = Ethiopia_nmb.2.b
+		retire_character = eth_nmb_balcha_safo
+			promote_character = {
+				character = eth_alemework_beye_nmb 
+				ideology = despotism
+		}
+	}
+	option = {
+		name = Ethiopia_nmb.2.c
+		retire_character = eth_nmb_balcha_safo
+			promote_character = {
+				character = eth_nasibua_zeamaneul_nm
+				ideology = despotism
+		}
+	}
+}
+
+country_event = {
+	id = Ethiopia_nmb.5
+	title = Ethiopia_nmb.5.t
+	desc = Ethiopia_nmb.5.d
+	picture = GFX_report_event_por_return_of_the_monarchy
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = Ethiopia_nmb.5.a
+		promote_character = {
+			character = eth_emperor_haile_selassie
+			ideology = despotism
+		}
+		remove_ideas = ETH_selassie_idea
+	}
+	option = {
+		name = Ethiopia_nmb.5.b
+		promote_character = {
+			character = eth_emperor_amha_selassie
+			ideology = despotism
+		}
+		remove_ideas = ETH_selassie_idea
+	}
+	option = {
+		name = Ethiopia_nmb.5.c
+		promote_character = {
+			character = eth_iyasu_v
+			ideology = despotism
+		}
+		remove_ideas = ETH_selassie_idea
+	}
+}

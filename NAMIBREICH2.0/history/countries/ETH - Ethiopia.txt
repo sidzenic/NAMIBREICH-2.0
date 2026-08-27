@@ -1,0 +1,78 @@
+capital = 271
+set_oob = "ETH_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	basic_train = 1
+}
+
+recruit_character = eth_abebe_aregai_nmb
+recruit_character = eth_desta_damtew_nmb
+recruit_character = eth_nmb_balcha_safo
+recruit_character = eth_hailu_teklemont_nmb
+recruit_character = eth_nasibua_zeamaneul_nmb
+recruit_character = eth_kassa_haile_darg_nmb
+recruit_character = eth_alemework_beye_nmb
+recruit_character = ETH_haile_selassie_gugsa
+recruit_character = ETH_fitawrari_yeebio_woldai
+recruit_character = ETH_amare_makonnen
+recruit_character = ETH_gabriel_zawde_gilaneh
+recruit_character = ETH_woldemeskal_tariku
+recruit_character = ETH_ras_kebbede
+recruit_character = ETH_wondossen_kassa
+recruit_character = ETH_dedja_zinatch_nadeon
+recruit_character = ETH_haile_abba_mersa
+recruit_character = ETH_ras_seyum
+recruit_character = ETH_mesfin_sileshi
+recruit_character = ETH_lij_abiye_abebe
+recruit_character = ETH_lij_johannes
+recruit_character = ETH_fitauri_zawde_gobena
+recruit_character = ETH_bedjironde_tekle_hawariate
+
+recruit_character = eth_emperor_amha_selassie
+recruit_character = eth_iyasu_v
+recruit_character = eth_emperor_haile_selassie
+
+add_ideas = {
+	isolation
+	ETH_backwards_army
+	ETH_selassie_idea
+	ETH_christmas_offensive
+	ETH_legacy_of_the_1930_coup
+	ETH_primative_economy 
+	ETH_illiterate_populace
+	ETH_mass_corruption
+}
+
+set_cosmetic_tag = ETH_ABY
+
+set_global_flag = second_italo_ethiopian_war_flag
+1936.05.05 = { clr_global_flag = second_italo_ethiopian_war_flag }
+
+set_convoys = 5
+
+
+set_grand_doctrine = grand_battleplan
+
+complete_special_project = {
+	project = sp:sp_air_radar
+}
+
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 65
+	fascism = 5
+	democratic = 5
+	communism = 25
+}

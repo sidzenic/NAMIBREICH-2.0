@@ -1,0 +1,28 @@
+state={
+	id=1060
+	name="Volkstaat"
+	provinces={
+		10415 10442 10697 12419 12692 13546 13547 13548 13549 13550 13551 13552 13553 13558 13560 13561 13562 13563 13564 13565 13566 13567 13568 13569 13570 13571 13572 13573 13574 13575 13576 13577 13578 13579 13580 13731 
+	}
+	manpower=378001
+	buildings_max_level_factor=1
+	local_supplies=0
+	state_category = pastoral
+
+	history = {
+
+		owner = SAF
+		add_core_of = SAF
+		add_core_of = VLK
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+		victory_points = {
+		}
+		
+	}
+}

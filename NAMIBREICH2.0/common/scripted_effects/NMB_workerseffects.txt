@@ -1,0 +1,112 @@
+NMB_improve_workers_effects = {
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+				has_idea = NMB_workers1
+				has_idea = NMB_workers2
+				has_idea = NMB_workers3
+				has_idea = NMB_workers4
+				has_idea = NMB_workers5
+				has_idea = NMB_workers6
+				has_idea = NMB_workers7
+				has_idea = NMB_workers8
+				has_idea = NMB_workers9
+				has_idea = NMB_workers10
+				has_idea = NMB_workers11
+				}
+			}
+		}
+		add_idea = NMB_workers1
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers1
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers1
+			add_idea = NMB_workers2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers2
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers2
+			add_idea = NMB_workers3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers3
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers3
+			add_idea = NMB_workers4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers4
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers4
+			add_idea = NMB_workers5
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers5
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers5
+			add_idea = NMB_workers6
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers6
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers6
+			add_idea = NMB_workers7
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers7
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers7
+			add_idea = NMB_workers8
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers8
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers8
+			add_idea = NMB_workers9
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers9
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers9
+			add_idea = NMB_workers10
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = NMB_workers10
+		}
+		swap_ideas = {
+			remove_idea = NMB_workers10
+			add_idea = NMB_workers11
+		}
+	}
+}

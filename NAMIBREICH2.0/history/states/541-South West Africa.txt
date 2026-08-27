@@ -1,0 +1,29 @@
+
+state={
+	id=541
+	name="Windhoek"
+	manpower = 224100
+	state_category = town
+
+	history={
+		owner = NMB
+		victory_points = { 4879 15 }
+		victory_points = { 13518 5 }		
+		victory_points = { 13457 3}					
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = NMB
+
+	}
+
+	provinces={
+		4879 7770 13456 13457 13458 13459 13460 13461 13469 13470 13471 13517 13518 13515
+	}
+	
+	buildings_max_level_factor=1.000
+	
+	local_supplies=0.000
+}

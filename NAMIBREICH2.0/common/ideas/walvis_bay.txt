@@ -1,0 +1,45 @@
+ideas = {
+				
+	country = {
+
+		NMG_political_hellhole= {
+
+			picture = JAP_collapsing_government
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+			}
+		}
+	}
+
+	country = {
+
+		NMB_colonial_conscripts= {
+
+			picture = por_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes 
+			}
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.05
+			}
+		}
+	}	
+}	

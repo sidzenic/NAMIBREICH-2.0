@@ -1,0 +1,82 @@
+###########################
+# swazi
+###########################
+
+add_namespace = nmbr_eswatini
+country_event = {
+	id = nmbr_eswatini.1
+	title = nmbr_eswatini.1.t
+	desc = nmbr_eswatini.1.d
+	picture = GFX_report_event_saf_coup
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = nmbr_eswatini.1.a
+	}
+}
+
+country_event = {
+	id = nmbr_eswatini.2
+	title = nmbr_eswatini.2.t
+	desc = nmbr_eswatini.2.d
+	picture = GFX_report_event_saf_coup
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = nmbr_eswatini.2.a
+		ESW = {
+			country_event = {
+			id = nmbr_eswatini.3
+			hours = 5
+				random_hours = 6
+				days = 2
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = nmbr_eswatini.2.b
+	}
+}
+
+country_event = {
+	id = nmbr_eswatini.3
+	title = nmbr_eswatini.3.t
+	desc = nmbr_eswatini.3.d
+	picture = GFX_report_event_saf_coup
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = nmbr_eswatini.3.a
+		ESW = { transfer_state = 1058 transfer_state = 1059 }
+		ESW = { add_ideas = ESW_purchase_territories}
+		ESW = { add_timed_idea = {
+			idea = ESW_purchased_land_from_neighbour
+			days = 100
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+################
+##### NMB ######
+################
+
+NMB_integrate_africa_decision = {
+
+	icon = military_operation
+	
+	allowed = {
+		original_tag = NMB
+	}
+
+	visible = {
+		original_tag = NMB
+		has_completed_focus = NMB_integrate_africa
+	}
+}

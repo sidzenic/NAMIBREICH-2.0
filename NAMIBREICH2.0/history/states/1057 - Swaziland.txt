@@ -1,0 +1,19 @@
+
+state={
+	id=1057
+	name="Swaziland"
+	manpower = 271122
+	state_category = pastoral
+
+	history={
+		owner = SAF
+		add_core_of = ESW
+		victory_points = { 7900 1 }
+	}
+
+	provinces={
+		 7900 13618 13619 13620 13621
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

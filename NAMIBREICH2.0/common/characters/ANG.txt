@@ -1,0 +1,24 @@
+characters={
+    ANG_jeffepstein_1 ={
+        name = "Inocencio Matoso de Camara Pires"
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/jeffery_epstein.png"
+			}
+		}
+		country_leader={
+			ideology= depostism
+		}
+		country_leader={
+			ideology= nazism
+		}
+		field_marshal = { 
+			traits = { defensive_doctrine thorough_planner }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+}

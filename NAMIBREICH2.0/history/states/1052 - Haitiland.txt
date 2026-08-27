@@ -1,0 +1,19 @@
+
+state={
+	id=1052
+	name="Enriquillo"
+	manpower = 120000
+	state_category = city
+
+	history={
+		owner = HAI
+		add_core_of = HAI
+		add_core_of = DOM
+	}
+
+	provinces={
+		13385 13386
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

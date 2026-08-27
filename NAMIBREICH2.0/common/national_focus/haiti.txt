@@ -1,0 +1,2273 @@
+focus_tree = {
+	id = haitian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 55
+			tag = HAI
+		}
+	}
+
+	continuous_focus_position = { x = 25 y = 1900 }	
+
+	default = no
+
+	focus = {
+		id = HAI_the_western_revolution
+		icon = GFX_focus_ARG_anti_american_propaganda
+		x = 11
+		y = 0
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_fragile_elections
+		icon = GFX_focus_generic_election
+		prerequisite = { focus = HAI_the_western_revolution }
+		x = 11
+		y = 1
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_an_embargoed_economy
+		icon = GFX_focus_generic_soviet_politics
+		x = 38
+		y = 0
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_modernise_farming_equipment
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_an_embargoed_economy}
+		x = 41
+		y = 1
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_expand_farms
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_modernise_farming_equipment}
+		x = 41
+		y = 2
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_fight_against_famine
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_expand_farms}
+		x = 41
+		y = 3
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_rubber_plantation
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_an_embargoed_economy}
+		x = 39
+		y = 1
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_five_year_plan
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_an_embargoed_economy}
+		x = 35
+		y = 1
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_expand_public_infrastructure
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_five_year_plan}
+		x = 35
+		y = 2
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_modernise_facilities
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_expand_public_infrastructure}
+		x = 35
+		y = 3
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_sugar_plantation
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_an_embargoed_economy}
+		x = 37
+		y = 1
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_devious_plants
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_sugar_plantation}
+		prerequisite = { focus = HAI_rubber_plantation }
+		x = 38
+		y = 2
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_unrestricted_selling
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_devious_plants}
+		mutually_exclusive = { focus = HAI_keep_our_people_clear}
+		x = 37
+		y = 3
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_keep_our_people_clear
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_devious_plants}
+		mutually_exclusive = { focus = HAI_unrestricted_selling}
+		x = 39
+		y = 3
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_haitian_miricale
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_unrestricted_selling focus = HAI_keep_our_people_clear}
+		prerequisite = { focus = HAI_fight_against_famine}
+		prerequisite = { focus = HAI_modernise_facilities}
+		x = 38
+		y = 4
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_economic_boom
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_haitian_miricale}
+
+		x = 38
+		y = 5
+		cost = 0
+		available = {
+			
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_the_saviour_coup
+		icon = GFX_focus_generic_soviet_politics
+		x = 28
+		y = 0
+		cost = 0
+		available = {
+			always = false
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_ban_opposition
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_the_saviour_coup}
+		x = 26
+		y = 1
+		cost = 0
+		available = {
+			always = false
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_peasant_support
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_ban_opposition}
+		prerequisite = { focus = HAI_bribe_officers}
+		prerequisite = { focus = HAI_martial_law_in_capital}
+		x = 27
+		y = 2
+		cost = 0
+		available = {
+			always = false
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_search_the_countryside
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_ban_opposition}
+		prerequisite = { focus = HAI_bribe_officers}
+		prerequisite = { focus = HAI_martial_law_in_capital}
+		x = 29
+		y = 2
+		cost = 0
+		available = {
+			always = false
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_disband_the_army
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_search_the_countryside}
+		prerequisite = { focus = HAI_peasant_support}
+		x = 28
+		y = 3
+		cost = 0
+		available = {
+			always = false
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_stability_returns_to_haiti
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_disband_the_army}
+		x = 28
+		y = 4
+		cost = 0
+		available = {
+			always = false
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_bribe_officers
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_the_saviour_coup}
+		x = 28
+		y = 1
+		cost = 0
+		available = {
+			always = false
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = HAI_martial_law_in_capital
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_the_saviour_coup}
+		x = 30
+		y = 1
+		cost = 0
+		available = {
+			always = false
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_premier_bijoux
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_fragile_elections }
+		x = 22
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_saviour_of_haiti
+		icon = GFX_focus_generic_strike_at_democracy3 
+		prerequisite = { focus = HAI_premier_bijoux }
+		x = 23
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_legacy_of_louverture
+		icon = GFX_goal_stolen_from_kr
+		prerequisite = { focus = HAI_saviour_of_haiti }
+		mutually_exclusive = { focus = HAI_heirs_of_dessalines}
+		x = 22
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = HAI_a_revolution_alike
+		icon = GFX_focus_generic_spur_communist_revolutions
+		prerequisite = { focus = HAI_legacy_of_louverture }
+		x = 22
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_national_renewal
+		icon = GFX_focus_ARG_fascist_researchers
+		prerequisite = { focus = HAI_fund_the_army}
+		prerequisite = { focus = HAI_a_revolution_alike focus = HAI_monarchist_restoration }
+		x = 21
+		y = 6
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_imperial_nostalgia
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_fund_the_army}
+		prerequisite = { focus = HAI_a_revolution_alike focus = HAI_monarchist_restoration }
+		x = 23
+		y = 6
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_modernise_the_guerillas
+		icon = GFX_focus_generic_sway_navy
+
+		x = 28
+		y = 7
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_legacy_of_the_navy
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_modernise_the_guerillas}
+
+		x = 21
+		y = 8
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_purchase_foreign_crafts
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_legacy_of_the_navy}
+		mutually_exclusive = { focus = HAI_mass_production}
+		mutually_exclusive = { focus = HAI_ensure_navy_quality}
+
+		x = 19
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_invite_foreing_seamen
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_purchase_foreign_crafts }
+
+		x = 19
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_british_battleship_deal
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_invite_foreing_seamen}
+
+		x = 20
+		y = 11
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = HAI_german_uboats
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_invite_foreing_seamen}
+
+		x = 18
+		y = 11
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_mass_production
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_legacy_of_the_navy}
+		mutually_exclusive = { focus = HAI_ensure_navy_quality}
+		mutually_exclusive = { foucs = HAI_purchase_foreign_crafts}
+
+		x = 21
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_rebuild_dockyards
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_mass_production focus = HAI_ensure_navy_quality }
+
+		x = 21
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_admiral_training
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_mass_production focus = HAI_ensure_navy_quality }
+
+		x = 23
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_naval_research
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_rebuild_dockyards }
+		prerequisite = { focus = HAI_admiral_training }
+
+		x = 22
+		y = 11
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_ensure_navy_quality
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_legacy_of_the_navy}
+		mutually_exclusive = { focus = HAI_mass_production}
+		mutually_exclusive = { focus = HAI_purchase_foreign_crafts}
+
+		x = 23
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_foreign_equipment_purchases
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_modernise_the_guerillas}
+		mutually_exclusive = { focus = HAI_self_reliance}
+
+		x = 27
+		y = 8
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_a_modern_army
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_modernise_the_guerillas}
+
+		x = 33
+		y = 8
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_found_the_haitian_airforce
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_modernise_the_guerillas}
+
+		x = 36
+		y = 8
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_fund_charles_terre_wayanns_work
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_found_the_haitian_airforce}
+
+		x = 35
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_refit_old_american_planes
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_found_the_haitian_airforce}
+
+		x = 37
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_death_from_above
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_fund_charles_terre_wayanns_work focus = HAI_refit_old_american_planes}
+
+		x = 37
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_clear_the_skies
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_fund_charles_terre_wayanns_work focus = HAI_refit_old_american_planes}
+
+		x = 35
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_study_armour
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_a_modern_army}
+
+		x = 33
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+	focus = {
+		id = HAI_improve_artillery
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_a_modern_army}
+
+		x = 32
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_self_reliance
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_modernise_the_guerillas}
+		mutually_exclusive = { focus = HAI_foreign_equipment_purchases }
+
+		x = 29
+		y = 8
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_increase_smuggling_tactics
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_foreign_equipment_purchases}
+
+		x = 26
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = HAI_trade_with_the_ussr
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_increase_smuggling_tactics}
+
+		x = 25
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = HAI_invite_foreign_companies
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_increase_smuggling_tactics}
+
+		x = 27
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_purchse_more_shit
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_invite_foreign_companies}
+		prerequisite = { focus = HAI_trade_with_the_ussr}
+
+		x = 26
+		y = 11
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_peasant_army
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_self_reliance focus = HAI_foreign_equipment_purchases }
+
+		x = 28
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_haitian_brains
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_self_reliance}
+
+		x = 30
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_fund_leo_pierre
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_haitian_brains}
+
+		x = 29
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_more_factories
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_haitian_brains}
+
+		x = 31
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_more_factoriesreal
+		icon = GFX_focus_generic_sway_navy
+		prerequisite = { focus = HAI_fund_leo_pierre}
+		prerequisite = { focus = HAI_more_factories}
+
+		x = 30
+		y = 11
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_heirs_of_dessalines
+		icon = GFX_goal_also_stolen_mb
+		prerequisite = { focus = HAI_saviour_of_haiti}
+		mutually_exclusive = { focus = HAI_legacy_of_louverture}
+		x = 24
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_monarchist_restoration
+		icon = GFX_focus_generic_monarchy_1
+		prerequisite = { focus = HAI_heirs_of_dessalines}
+		x = 24
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_fan_hatian_nationalism
+		icon = GFX_focus_generic_attack_haiti
+		prerequisite = { focus = HAI_premier_bijoux }
+		x = 20
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_national_mobilisation
+		icon = GFX_focus_generic_full_social_mobilization
+		prerequisite = { focus = HAI_fan_hatian_nationalism}
+		x = 20
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_fund_the_army
+		icon = GFX_focus_chi_army_reform
+		prerequisite = { focus = HAI_national_mobilisation}
+		x = 20
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_premier_jaques
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_fragile_elections }
+		x = 15
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_soviet_industrialisation
+		icon = GFX_goal_generic_soviet_construction
+		prerequisite = { focus = HAI_premier_jaques }
+		x = 15
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_food_stamps
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = { focus = HAI_premier_jaques }
+		x = 17
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_end_monetarty_value
+		icon = GFX_focus_generic_stockpile_currency
+		prerequisite = { focus = HAI_food_stamps }
+		x = 17
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = HAI_strengthen_state_economic_control
+		icon = GFX_focus_generic_price_controls
+		prerequisite = { focus = HAI_premier_jaques }
+		x = 13
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_strengthen_woker_rights
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = HAI_strengthen_state_economic_control }
+		x = 13
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_soviet_military_aid
+		icon = GFX_focus_PRC_invite_soviet_general
+		prerequisite = { focus = HAI_soviet_industrialisation }
+		mutually_exclusive = { focus = HAI_soviet_industrial_aid}
+		x = 14
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_soviet_industrial_aid
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		prerequisite = { focus = HAI_soviet_industrialisation }
+		mutually_exclusive = { focus = HAI_soviet_military_aid}
+		x = 16
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_bolshevik_economics
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = { focus = HAI_soviet_military_aid focus = HAI_soviet_industrial_aid}
+		x = 15
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_marxist_education
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_bolshevik_economics}
+		prerequisite = { focus = HAI_strengthen_woker_rights}
+		prerequisite = { focus = HAI_end_monetarty_value}
+		x = 15
+		y = 6
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_premier_sylvain
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_fragile_elections }
+		x = 2
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_peoples_welfare
+		icon = GFX_focus_generic_welfare
+		prerequisite = { focus = HAI_premier_sylvain }
+		x = 2
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_build_soup_kitchens
+		icon = GFX_goal_generic_famine
+		prerequisite = { focus = HAI_peoples_welfare}
+		prerequisite = { focus = HAI_homes_for_the_family}
+		x = 1
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_building_families
+		icon = GFX_focus_generic_population_growth
+		prerequisite = { focus = HAI_build_soup_kitchens}
+		prerequisite = { focus = HAI_women_in_the_army focus = HAI_women_in_the_workforce}
+		x = 2
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_daughter_of_pas
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = HAI_schools_for_the_children}
+		prerequisite = { focus = HAI_working_people}
+		prerequisite = { focus = HAI_working_people}
+		x = 2
+		y = 6
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_working_people
+		icon = GFX_focus_generic_workers_and_farmers_rise
+		prerequisite = { focus = HAI_build_soup_kitchens}
+		prerequisite = { focus = HAI_women_in_the_army focus = HAI_women_in_the_workforce}
+		x = 4
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_schools_for_the_children
+		icon = GFX_focus_RAJ_enrollment_of_dali_children
+		prerequisite = { focus = HAI_homes_for_the_family}
+		x = 0
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_homes_for_the_family
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = HAI_premier_sylvain }
+		x = 0
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = HAI_the_other_half_of_society
+		icon = GFX_focus_generic_universal_suffrage
+		prerequisite = { focus = HAI_premier_sylvain }
+		x = 4
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_women_in_the_workforce
+		icon = GFX_focus_ARG_women_in_industry
+		prerequisite = { focus = HAI_the_other_half_of_society }
+		mutually_exclusive = { focus = HAI_women_in_the_army}
+		x = 5
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_women_in_the_army
+		icon = GFX_focus_generic_women_in_military
+		prerequisite = { focus = HAI_the_other_half_of_society}
+		mutually_exclusive = { focus = HAI_women_in_the_workforce}
+		x = 3
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_premier_fils
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = HAI_fragile_elections }
+		x = 8
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_cult_of_personality
+		icon = GFX_focus_generic_fascist_propaganda
+		prerequisite = { focus = HAI_premier_fils}
+		x = 8
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+	focus = {
+		id = HAI_arming_the_workers
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_premier_fils}
+		x = 10
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+	focus = {
+		id = HAI_ban_political_parties
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = HAI_premier_fils}
+		x = 6
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+	focus = {
+		id = HAI_land_reforms
+		icon = GFX_focus_generic_land_redistribution
+		prerequisite = { focus = HAI_ban_political_parties}
+		prerequisite = { focus = HAI_cult_of_personality}
+		prerequisite = { focus = HAI_arming_the_workers}
+		x = 7
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_enlighten_peasants
+		icon = GFX_focus_generic_education
+		prerequisite = { focus = HAI_ban_political_parties}
+		prerequisite = { focus = HAI_cult_of_personality}
+		prerequisite = { focus = HAI_arming_the_workers}
+		x = 9
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_americanised_purge
+		icon = GFX_focus_generic_attack_usa
+		prerequisite = { focus = HAI_land_reforms}
+		prerequisite = { focus = HAI_enlighten_peasants}
+		x = 7
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_new_generals
+		icon = GFX_focus_CONGO_congolese_generals
+		prerequisite = { focus = HAI_land_reforms}
+		prerequisite = { focus = HAI_enlighten_peasants}
+		x = 9
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_the_hitler_of_haiti
+		icon = GFX_idea_NMB_hitler
+		prerequisite = { focus = HAI_americanised_purge}
+		prerequisite = { focus = HAI_new_generals}
+		x = 8
+		y = 6
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_safe_and_sound
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_daughter_of_pas focus = HAI_marxist_education focus = HAI_the_hitler_of_haiti focus = HAI_national_renewal focus = HAI_imperial_nostalgia}
+
+		x = 8
+		y = 7
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_expand_the_revolution
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_safe_and_sound}
+
+		x = 8
+		y = 8
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_dominican_question
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_expand_the_revolution}
+
+		x = 5
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_demand_cuban_submission
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_expand_the_revolution}
+
+		x = 9
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_demand_the_colonies
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_expand_the_revolution}
+
+		x = 7
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_join_the_african_axis
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_expand_the_revolution}
+
+		x = 11
+		y = 9
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = HAI_end_the_ocupation
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_join_the_african_axis}
+		prerequisite = { focus = HAI_demand_cuban_submission}
+		prerequisite = { focus = HAI_demand_the_colonies}
+
+		x = 10
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_liberate_panama
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_join_the_african_axis}
+		prerequisite = { focus = HAI_demand_cuban_submission}
+		prerequisite = { focus = HAI_demand_the_colonies}
+
+		x = 8
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = HAI_a_carribean_union
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_liberate_panama}
+		prerequisite = { focus = HAI_end_the_ocupation}
+		prerequisite = { focus = HAI_lend_lease}
+
+		x = 11
+		y = 11
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_the_oil_is_ours
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_liberate_panama}
+		prerequisite = { focus = HAI_end_the_ocupation}
+
+		x = 9
+		y = 11
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_lend_lease
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_join_the_african_axis}
+
+		x = 12
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_incorporation
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_dominican_question}
+		mutually_exclusive = { focus = HAI_colaboration}
+
+		x = 4
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = HAI_colaboration
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = HAI_dominican_question}
+		mutually_exclusive = { focus = HAI_incorporation}
+
+		x = 6
+		y = 10
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+}

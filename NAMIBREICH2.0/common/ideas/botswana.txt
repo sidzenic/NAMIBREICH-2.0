@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		BOT_booming_economy = {
+
+			allowed = {
+				original_tag = BOT
+				always = no
+			}
+			
+			removal_cost = -1
+
+			picture = ARG_civilian_economy_boost
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.01
+			}
+		}
+	}
+
+	country = {
+		BOT_boer_resistance = {			
+			
+			allowed = {
+				original_tag = "BOT"
+			}
+
+			
+			removal_cost = -1
+
+			picture = GFX_idea_chi_war_of_resistance
+			
+			modifier = {
+				stability_weekly -0.02
+			}
+		}
+	}
+}

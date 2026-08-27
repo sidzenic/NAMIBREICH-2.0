@@ -1,0 +1,62 @@
+uunona_balance_of_power = {
+    initial_value = 0
+    left_side = uunona_hate
+    right_side = uunona_love
+    decision_category = NMB_bop_categories
+
+    range = {
+        id = uunona_centre_range
+        min = -0.25
+        max = 0.25
+        modifier = {
+            war_support_factor_factor = 1
+        }
+    }
+
+    side = {
+        id = uunona_hate
+        icon = GFX_bop_uunonasad
+        range = {
+            id = uunona_hate_half
+            min = -0.75
+            max = -0.25
+            modifier = {
+                war_support_factor = -0.1
+                stability_factor = -0.1
+            }
+        }
+        range = {
+            id = uunona_hate_full
+            min = -1
+            max = -0.75
+            modifier = {
+                war_support_factor = -0.15
+                stability_factor = -0.15
+            }
+        }
+    }
+
+    side = {
+        id = uunona_love
+        icon = GFX_bop_uunonahappy
+        range = {
+            id = uunona_love_half
+            min = 0.25
+            max = 0.75
+            modifier = {
+                war_support_factor = 0.05
+                stability_factor = 0.05
+            }
+        }
+        range = {
+            id = uunona_love_full
+            min = 0.75
+            max = 1
+            modifier = {
+                war_support_factor = 0.1
+                stability_factor = 0.1
+            }
+        }
+    }
+
+}

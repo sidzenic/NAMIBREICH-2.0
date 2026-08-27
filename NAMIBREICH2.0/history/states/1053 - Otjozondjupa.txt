@@ -1,0 +1,24 @@
+
+state={
+	id=1053
+	name="Otjozondjupa"
+	manpower = 120000
+	state_category =  pastoral
+
+	resources={
+		steel=16
+		chromium=12
+		oil=38
+	}
+
+	history={
+		owner = NMB
+		add_core_of = NMB
+	}
+
+	provinces={
+		13415 13416 13417 13472 13418 13419 13420 13421 13422 13423 13424 13425 13426 13427 13428 13429 13430 13431 13432 13433 13434 13435 13436 13437 13438 13439 13440 13441 13442 13443 13444 13445 13446 13447 13448 13519 10957  
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

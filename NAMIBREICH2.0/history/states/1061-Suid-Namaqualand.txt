@@ -1,0 +1,27 @@
+state={
+	id=1061
+	name="Suid-Namaqualand"
+	provinces={
+		4528 13527 13528 13529 13530 13531 13532 13533 13534 13535 13536 13537 13538 13539 13540 13541 13542 13543 13544 13545 13559 
+	}
+	manpower=30000
+	buildings_max_level_factor=2
+	local_supplies=0
+	state_category = wasteland
+
+	history = {
+
+		owner = SAF
+		add_core_of = SAF
+
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		victory_points = {
+		}
+		
+	}
+
+}

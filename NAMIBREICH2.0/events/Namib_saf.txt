@@ -1,0 +1,77 @@
+###########################
+# Namibian Events
+###########################
+
+add_namespace = namib_saf
+country_event = {
+	id = namib_saf.1
+	title = namib_saf.1.t
+	desc = namib_saf.1.d
+	picture = GFX_report_event_generic_rally2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namib_saf.1.a
+
+		add_war_support = 0.1
+
+		TFS = { set_state_owner = 275 }
+		
+		TFS = { 
+			add_ideas = NSA_my_god_my_people
+			set_cosmetic_tag = TFS_RAC
+			load_oob = TFS_FAC
+			declare_war_on = {
+				target = NSA
+				type = annex_everything
+			}
+			add_manpower = 80000
+		}
+		NSA = { set_state_controller = 275}
+	}
+}
+country_event = {
+	id = namib_saf.2
+	title = namib_saf.2.t
+	desc = namib_saf.2.d
+	picture = GFX_report_event_generic_rally2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namib_saf.2.a
+
+		add_war_support = 0.1
+
+		NSA = { transfer_state = 1063 }
+		NSA = { transfer_state = 719 }
+		NSA = { transfer_state = 1064 }
+		NSA = { transfer_state = 1065 }
+		NSA = { transfer_state = 1062 }
+		NSA = { transfer_state = 1063 }
+		NSA = { transfer_state = 275 }
+		NSA = { transfer_state = 1058 }
+		NSA = { transfer_state = 1059 }
+
+		NSA = { 
+			add_state_core = 1063
+			add_state_core = 719
+			add_state_core = 1064
+			add_state_core = 1065
+		}
+	}
+
+}

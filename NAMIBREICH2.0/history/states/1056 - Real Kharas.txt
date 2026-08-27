@@ -1,0 +1,27 @@
+
+state={
+	id=1056
+	name="Karas"
+	manpower = 116211
+	state_category =  wasteland
+
+	resources={
+		steel=12
+		tungsten=10
+	}
+
+	history={
+		owner = NMB
+		add_core_of = NMB
+		set_demilitarized_zone = yes
+		victory_points = { 13525 5 }
+		victory_points = { 13526 1 }
+		victory_points = { 13473 1 }
+	}
+
+	provinces={
+		 7605 13462 13463 13464 13520 13524 13473 13474 13475 13480 5189 13479 13478 13482 13483 13526 13488 13487 13491 13492 13493 13502 13503 13504 13505 13506 13525 13512 13513 13521 13511
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

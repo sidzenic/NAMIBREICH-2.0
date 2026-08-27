@@ -1,0 +1,23 @@
+###########################
+# haita
+###########################
+
+add_namespace = nmbr_haiti
+country_event = {
+	id = nmbr_haiti.1
+	title = nmbr_haiti.1.t
+	desc = nmbr_haiti.1.d
+	picture = GFX_haiti_start
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = nmbr_haiti.1.a
+	}
+}

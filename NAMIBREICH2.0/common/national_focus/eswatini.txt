@@ -1,0 +1,1492 @@
+focus_tree = {
+	id = eswatini_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ESW
+		}
+	}
+
+	continuous_focus_position = { x = 25 y = 1900 }	
+
+	default = no
+
+
+	focus = {
+		id = ESW_modernise_diplomacy
+		icon = GFX_focus_AFG_telegraph
+		x = 20
+		y = 0
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_hello_to_the_world
+		icon = GFX_focus_BRA_ethical_internationalism
+		prerequisite = { focus = ESW_modernise_diplomacy}
+		x = 21
+		y = 1
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = civilian_economy
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_assure_neutrality
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = ESW_hello_to_the_world}
+		prerequisite = { focus = ESW_join_the_international_community}
+		mutually_exclusive = { focus = ESW_safety_with_south_africa}
+		mutually_exclusive = { focus = ESW_join_the_african_struggle}
+		mutually_exclusive = { focus = ESW_eswatini_alone}
+
+		x = 21
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = neutrality_idea
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = ESW_switzerland_of_africa
+		icon = GFX_focus_SWI_swiss_guiding_principles
+		prerequisite = { focus = ESW_assure_neutrality}
+
+		x = 21
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = ESW_switzerland_of_africa_idea
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_welcome_war_refugees
+		icon = GFX_focus_generic_population_growth
+		prerequisite = { focus = ESW_switzerland_of_africa}
+
+		x = 21
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = ESW_war_refugee_ideas 
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = ESW_end_sobhuzas_greed
+		icon = GFX_focus_rom_parties_end
+		prerequisite = { focus = ESW_join_the_international_community focus = ESW_hello_to_the_world}
+
+		x = 20
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			remove_country_leader_trait = greedy_ngwenyama
+			add_country_leader_trait = ngwenyama
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = ESW_purchase_territories
+		icon = GFX_focus_generic_monetary_union
+		prerequisite = { focus = ESW_assure_neutrality focus = ESW_safety_with_south_africa}
+
+		x = 22
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+			NOT = { ESW = { has_war_with = SAF} }
+		}
+
+		completion_reward = {
+			SAF = { country_event = {
+				id = nmbr_eswatini.2
+				days = 1
+				hours = 1
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_struggle_against_socialism
+		icon = GFX_focus_GER_end_european_communism
+		prerequisite = { focus = ESW_safety_with_south_africa}
+
+		x = 23
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = ESW_crusade_against_socialism
+				days = 360
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = NMB
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ZIM
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_zululand_agreement
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = ESW_struggle_against_socialism}
+
+		x = 23
+		y = 5
+		cost = 5
+		available = {
+			NOT = { ESW = { has_war_with = SAF} }
+		}
+
+		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_safety_with_south_africa
+		icon = GFX_south_africa_army
+		prerequisite = { focus = ESW_hello_to_the_world}
+		prerequisite = { focus = ESW_join_the_international_community}
+		mutually_exclusive = { focus = ESW_assure_neutrality}
+		mutually_exclusive = { focus = ESW_join_the_african_struggle}
+		mutually_exclusive = { focus = ESW_eswatini_alone}
+
+		x = 23
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			ESW = { give_guarantee = SAF}
+	
+			ESW = { 
+			diplomatic_relation = { 
+				country = SAF 
+				relation = non_aggression_pact 
+				}
+			}
+			SAF = { give_guarantee = ESW }
+			SAF = { 
+			diplomatic_relation = { 
+				country = ESW
+				relation = non_aggression_pact 
+				}
+			}
+			NMB = {
+				add_opinion_modifier = {
+				target = ESW
+				modifier = hostile_status 
+				}		
+			} 
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_join_the_african_struggle
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = ESW_hello_to_the_world}
+		prerequisite = { focus = ESW_join_the_international_community}
+		mutually_exclusive = { focus = ESW_assure_neutrality}
+		mutually_exclusive = { focus = ESW_safety_with_south_africa}
+		mutually_exclusive = { focus = ESW_eswatini_alone}
+
+		x = 25
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = ESW_aligned_with_namibia
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+
+	focus = {
+		id = ESW_aim_for_greater_eswatini
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = ESW_join_the_african_struggle}
+
+		x = 25
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_war_support = 0.15
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_request_namibian_weapons
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ESW_aim_for_greater_eswatini}
+
+		x = 25
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 850
+				producer = NMB
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_forge_our_own_ideas
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = ESW_request_namibian_weapons}
+
+		x = 25
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = communism
+				last_election = "1935.11.14"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			add_popularity = { ideology = communism popularity = 0.5 }
+			set_cosmetic_tag =  ESW_PAS
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_eswatini_alone
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = ESW_hello_to_the_world}
+		prerequisite = { focus = ESW_join_the_international_community}
+		mutually_exclusive = { focus = ESW_assure_neutrality}
+		mutually_exclusive = { focus = ESW_safety_with_south_africa}
+		mutually_exclusive = { focus = ESW_join_the_african_struggle}
+
+		x = 30
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = AUS
+				generator = { 1058 1059 }
+			}	
+
+			ESW = { add_state_claim = 719 }		
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_organise_separatists
+		icon = GFX_focus_BRA_deal_with_the_cangaco
+		prerequisite = { focus = ESW_eswatini_alone}
+
+		x = 28
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_manpower = 15000
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_aid_from_namibia
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		prerequisite = { focus = ESW_eswatini_alone}
+
+		x = 30
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = NMB
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_guerilla_tactics
+		icon = GFX_focus_CHI_guerrilla_warfare
+		prerequisite = { focus = ESW_eswatini_alone}
+
+		x = 32
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = ESW_guerilla_warfare
+				days = 200
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = ESW_develope_new_territories
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ESW_south_african_kingdom}
+
+		x = 31
+		y = 6
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			random_core_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_core_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_allign_local_rulers
+		icon = GFX_focus_ETH_sway_the_warlords
+		prerequisite = { focus = ESW_south_african_kingdom}
+
+		x = 29
+		y = 6
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_acheive_peak_south_africa
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = ESW_south_african_kingdom}
+
+		x = 30
+		y = 7
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = NMB
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = BOT
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ZIM
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_fortifications
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = ESW_organise_separatists focus = ESW_aid_from_namibia focus = ESW_guerilla_tactics }
+
+
+		x = 32
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cat_fortification
+			}
+			1057 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_emergency_arms
+		icon = GFX_focus_generic_smugglers
+		prerequisite = { focus = ESW_organise_separatists focus = ESW_aid_from_namibia focus = ESW_guerilla_tactics }
+
+
+		x = 28
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_south_african_kingdom
+		icon = GFX_focus_generic_monarchy_1
+		prerequisite = { focus = ESW_emergency_arms}
+		prerequisite = { focus = ESW_fortifications}
+
+		x = 30
+		y = 5
+		cost = 5
+		available = {
+			ESW = { controls_state = 275}
+			ESW = { controls_state = 719}
+			ESW = { controls_state = 681 }
+		}
+
+		completion_reward = {
+			ESW = { add_state_core = 275 } 
+			ESW = { add_state_core = 719 } 
+			ESW = { add_state_core = 681 }
+
+			ESW = { set_cosmetic_tag = ESW_SAF }
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_join_the_international_community
+		icon = GFX_focus_generic_league_of_nations
+		prerequisite = { focus = ESW_modernise_diplomacy}
+		x = 19
+		y = 1
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			remove_ideas = ESW_illegitament_state
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_african_partners
+		icon = GFX_focus_generic_africa_production
+		prerequisite = { focus = ESW_join_the_international_community}
+		mutually_exclusive = { focus = ESW_european_partners}
+		x = 17
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			ESW= {
+				add_opinion_modifier = {
+					target = NMB
+					modifier = 	aided_industry
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_join_the_militerisation_race
+		icon = GFX_focus_generic_arms_trade
+		prerequisite = { focus = ESW_african_partners}
+		x = 18
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_european_partners
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = ESW_join_the_international_community}
+		mutually_exclusive = { focus = ESW_african_partners}
+		x = 19
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			ESW= {
+				add_opinion_modifier = {
+					target = FRA
+					modifier = 	aided_industry
+				}
+			}			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_western_luxuries
+		icon = GFX_focus_ARG_defense_and_democracy
+		prerequisite = { focus = ESW_european_partners}
+		x = 19
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_raise_the_umbutfo
+		icon = GFX_stolen_african_shit
+		x = 10
+		y = 0
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			division_template = {
+				name = "Umbutfo"
+				division_names_group = GER_Inf_01
+				regiments = {
+					irregular_infantry = { x = 0 y = 0 }
+					irregular_infantry = { x = 0 y = 1 }
+					irregular_infantry = { x = 0 y = 2 }
+				}
+			}
+			1057 = {
+				create_unit = {
+					division = "name = \"Royal Guard\" division_template = \"Umbutfo\" start_experience_factor = 0.4"
+					owner = ESW
+					count = 1
+				}
+			}
+			1057 = {
+				create_unit = {
+					division = "name = \"Umbutfo\" division_template = \"Umbutfo\" start_experience_factor = 0.4"
+					owner = ESW
+					count = 4
+				}
+			}			
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_strengthen_the_irregulars
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		prerequisite = { focus = ESW_raise_the_umbutfo}
+		mutually_exclusive = { focus = ESW_form_the_uedf}
+		x = 3
+		y = 1
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = ESW_irregular_army
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_mass_recruitment
+		icon = GFX_focus_generic_army_attack
+		prerequisite = { focus = ESW_strengthen_the_irregulars}
+		x = 3
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = extensive_conscription
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_piggs_point_weaponsmith
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = ESW_strengthen_the_irregulars focus = ESW_form_the_uedf}
+		x = 5
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			1057 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = ESW_mountain_warriors
+		icon = GFX_focus_generic_mountain_training
+		prerequisite = { focus = ESW_mass_recruitment}
+		x = 4
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = mountaineers_tech
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_medical_care
+		icon = GFX_focus_generic_field_hostpital
+		prerequisite = { focus = ESW_piggs_point_weaponsmith}
+		x = 5
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			remove_ideas = ESW_disease_in_the_army
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_expand_the_irregulars
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = ESW_mass_recruitment}
+		x = 2
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = ESW_irregular_army
+				add_idea = ESW_irregular_army2
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = ESW_swazi_economy
+		icon = GFX_focus_generic_economic_recovery
+		prerequisite = { focus = ESW_raise_the_umbutfo}
+		x = 12
+		y = 1
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_feed_the_army
+		icon = GFX_focus_generic_manpower
+		prerequisite = { focus = ESW_swazi_economy}
+		mutually_exclusive = { focus = ESW_feed_the_people}
+		x = 9
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_manpower = 10000
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_development_efforts
+		icon = GFX_focus_generic_industrial_experts
+		prerequisite = { focus = ESW_swazi_economy}
+		x = 15
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_great_road
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = ESW_development_efforts}
+		x = 14
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			1058 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_electricity_experiments
+		icon = GFX_focus_ARG_develop_the_electricity_sector
+		prerequisite = { focus = ESW_development_efforts}
+		x = 16
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			1058 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_development_plan
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = ESW_electricity_experiments}
+		prerequisite = { focus = ESW_great_road}
+		x = 18
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			1057 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_mineral_contracts
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = ESW_swazi_economy}
+		x = 13
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = ENG_guiding_the_colonies
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_welcome_foreign_workers
+		icon = GFX_focus_generic_mineral_prospecting
+		prerequisite = { focus = ESW_mineral_contracts}
+		x = 12
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = ESW_miners
+				days = 500
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_coal_mining
+		icon = GFX_focus_generic_coal_mining
+		prerequisite = { focus = ESW_welcome_foreign_workers}
+		x = 11
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			1057 = {
+				add_resource = {
+				type = coal
+				amount = 5
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_iron_mining
+		icon = GFX_focus_generic_steel
+		prerequisite = { focus = ESW_welcome_foreign_workers}
+		x = 13
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			1057 = {
+				add_resource = {
+				type = steel
+				amount = 5
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_a_little_south_africa
+		icon = GFX_focus_RAJ_special_economic_zones
+		prerequisite = { focus = ESW_iron_mining}
+		prerequisite = { focus = ESW_coal_mining}
+		prerequisite = { focus = ESW_land_for_investments focus = ESW_avoid_swazi_exploitation}
+		x = 14
+		y = 5
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+
+			add_research_slot = 1
+
+			1057 = {
+				add_resource = {
+				type = steel
+				amount = 8
+				}
+			}
+			1057 = {
+				add_resource = {
+				type = chromium
+				amount = 3
+				}
+			}
+			1057 = {
+				add_resource = {
+				type = aluminium
+				amount = 15
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_land_for_investments
+		icon = GFX_focus_generic_land_redistribution
+		prerequisite = { focus = ESW_welcome_foreign_workers}
+		mutually_exclusive = { focus = ESW_avoid_swazi_exploitation}
+		x = 15
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			1057 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_stability = -0.2
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_avoid_swazi_exploitation
+		icon = GFX_focus_CHI_promote_national_currency
+		prerequisite = { focus = ESW_welcome_foreign_workers}
+		mutually_exclusive = { focus = ESW_land_for_investments}
+		x = 17
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			1057 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_war_support = 0.1
+			add_stability = 0.1
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_feed_the_people
+		icon = GFX_focus_generic_agricultural_subsidies
+		prerequisite = { focus = ESW_swazi_economy}
+		mutually_exclusive = { focus  = ESW_feed_the_army}
+		x = 11
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = ESW_agriculture_on_civs
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_agricultural_exports
+		icon = GFX_focus_generic_modernize_agriculture_2
+		prerequisite = { focus = ESW_feed_the_army focus = ESW_feed_the_people}
+		x = 10
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = ESW_agriculture_export_idea
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+
+	focus = {
+		id = ESW_fruit_galore
+		icon = GFX_focus_AFG_sugar_factory
+		prerequisite = { focus = ESW_agricultural_exports}
+		x = 9
+		y = 4
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_offsite_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_form_the_uedf
+		icon = GFX_focus_CONGO_congolese_generals
+		prerequisite = { focus = ESW_raise_the_umbutfo}
+		mutually_exclusive = { focus = ESW_strengthen_the_irregulars}
+		x = 7
+		y = 1
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_ideas = ESW_professional_army
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_foreign_brains
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = ESW_form_the_uedf}
+		x = 7
+		y = 2
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 2
+				uses = 2
+				category = infantry_weapons
+			}
+
+			army_experience = 50
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_send_the_generals_oversea
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = ESW_foreign_brains}
+		x = 6
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.25
+				uses = 1
+				category = land_doctrine
+			}
+			ESW_sobhuza= {
+				add_trait = { trait = brilliant_strategist }
+			}
+
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+	focus = {
+		id = ESW_weapons_purchases
+		icon = GFX_focus_generic_money_for_equipment
+		prerequisite = { focus = ESW_foreign_brains}
+		x = 8
+		y = 3
+		cost = 5
+		available = {
+			is_puppet = no
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 750
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}		
+	}
+
+}
+
+

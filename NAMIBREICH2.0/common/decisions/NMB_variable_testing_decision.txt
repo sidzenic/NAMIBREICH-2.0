@@ -1,0 +1,829 @@
+NMB_variable_testing= {		
+	
+	paying_debt= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+			has_completed_focus = NMB_take_on_debts
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 15		
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_export_the_wealth_of_namibia
+		}		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+
+		cost = 35
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+
+			custom_effect_tooltip = "Spends 35 political power to take off 3% off our debt."
+
+			add_to_variable = { consumer_goods_factor_debt_modifier = -0.03 }
+		}
+	}
+
+
+	sell_kharas_tungsten {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+			NMB = { controls_state = 1056 }
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90		
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_export_namibia_wealth
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = -0.2 }
+
+			give_resource_rights = {
+				receiver = ENG
+				state = 1056
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	sell_west_kharas_tungsten {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+			NMB = { controls_state = 893 }
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90		
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_export_namibia_wealth
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = -0.2 }
+
+			give_resource_rights = {
+				receiver = ENG
+				state = 893
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	infrastructure_in_windhoek= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90		
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_infratructure_investments
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.03 }
+
+			541 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	infrastructure_in_kharas= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_infratructure_investments
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.03 }
+
+			1056 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	infrastructure_in_the_diamond_field= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_infratructure_investments
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.03 }
+
+			893 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	investments_from_england= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_civilian_investments
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	investments_from_ussr= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_civilian_investments
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	investments_from_france= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_civilian_investments
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	investments_from_italy= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_civilian_investments
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	investments_from_germany= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 90	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_civilian_investments
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	sell_rifles= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+			has_equipment = {
+				infantry_equipment > 999
+			}			
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 30	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_arms_industry
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = -0.03}
+
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	sell_namib_wagon= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+			has_equipment = {
+				motorized_equipment > 99
+			}			
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 30	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_export_the_wealth_of_namibia
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = -0.03}
+
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = -100
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	sell_artillery= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+			has_equipment = {
+				artillery_equipment > 84
+			}			
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 30
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_arms_industry
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = -0.03}
+
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = -85
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	sell_of_oil= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+			1053 = {
+				has_resources_amount = {
+					resource = oil
+					amount > 2
+					delivered = yes
+				}
+			}
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 35	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_sell_off_oil			
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			custom_effect_tooltip = "Sell off some of our oil rights to ease the debt."
+			add_to_variable = { consumer_goods_factor_debt_modifier = -0.03 }
+			add_resource = {
+				type = oil
+				amount = -3
+				state = 1053
+			}
+		}	
+
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+
+	arms_investments_from_england= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_invest_in_the_arms_industry
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+	arms_investments_from_ussr= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_invest_in_the_arms_industry
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	arms_investments_from_brazil= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_invest_in_the_arms_industry
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	arms_investments_from_italy= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_invest_in_the_arms_industry
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+	arms_investments_from_germany= {		
+
+		icon = GFX_decision_icon_default		
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {
+		}
+		
+		fire_only_once = no
+
+		days_re_enable = 50	
+
+		visible = {
+			original_tag = NMB
+			has_completed_focus = NMB_invest_in_the_arms_industry
+		}		
+
+		cost = 25
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {	
+			add_to_variable = { consumer_goods_factor_debt_modifier = 0.08 }
+
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		}
+	}
+
+
+}

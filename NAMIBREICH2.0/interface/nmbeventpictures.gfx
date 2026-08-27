@@ -1,0 +1,78 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_namibia_news_event_001"
+		texturefile = "gfx/event_pictures/namibia_news_event_001.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_news_event_002"
+		texturefile = "gfx/event_pictures/namibia_news_event_002.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_news_event_003"
+		texturefile = "gfx/event_pictures/ruins_found.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_pan_africa_congress"
+		texturefile = "gfx/event_pictures/pan_africa_begin.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_pan_africa_congress_zim"
+		texturefile = "gfx/event_pictures/pan_africa_zim.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_pan_africa_congress_eth"
+		texturefile = "gfx/event_pictures/eth_pan_africa.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_pan_africa_congress_ang"
+		texturefile = "gfx/event_pictures/pan_africa_ang.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_pan_africa_congress_mor"
+		texturefile = "gfx/event_pictures/pan_africa_mor.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_pan_africa_congress_usa"
+		texturefile = "gfx/event_pictures/pan_africa_usa.dds"
+	}
+	spriteType = {
+		name = "GFX_congress_end"
+		texturefile = "gfx/event_pictures/pan_african_congo.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_dressler_speach"
+		texturefile = "gfx/event_pictures/dressler_speach.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_maherero_speach"
+		texturefile = "gfx/event_pictures/maherero_speach.dds"
+	}
+	spriteType = {
+		name = "GFX_namibia_leonard_speach"
+		texturefile = "gfx/event_pictures/leonard_speech.dds"
+	}
+	spriteType = {
+		name = "GFX_saf_communist"
+		texturefile = "gfx/event_pictures/saf_communism.dds"
+	}
+	spriteType = {
+		name = "GFX_haiti_start"
+		texturefile = "gfx/event_pictures/haiti_start.dds"
+	}
+
+
+
+	#### ETHIOPIA
+	spriteType = {
+		name = "GFX_ethiopia_desta_dead"
+		texturefile = "gfx/event_pictures/eth_desta_dead.dds"
+	}
+	spriteType = {
+		name = "GFX_balcho_dead"
+		texturefile = "gfx/event_pictures/eth_balcho_dead.dds"
+	}
+}
+	
+	
+	

@@ -1,0 +1,940 @@
+###########################
+# Namibian Events
+###########################
+
+add_namespace = namibia
+country_event = {
+	id = namibia.1
+	title = namibia.1.t
+	desc = namibia.1.d
+	picture = GFX_report_event_generic_rally2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia.1.a
+
+		add_war_support = 0.1
+
+		army_experience = 15
+
+		893 = { set_demilitarized_zone = no }
+		1056 = { set_demilitarized_zone = no}
+	}
+}
+country_event = {
+	id = namibia.2
+	title = namibia.2.t
+	desc = namibia.2.d
+	picture = GFX_report_event_generic_conference
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia.2.a
+	}
+}
+country_event = {
+	id = namibia.3
+	title = namibia.3.t
+	desc = namibia.3.d
+	picture = GFX_report_event_generic_army
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia.3.a
+	}
+}
+country_event = {
+	id = namibia.4
+	title = namibia.4.t
+	desc = namibia.4.d
+	picture = GFX_report_event_generic_riot
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia.4.a
+	}
+}
+country_event = {
+	id = namibia.5
+	title = namibia.5.t
+	desc = namibia.5.d
+	picture = GFX_report_event_generic_rally2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia.5.a
+	}
+}
+country_event = {
+	id = namibia.6
+	title = namibia.6.t
+	desc = namibia.6.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia.6.a
+	}
+}
+country_event = {
+	id = namibia.7
+	title = namibia.7.t
+	desc = namibia.7.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia.7.a
+	}
+}
+country_event = {
+	id = namibia.8
+	title = namibia.8.t
+	desc = namibia.8.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia.8.a
+	}
+}
+country_event = {
+	id = namibia.9
+	title = namibia.9.t
+	desc = namibia.9.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		ai_chance = {
+		base = 100
+		}
+		name = namibia.9.a
+		NMB = {	transfer_state = 1048 }
+		NMB = {	transfer_state = 1049 }
+		NMB = { country_event = {
+			id = namibia.10
+			hours = 12
+			random_hours = 6
+			days = 2
+			}
+		}
+	}
+	option = {
+		name = namibia.9.b
+		NMB = {
+			create_wargoal = {
+				type = annex_everything
+				target = BOT
+			}
+        }		
+	}
+}
+country_event = {
+	id = namibia.10
+	title = namibia.10.t
+	desc = namibia.10.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = namibia.10.a
+		add_war_support = 0.1
+	}
+}
+country_event = {
+	id = namibia.11
+	title = namibia.11.t
+	desc = namibia.11.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = namibia.11.b
+		add_political_power = -300
+		remove_ideas = NMB_german_army_veto
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = namibia.11.a
+		remove_ideas =  NMB_german_army_veto
+		retire_character = NMB_karl_waldeck
+		retire_character = NMB_berthold
+		retire_character = NMB_jan_hora
+		ai_chance = {
+			base = 4
+		}
+	}
+}
+country_event = {
+	id = namibia.12
+	title = namibia.12.t
+	desc = namibia.12.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = namibia.12.b
+			NMB = { 
+				country_event = {
+					id = namibia.13
+					hours = 5
+					random_hours = 6
+					days = 2
+				}
+			}
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = namibia.12.a
+		NMB = {	transfer_state = 1050 }
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = {
+	id = namibia.13
+	title = namibia.13.t
+	desc = namibia.13.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.13.a
+		ROOT = {
+			create_wargoal = {
+			type = take_core_state
+			target = SAF
+			}
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = {
+	id = namibia.14
+	title = namibia.14.t
+	desc = namibia.14.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.14.a
+		NMB = { 
+			annex_country = {
+				target = BOT
+				transfer_troops = yes
+			}
+		}
+		ZIM = { transfer_state = 1051 }
+		NMB = { add_state_core = 542 add_state_core = 1048 add_state_core = 1047 }
+		ZIM = { add_state_core = 1051 }
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+country_event = {
+	id = namibia.15
+	title = namibia.15.t
+	desc = namibia.15.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.15.a
+		complete_national_focus = NMB_hitler_holds_down_the_lid
+		add_stability = 0.1
+		add_political_power = 100
+	}
+
+	option = {
+		name = namibia.15.6
+		country_event = {
+			id = namibia.16
+			hours = 5
+			random_hours = 6
+			days = 2
+		}
+	}
+}
+
+country_event = {
+	id = namibia.16
+	title = namibia.16.t
+	desc = namibia.16.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.16.a
+		complete_national_focus = NMB_fall_of_hitler
+	}
+
+	option = {
+		name = namibia.16.6
+		complete_national_focus = NMB_prepare_the_wermacht
+	}
+}
+
+country_event = {
+	id = namibia.17
+	title = namibia.17.t
+	desc = namibia.17.d
+	picture = GFX_namibia_pan_africa_congress
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.17.a
+		NMB = { country_event = {
+			id = namibia.18
+			hours = 5
+			random_hours = 6
+			days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = namibia.18
+	title = namibia.18.t
+	desc = namibia.18.d
+	picture = GFX_namibia_pan_africa_congress_zim
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.18.a
+		NMB = { country_event = {
+			id = namibia.19
+			hours = 5
+			random_hours = 6
+			days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = namibia.19
+	title = namibia.19.t
+	desc = namibia.19.d
+	picture = GFX_namibia_pan_africa_congress_eth
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.19.a
+		NMB = { country_event = {
+			id = namibia.20
+			hours = 5
+			random_hours = 6
+			days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = namibia.20
+	title = namibia.20.t
+	desc = namibia.20.d
+	picture = GFX_namibia_pan_africa_congress_ang
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.20.a
+		NMB = { country_event = {
+			id = namibia.21
+			hours = 5
+			random_hours = 6
+			days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = namibia.21
+	title = namibia.21.t
+	desc = namibia.21.d
+	picture = GFX_namibia_pan_africa_congress_mor
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.21.a
+		NMB = { country_event = {
+			id = namibia.22
+			hours = 5
+			random_hours = 6
+			days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = namibia.22
+	title = namibia.22.t
+	desc = namibia.22.d
+	picture = GFX_namibia_pan_africa_congress_usa
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.22.a
+		NMB = { country_event = {
+			id = namibia.23
+			hours = 5
+			random_hours = 6
+			days = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = namibia.23
+	title = namibia.23.t
+	desc = namibia.23.d
+	picture = GFX_congress_end
+
+	fire_only_once = yes
+	  
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.23.a 
+		add_political_power = 150
+	}
+}
+
+
+#### Opposition
+
+country_event = {
+	id = namibia.24
+	title = namibia.24.t
+	desc = namibia.24.d
+	picture = GFX_namibia_dressler_speach
+
+	trigger = {
+		OR = {
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_unify_the_party }
+				date = 1937.2.2
+			}
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_unify_the_party }
+				date = 1938.6.23
+			}
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_unify_the_party }
+				date = 1939.1.15
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.24.a
+		add_power_balance_value = {
+			id = uunona_balance_of_power
+			value = -0.15
+		}
+	}
+
+	option = {
+		name = namibia.24.b
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = namibia.25
+	title = namibia.25.t
+	desc = namibia.25.d
+	picture = GFX_report_event_communists_cheer
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.25.a
+		promote_character = NMB_erwin_rommel_leader
+	}
+
+	option = {
+		name = namibia.25.b
+		promote_character = NMB_adam_dressler
+	}
+
+	option = {
+		name = namibia.25.c
+		promote_character = NMB_samuel_witbooi
+	}
+
+}
+
+country_event = {
+	id = namibia.26
+	title = namibia.26.t
+	desc = namibia.26.d
+	picture = GFX_namibia_maherero_speach
+
+	trigger = {
+		OR = {
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_unified_identity }
+				date = 1936.4.2
+			}
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_unified_identity }
+				date = 1939.5.5
+			}
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_unified_identity }
+				date = 1940.8.5
+			}
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_unified_identity }
+				date = 1942.8.5
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.26.a
+		add_power_balance_value = {
+			id = uunona_balance_of_power
+			value = -0.1
+		}
+	}
+
+	option = {
+		name = namibia.26.b
+		add_political_power = -50
+	}
+}
+
+
+country_event = {
+	id = namibia.27
+	title = namibia.27.t
+	desc = namibia.27.d
+	picture = GFX_namibia_leonard_speach
+
+	trigger = {
+		OR = {
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_traditionalist_purge }
+				date = 1936.11.11
+			}
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_traditionalist_purge }
+				date = 1937.4.2
+			}
+
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_traditionalist_purge }
+				date = 1940.8.2
+			}
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_traditionalist_purge }
+				date = 1941.4.2
+			}
+			AND ={
+				original_tag = NMB
+				NOT = { has_completed_focus = NMB_traditionalist_purge }
+				date = 1942.4.2
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.27.a
+		add_power_balance_value = {
+			id = uunona_balance_of_power
+			value = -0.1
+		}
+	}
+
+	option = {
+		name = namibia.27.b
+		add_political_power = -50
+	}
+}
+
+
+country_event = {
+	id = namibia.29
+	title = namibia.29.t
+	desc = namibia.29.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.29.a
+		country_event = {
+			id = namibia_news.4
+			days = 2
+		}
+		ENG = { release = GHA }
+		GHA = {
+			country_event = {
+			id = africa_rise.1
+			hours = 3
+			random_hours = 6
+			days = 1
+			}				
+		}
+		FRA = { release = mor }
+		MOR = {
+			country_event = {
+			id = africa_rise.1
+			hours = 3
+			random_hours = 6
+			days = 1
+			}				
+		}
+		FRA = {release = cha}
+		CHA = {
+			country_event = {
+			id = africa_rise.1
+			hours = 3
+			random_hours = 6
+			days = 1
+			}				
+		}
+		FRA = {release = sok }
+		SOK = {
+			country_event = {
+			id = africa_rise.1
+			hours = 3
+			random_hours = 6
+			days = 1
+			}				
+		}	
+		ENG = { release = gam }
+		GAM = {
+			country_event = {
+			id = africa_rise.1
+			hours = 3
+			random_hours = 6
+			days = 1
+			}				
+		}
+		FRA = { release = eqg }
+		EQG = {
+			country_event = {
+			id = africa_rise.1
+			hours = 3
+			random_hours = 6
+			days = 1
+			}				
+		}
+		NMB = {
+			add_to_faction = GHA
+			add_to_faction = cha
+			add_to_faction = mor
+			add_to_faction = gam
+			add_to_faction = sok
+			add_to_faction = eqg
+		}	
+	}
+}
+
+
+#### Monarch events
+
+# Jean III
+
+
+country_event = {
+	id = namibia.31
+	title = namibia.31.t
+	desc = namibia.31.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.31.a
+		set_cosmetic_tag = NMB_orleans
+		promote_character = NMB_jeaniii
+		set_politics = {
+			ruling_party = democratic
+			last_election = "1936.1.12"
+			election_frequency = 60
+			elections_allowed = no
+		}
+	}
+}
+
+### AIR
+
+country_event = {
+	id = namibia.32
+	title = namibia.32.t
+	desc = namibia.32.d
+	picture = GFX_report_event_SOV_purge_aircraft_2
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.32.a
+		air_experiance = 10
+	}
+}
+
+
+
+### NAMIBIAN_ZIMBABWE_BEEF
+
+country_event = {
+	id = namibia.28
+	title = namibia.28.t
+	desc = namibia.28.d
+	picture = report_event_generic_rally
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = namibia.28.a
+		NMB = { add_to_faction = ZAM}
+		NMB = { add_to_faction = ZIM}
+		ZIM = { add_war_support = -0.1 }
+	}
+
+	option = {
+		name = namibia.28.b
+		NMB = { add_to_faction = ZAM}
+		ZIM = {
+			create_wargoal = {
+				type = annex_everything
+				target = NMB
+			}
+		}
+	}
+}

@@ -1,0 +1,616 @@
+ideas = {
+	country = {
+		ETH_selassie_idea = {
+
+			allowed = {
+				original_tag = ETH
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = selassie_idea
+
+			modifier = {
+				drift_defence_factor = 0.1
+				political_power_factor = 0.05
+				mobilization_speed = 0.05			
+			}
+		}
+	}
+
+	country = {
+		ETH_using_slaves = {
+
+			allowed = {
+				original_tag = ETH
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_prisoner
+
+			modifier = {
+				consumer_goods_factor = -0.15
+				industrial_capacity_factory = 0.1
+				stability_factor = -0.1						
+			}
+		}
+	}
+
+	country = {
+		ETH_lots_of_food = {
+
+			allowed = {
+				original_tag = ETH
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = LIT_invested_in_farms
+
+			modifier = {
+				monthly_population = 0.25		
+			}
+		}
+	}
+
+	country = {
+		ETH_pas_sharing = {
+
+			allowed = {
+				original_tag = ETH
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = namib_nationalism
+
+			modifier = {
+				drift_defence_factor = 0.1
+				research_speed_factor 0.1		
+			}
+		}
+	}
+
+	country = {
+		ETH_defending_ethiopia_idea_nmb = {
+
+			allowed = {
+				original_tag = ETH
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = chi_army_corruption2
+
+			modifier = {
+				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.1		
+			}
+		}
+	}
+
+	country = {
+		ETH_army_in_politics= {
+
+		picture = ETH_army
+			
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		modifier = {
+			political_power_factor = 0.2
+			stability_factor = 0.05
+			political_advisor_cost_factor = 0.3
+			high_command_cost_factor = 0.2
+			army_chief_cost_factor = 0.2			
+		}
+	}
+	}
+
+	country = {
+		ETH_guerillia_warfare= {
+
+		picture = CHI_war_of_resistance_3
+			
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		modifier = {
+			war_support_factor = 0.1
+			army_core_defence_factor = 0.15
+			resistance_growth_on_our_occupied_states = 0.3
+		}
+	}
+	}
+
+	country = {
+		ETH_legacy_of_adwa_idea= {
+
+		picture = ETH_the_heroes_of_adwa 
+			
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		modifier = {
+			war_support_factor = 0.1
+			stability_factor = 0.1
+			political_power_factor = 0.1
+			army_core_attack_factor = 0.15
+		}
+	}
+	}
+
+	country = {
+		ETH_backwards_army = {
+
+		picture = ETH_army
+			
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		modifier = {
+			army_infantry_attack_factor = -0.1
+			land_doctrine_cost_factor = 0.50
+			max_command_power_mult = -0.25
+		}
+	}
+	}
+
+	country = {
+		ETH_mass_corruption = {
+
+		picture = ARG_political_corruption_modifier
+			
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		modifier = {
+			army_infantry_attack_factor = -0.1
+			consumer_goods_factor = 0.15
+			political_power_factor = -0.4
+		}
+	}
+	}
+
+	country = {
+	ETH_christmas_offensive= {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		targeted_modifier = {
+			tag = ITA 
+			attack_bonus_against = 0.10
+		}
+
+		picture = ETH_conservative_high_command
+
+		modifier = {
+			breakthrough_factor = 0.1
+		}
+	}
+	}
+
+	country = {
+	ETH_cut_them_in_two= {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		targeted_modifier = {
+			tag = ENG
+			attack_bonus_against = 0.15
+		}
+
+		picture = ETH_conservative_high_command
+
+		modifier = {
+			breakthrough_factor = 0.1
+		}
+	}
+	}
+
+	country = {
+	ETH_illiterate_populace = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = HUN_treaty_of_triannon
+		
+		modifier = {
+			research_speed_factor = -0.15	
+		}
+	}
+	}
+
+
+	country = {
+	ETH_primative_economy = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = GER_recovering_economy
+		
+		modifier = {
+			consumer_goods_factor = 0.9
+			industrial_capacity_factory = -0.2
+			production_factory_max_efficiency_factor = -0.15
+		}
+	}
+	}
+
+	country = {
+	ETH_primative_economy2 = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = GER_recovering_economy
+		
+		modifier = {
+			consumer_goods_factor = 0.8
+			industrial_capacity_factory = -0.2
+			production_factory_max_efficiency_factor = -0.15
+		}
+	}
+	}
+
+	country = {
+	ETH_primative_economy3 = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = GER_recovering_economy
+		
+		modifier = {
+			consumer_goods_factor = 0.7
+			industrial_capacity_factory = -0.2
+			production_factory_max_efficiency_factor = -0.15
+		}
+	}
+	}
+
+	country = {
+	ETH_primative_economy4 = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = GER_recovering_economy
+		
+		modifier = {
+			consumer_goods_factor = 0.6
+			industrial_capacity_factory = -0.2
+			production_factory_max_efficiency_factor = -0.15
+		}
+	}
+	}
+
+	country = {
+	ETH_primative_economy5 = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = GER_recovering_economy
+		
+		modifier = {
+			consumer_goods_factor = 0.5
+			industrial_capacity_factory = -0.2
+			production_factory_max_efficiency_factor = -0.15
+		}
+	}
+	}
+
+	country = {
+	ETH_primative_economy6 = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = GER_recovering_economy
+		
+		modifier = {
+			consumer_goods_factor = 0.4
+			industrial_capacity_factory = -0.1
+			production_factory_max_efficiency_factor = -0.1
+		}
+	}
+	}
+
+	country = {
+	ETH_primative_economy7 = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = GER_recovering_economy
+		
+		modifier = {
+			consumer_goods_factor = 0.3
+			industrial_capacity_factory = -0.05
+			production_factory_max_efficiency_factor = -0.05
+		}
+	}
+	}
+
+	country = {
+	ETH_primative_economy8 = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = GER_recovering_economy
+		
+		modifier = {
+			consumer_goods_factor = 0.2
+		}
+	}
+	}
+
+	country = {
+	ETH_primative_economy9 = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = GER_recovering_economy
+		
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+	}
+	}
+
+	country = {
+	ETH_abyssinia_bank = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = generic_foreign_capital
+		
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+	}
+	}
+
+	country = {
+	ETH_flat_tax_idea = {
+		allowed = {
+			always = yes
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+			
+		picture = ETH_taxed_nobility
+		
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+	}
+	}
+
+	country = {
+		ETH_legacy_of_the_1930_coup = {			
+			
+			allowed = {
+				alway = yes
+			}
+
+			
+			removal_cost = -1
+
+			picture = tur_disorganised_armed_forces
+			
+			modifier = {
+				stability_factor = -0.2
+
+			}
+		}
+	}
+
+	country = {
+		ETH_national_development= {			
+			
+			allowed = {
+				alway = yes
+			}
+
+			
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				monthly_population = 0.1
+			}
+		}
+	}
+
+	country = {
+		ETH_poor_helping= {			
+			
+			allowed = {
+				alway = yes
+			}
+
+			
+			removal_cost = -1
+
+			picture = LIT_invested_in_farms
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				monthly_population = 0.20
+			}
+		}
+	}
+
+	country = {
+		ETH_namibian_ethiopian_economic_alliance = {			
+			
+			allowed = {
+				alway = yes
+			}
+
+			
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.05
+
+			}
+		}
+	}
+
+	country = {
+		ETH_working_programme = {			
+			
+			allowed = {
+				alway = yes
+			}
+
+			
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.1
+
+			}
+		}
+	}
+}

@@ -1,0 +1,121 @@
+characters={
+    hai_frank_lavaud_two ={
+        name = "Inocencio Matoso de Camara Pires"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/frank_lavaud.png"
+			}
+		}
+		corps_commander = { 
+			traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    hai_minos_bijoux ={
+        name = "Minos Bijoux"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/minos_bijoux.png"
+			}
+		}
+		country_leader={
+			ideology= nazism
+			traits = {
+				nationalist_icon
+			}
+		}
+		field_marshal = { 
+			traits = { defensive_doctrine politically_connected }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    hai_paul_magloire_nmb ={
+        name = "Paul Magloire"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_Haiti_Paul_Magloire.png"
+			}
+		}
+
+		field_marshal = { 
+			traits = { politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    HAI_desmothenes_calixte ={
+        name = "Desmothenes Calixte"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/longass_name.png"
+			}
+		}
+		corps_commander = { 
+			traits = {  }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    HAI_daniel_fignole={
+        name = "Daniel Fignore"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/daniel_fignole.png"
+			}
+		}
+		country_leader={
+			ideology= nazism
+		}
+	}
+    HAI_joseph_jolibois_fils={
+        name = "Joseph Jolibois Fils"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_Haiti_Joseph_Jolibois_Fils.png"
+			}
+		}
+		country_leader={
+			ideology= nazism
+		}
+	}
+    HAI_jacques_stephen={
+        name = "Jacques Stephen Alexis"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/Portrait_Haiti_Jacques_Stephen_Alexis.png"
+			}
+		}
+		country_leader={
+			ideology= nazism
+		}
+	}
+    HAI_suzanne_comhaire_sylvain={
+        name = "Suzanne Comhaire Sylvain"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/suzanne_comhaire_sylvain.png"
+			}
+		}
+		country_leader={
+			ideology= nazism
+		}
+	}
+}

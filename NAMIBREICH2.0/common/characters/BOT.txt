@@ -1,0 +1,14 @@
+characters={
+    BOT_nmbtshekedi_khama ={
+        name = "Tsheki Khama"
+		portraits={
+			civilian={
+				large="gfx/leaders/BOT/tshekedi_khama.png"
+			}
+		}
+		country_leader={
+			ideology= conservatism
+			traits = { likes_namibia }
+		}
+	}
+}

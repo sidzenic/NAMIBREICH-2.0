@@ -1,0 +1,100 @@
+ETH_debt_payment= {
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+				has_idea = ETH_primative_economy
+				has_idea = ETH_primative_economy2
+				has_idea = ETH_primative_economy3
+				has_idea = ETH_primative_economy4
+				has_idea = ETH_primative_economy5
+				has_idea = ETH_primative_economy6
+				has_idea = ETH_primative_economy7
+				has_idea = ETH_primative_economy8
+				has_idea = ETH_primative_economy9
+				}
+			}
+		}
+		ETH_primative_economy
+	}
+
+	else_if = {
+		limit = {
+			has_idea = ETH_primative_economy
+		}
+		swap_ideas = {
+			remove_idea = ETH_primative_economy
+			add_idea = ETH_primative_economy2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ETH_primative_economy2
+		}
+		swap_ideas = {
+			remove_idea = ETH_primative_economy2
+			add_idea = ETH_primative_economy3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ETH_primative_economy3
+		}
+		swap_ideas = {
+			remove_idea = ETH_primative_economy3
+			add_idea = ETH_primative_economy4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ETH_primative_economy4
+		}
+		swap_ideas = {
+			remove_idea = ETH_primative_economy4
+			add_idea = ETH_primative_economy5
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ETH_primative_economy5
+		}
+		swap_ideas = {
+			remove_idea = ETH_primative_economy5
+			add_idea = ETH_primative_economy6
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ETH_primative_economy6
+		}
+		swap_ideas = {
+			remove_idea = ETH_primative_economy6
+			add_idea = ETH_primative_economy7
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ETH_primative_economy7
+		}
+		swap_ideas = {
+			remove_idea = ETH_primative_economy7
+			add_idea = ETH_primative_economy8
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ETH_primative_economy8
+		}
+		swap_ideas = {
+			remove_idea = ETH_primative_economy8
+			add_idea = ETH_primative_economy9
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = ETH_primative_economy9
+		}
+		remove_ideas = ETH_primative_economy9
+		add_stability = 0.1
+	}
+}

@@ -1,0 +1,39 @@
+state={
+	id=681
+	name="STATE_681"
+	provinces={
+		4696  4822 12547 12589 13554 13555 13556 13557 13581 13706 13707 13708 13709 13710 13711 13712 13713 13714 13715 13716 13717 13718 13719 13720 13721 13722 13723 13724 13725 13726 13727 13728 13729 13730 13732 13733 13734 13735 13736 13737 13738 13739 13740 13741 13742 13743 13744 13745 13746 13747 13748 13749 13750 13751 13752 13753 13754 
+	}
+	manpower=3237178
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
+	state_category = city
+
+	history = {
+
+		owner = SAF
+		add_core_of = SAF
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 1
+
+			12589 = {
+				naval_base = 4
+			    # Woodhead Dam
+				dam = 1
+			}
+			4696 = {
+				naval_base = 2
+			}
+		}
+
+		victory_points = {
+			12589 10 # Cape Town
+		}
+		
+	}
+}

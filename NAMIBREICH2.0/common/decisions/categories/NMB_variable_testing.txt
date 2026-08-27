@@ -1,0 +1,19 @@
+################
+##### NMB ######
+################
+
+NMB_variable_testing = {
+
+	icon = economic_operation
+
+	picture = GFX_decision_choo_choo
+	
+	allowed = {
+		original_tag = NMB
+	}
+
+	visible = {
+		original_tag = NMB
+	}
+}
+

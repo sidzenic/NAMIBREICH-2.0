@@ -1,0 +1,19 @@
+
+state={
+	id=1059
+	name="Matsulu"
+	manpower = 15000
+	state_category = pastoral
+
+	history={
+		owner = SAF
+		add_core_of = ESW
+		victory_points = { 13607 1 }
+	}
+
+	provinces={
+		13607
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

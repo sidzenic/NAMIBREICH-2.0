@@ -1,0 +1,920 @@
+characters={
+
+    NMB_yakov_alksnis ={
+        name = "Yakov Alknis"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/Portrait_Namibia_Adolf_Hitler.dds"
+				small="gfx/leaders/NMB/small_yakov_alksnis.png"
+			}
+		}		
+		
+		advisor = {
+			slot = high_command
+			idea_token = yakov_nmb
+			ledger = air
+			allowed = {
+				original_tag = NMB
+			}
+			traits = {
+				air_close_air_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+
+			available = {
+
+			}
+		}
+	}
+
+
+    NMB_adolf_hitler ={
+        name = "Adolf Uunona Hitler"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/Portrait_Namibia_Adolf_Hitler.dds"
+				small="gfx/leaders/NMB/small_uunona.png"
+			}
+		}
+		country_leader={
+			ideology= marxism
+			traits = {
+				dictator
+			}
+		}
+
+		advisor = {
+			slot = army_chief
+			idea_token = uunona_general
+			ledger = army
+			allowed = {
+				original_tag = NMB
+			}
+			available = {
+
+			}
+			traits = {
+				army_chief_army_high_command
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+	}
+
+    NMB_cornelious_frederick ={
+        name = "Cornelious Frederick"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/Portrait_Namibia_Adolf_Hitler.dds"
+				small="gfx/leaders/NMB/cornelius_small.png"
+			}
+		}
+
+		advisor = {
+			slot = army_chief
+			idea_token = cornelius_small_thoery
+			ledger = army
+			allowed = {
+				original_tag = NMB
+			}
+			available = {
+
+			}
+			traits = {
+				army_chief_drill_2
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+	}
+
+    NMB_lettow_vorbeck ={
+        name = "Paul von Lettow-Vorbeck"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/lettow_vorbeck.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+			traits = {
+				dictator
+			}
+			available = {
+				NMB = { has_completed_focus = NMB_prepare_the_wermacht}
+			}
+		}
+		corps_commander = {
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 5
+			traits = { trickster war_hero media_personality jungle_rat militias_officer }
+			show = {
+				NMB = { has_completed_focus = NMB_prepare_the_wermacht }
+			}
+		}
+	}
+
+    NMB_erwin_rommel_leader ={
+        name = "Erwin Osas Rommel"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/Portrait_Namibia_Erwin_rommel.dds"
+				small="gfx/leaders/NMB/small_rommel.png"
+			}
+		}
+		country_leader={
+			ideology= marxism
+		}
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = black_rommel
+			ledger = army
+			allowed = {
+				original_tag = NMB
+			}
+			traits = {
+				mobile_warfare_expert
+			}
+		}
+	}
+
+
+    NMB_adam_dressler ={
+        name = "Adam Ndilimeke Dressler"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/adam_ndilimeke_dressler.png"
+				small="gfx/leaders/NMB/small_dressler.png"
+			}
+		}
+		country_leader={
+			ideology= nazism
+		}
+		field_marshal = { 
+			traits = { politically_connected} 
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = NMB_freddygsfsfgsfsdadsdassad
+			cost = 100
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				pan_african_bolshevik_economist
+			}
+		}
+	}
+
+    NMB_colonial_council ={
+        name = "German Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/colonial_council.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+	}
+
+
+    NMB_colonial_council2 ={
+        name = "German Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/colonial_council.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+	}
+
+    NMB_harold_pupkewitz ={
+        name = "Harold Pupkewitz"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/colonial_council.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = NMB_harold_puppy
+			cost = 100
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				global_businessman
+			}
+		}
+	}
+
+
+    NMB_madume_ndemufayo ={
+        name = "Madume Ndemufayo"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/madume_ndemufayo.png"
+				small="gfx/leaders/NMB/mohamadou_Saidou.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = NMB_freddygsfsfgsfsdadsdassadfarteverywhere
+			cost = 100
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				tribal_teacher
+			}
+		}
+	}
+
+    NMB_hosea ={
+        name = "Hosea Kutako"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/hosea_unc.png"
+			}
+		}
+		country_leader={
+			ideology= conservatism
+			traits = { father_of_namib_nationalism }
+		}
+		country_leader={
+			ideology= despotism
+			traits = { father_of_namib_nationalism }
+		}
+	}
+
+    NMB_jeaniii ={
+        name = "Jean III"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/jean_iii.png"
+			}
+		}
+		country_leader={
+			ideology= conservatism
+			traits = { duke_of_orleans_nmb foreign_monarch }
+		}
+	}
+
+    NMB_samuel_maherero ={
+        name = "Samuel Maherero"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/samuel_maherero.png"
+			}
+		}
+		country_leader={
+			ideology= conservatism
+		}
+		field_marshal = { 
+			traits = { desert_fox old_guard}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+    NMB_jacob_morenga ={
+        name = "Jacob Morenga"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/jacob_morenga.png"
+				small="gfx/leaders/NMB/small_morenga.png"
+			}
+		}
+		country_leader={
+			ideology= marxism
+		}
+		corps_commander = { 
+			traits = { }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			cost = 100
+			idea_token = NMBgerqbvdfaavfsafvsdgvvbvvvadsadssdpoojaboc
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				army_cavalry_2
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = shaokoba
+			ledger = army
+			allowed = {
+				original_tag = NMB
+			}
+			visible = {
+			}
+			available = {
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+		}
+	}
+
+    NMB_samuel_witbooi ={
+        name = "Hendrik Samuel Witbooi"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/samuel_witbooi.png"
+				small="gfx/leaders/NMB/small_witbooi.png"
+			}
+		}
+		country_leader={
+			ideology= marxism
+		}
+		corps_commander = { 
+			traits = { }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			slot = high_command
+			cost = 100
+			idea_token = sspoop
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				army_regrouping_2
+			}
+		}
+	}
+
+
+
+
+    NMB_eino ={
+        name = "Eino Johannes Kambonde Yanamene"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/eino.png"
+			}
+		}
+		country_leader={
+			ideology= conservatism
+		}
+		corps_commander = { 
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = sspoopyfart
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				army_artillery_2
+			}
+		}
+	}
+
+
+    NMB_friederich_mahereo={
+        name = "Friedrich Maherero"
+		portraits={
+			civilian={
+				small="gfx/leaders/NMB/small_friedrich.png"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = NMB_freddygsfsfgsf
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				economic_reformer
+			}
+		}
+	}
+
+    NMB_leonard_auala={
+        name = "Leonard Auala"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/Portrait_NMB_Leonard_Auala.png"
+				small="gfx/leaders/NMB/small_leonard_auala.png"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = political_advisor
+			idea_token = NMB_freddygsfsfgsfdas
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				lutherin_minister
+			}
+		}
+	}
+
+    NMB_jan_hora ={
+        name = "Ján Hora"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/mountain_commander.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+		corps_commander = { 
+			traits = { mountain_commander }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+    NMB_manstein_advisors ={
+        name = "Erich von Manstein"
+		portraits={
+			civilian={
+				small="gfx/leaders/NMB/small_manstein.png"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = high_command
+			idea_token = NMBgerqbvdfaavfsafvsdgvvbvvv
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				army_armored_3
+			}
+		}
+	}
+
+    NMB_heinrich_kircheim ={
+        name = "Heinrich Kircheim"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/nmb_heinrich.png"
+				small="gfx/leaders/NMB/smalll_heinrich.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+		field_marshal = { 
+			traits = { panzer_leader armor_officer politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = high_command
+			idea_token = NMBgerqbvdfaavfsafvsd
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				army_concealment_2
+			}
+		}
+	}
+    NMB_karl_waldeck={
+        name = "Karl Waldeck"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/karl_waldeck.png"
+				small="gfx/leaders/NMB/small_karl.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+		corps_commander = { 
+			traits = { infantry_officer ascari_officer politically_connected   }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_karlyaddads
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				prince_of_terror
+			}
+		}
+	}
+    NMB_berthold={
+        name = "Berthold von Demling"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/berthold_von_demling.png"
+				small="gfx/leaders/NMB/small_demling.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+		corps_commander = { 
+			traits = { war_hero media_personality politically_connected  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor = {
+			cost = 150
+			slot = high_command
+			idea_token = GER_bertholdsfdsfdfsd
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				army_infantry_2
+			}
+		}
+	}
+
+
+
+    NMB_nikanor_hoveka ={
+        name = "Nikanor Hoveka"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/adam_ndilimeke_dressler.png"
+				small="gfx/leaders/NMB/nikanor_hoveka.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = NMB_nikolas_111
+			cost = 100
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				passionate_african
+			}
+		}
+	}
+
+
+    NMB_lipumbu_ya_tshilongo={
+        name = "Lipumbu Ya Tshilongo"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/big_lipumbu.png"
+				small="gfx/leaders/NMB/lipumbu_ya_tshilongo.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = NMB_ceo_of_sexjklier
+			cost = 100
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				teutonphobe
+			}
+		}
+		corps_commander = { 
+			traits = { cavalry_leader cavalry_officer politically_connected  }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+    NMB_amutenya_zulu_nadenga={
+        name = "Amuteny Zulu Nadenga"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/veteran_amutenya_zulu_nadenga.png"
+				small="gfx/leaders/NMB/lipumbu_ya_tshilongo.png"
+			}
+		}
+
+		corps_commander = { 
+			traits = { jungle_rat trait_cautious offensive_doctrine war_hero }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+    NMB_immanuel_job={
+        name = "Immanuel 'One Bullet' Job"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/veteran_immanuel_one_bullet_job.png"
+				small="gfx/leaders/NMB/lipumbu_ya_tshilongo.png"
+			}
+		}
+
+		corps_commander = { 
+			traits = { desert_fox brilliant_strategist war_hero }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    NMB_mandume_mweshixwa={
+        name = "Mandume Mweshixwa"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/veteran_immanuel_one_bullet_job.png"
+				small="gfx/leaders/NMB/lipumbu_ya_tshilongo.png"
+			}
+		}
+
+		corps_commander = { 
+			traits = { infantry_officer war_hero guerilla_fighter }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    NMB_marx_nekongo={
+        name = "Marx Nekongo"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/veteran_marx_nekongo.png"
+				small="gfx/leaders/NMB/lipumbu_ya_tshilongo.png"
+			}
+		}
+
+		corps_commander = { 
+			traits = { war_hero guerilla_fighter }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    NMB_moses_ngante={
+        name = "Moses Ngante"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/veteran_moses_ngante.png"
+				small="gfx/leaders/NMB/lipumbu_ya_tshilongo.png"
+			}
+		}
+
+		corps_commander = { 
+			traits = { war_hero desert_fox career_officer }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+    NMB_nghialasha_elia_haulyondjaba={
+        name = "Nghialasha Elia Haulyondjaba"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/veteran_nghialasha_elia_haulyondjaba.png"
+				small="gfx/leaders/NMB/lipumbu_ya_tshilongo.png"
+			}
+		}
+
+		corps_commander = { 
+			traits = { war_hero infantry_officer defensive_doctrine }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+    NMB_gustav_adolf_schatz={
+        name = "Gustav Adolf Schatz"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/adam_ndilimeke_dressler.png"
+				small="gfx/leaders/NMB/small_german_train_guy.png"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = NMB_ceo_of_sex
+			cost = 100
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				ceo_of_sex
+			}
+		}
+	}
+
+    NMB_wilhelm_faupel={
+        name = "Wilhelm Faupel"
+		portraits={
+			civilian={
+				large="gfx/leaders/NMB/wilhelm_faupel.png"
+				small="gfx/leaders/NMB/small_wilhlem.png"
+			}
+		}
+		country_leader={
+			ideology= despotism
+		}
+		corps_commander = { 
+			traits = { old_guard cavalry_leader cavalry_officer politically_connected  }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GER_wilhelm_faupelsdfsdf
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				army_regrouping_2
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = GER_wilhelm_faupelarmycheief
+			allowed = {
+				original_tag = NMB
+			}
+			
+			visible = {
+				always = yes
+			}
+			available = {
+			}
+			traits = {
+				army_chief_army_high_command
+			}
+		}
+	}
+}

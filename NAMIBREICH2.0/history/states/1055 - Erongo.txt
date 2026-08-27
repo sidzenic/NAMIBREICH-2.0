@@ -1,0 +1,24 @@
+
+state={
+	id=1055
+	name="Erongo"
+	manpower = 52500
+	state_category =  pastoral
+
+	resources={
+		oil=3
+	}	
+
+	history={
+		owner = NMB
+		add_core_of = NMB
+		victory_points = { 13449 1 }	
+		victory_points = { 13449 1 }
+	}
+
+	provinces={
+		13449 13468 2207 13465 13466 13467 13450 13451 13452 13453
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

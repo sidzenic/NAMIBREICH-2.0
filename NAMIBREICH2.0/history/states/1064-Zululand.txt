@@ -1,0 +1,20 @@
+state={
+	id=1064
+	name="Zululand"
+	provinces={
+		1494 13664 13665 13666 13667 13668 13671 13672 13673 13674 13675 
+	}
+	manpower=520000
+	buildings_max_level_factor=1
+	local_supplies=0
+	state_category = pastoral
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2 #was: 5
+			arms_factory = 1
+		}
+		add_core_of = SAF
+		add_core_of = ZUL
+	}
+}
