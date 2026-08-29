@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		
 		"SAF"={
-			minor = yes
+			minor = no
 			history = "SAF_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -32,7 +32,7 @@ bookmarks = {
 		}
 		"BOT"={
 			history = "BOT_GATHERING_STORM_DESC"
-			ideology = democracy
+			ideology = neutrality
 			ideas = {
 			}	
 			focuses = {
@@ -443,6 +443,7 @@ bookmarks = {
 			}
 		}
 		"FRA"={
+			minor = yes
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "La Resistance" } }
@@ -458,6 +459,7 @@ bookmarks = {
 			}
 		}
 		"FRA"={
+			minor = yes
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
@@ -473,6 +475,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
+			minor = yes
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { has_dlc = "Man the Guns" }
@@ -488,6 +491,7 @@ bookmarks = {
 			}
 		}
 		"ENG"={
+			minor = yes
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { NOT = { has_dlc = "Man the Guns" } }
@@ -503,6 +507,7 @@ bookmarks = {
 			}
 		}
 		"SOV"={
+			minor = yes
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
