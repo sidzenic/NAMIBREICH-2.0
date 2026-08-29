@@ -1,4 +1,223 @@
-﻿
+﻿l_english:
+
+#SOUTH AFRICA
 #bookmark
 
 SAF_GATHERING_STORM_DESC:0 "evil"
+
+
+
+
+#LESOTHO
+
+lesotho_gold_deal:0 "Lesotho Gold"
+lesotho_gold_deal_desc:0 " "
+
+
+
+#ESWATINI
+
+######## EWSWATINI
+
+ESW_modernise_diplomacy:0 "Foreign Relations"
+ESW_modernise_diplomacy_desc:0 "We must communicate and engage with the outside world if we want the [ROOT.GetName] to become a relevant country in modern politics."
+
+ESW_join_the_international_community:0 "Join the League of Nations"
+ESW_join_the_international_community_desc:0 "To be considered a modern and functioning nation, the [ROOT.GetName] must try to join the League of Nations."
+
+ESW_hello_to_the_world:0 "Open the Borders"
+ESW_hello_to_the_world_desc:0 "We cannot survive or thrive by ourselves. We need foreign investments and trade to help the nation's economy grow."
+
+
+ESW_african_partners:0 "African Partners"
+ESW_african_partners_desc:0 "Our fellow African brothers have the best interest in our economies. We must prioritise local and regional trade with them."
+
+ESW_join_the_militerisation_race:0 "Join the Arms Race"
+ESW_join_the_militerisation_race_desc:0 "Africa has seen a large militerisation and arms race. We will ask the Namib and Zimbabwean nations to help us follow suit."
+
+ESW_european_partners:0 "European Partners"
+ESW_european_partners_desc:0 "The West and Europe are able to produce far more goods than Namibia or South Africa. Seeking close economic ties with them is the best we can do."
+
+ESW_western_luxuries:0 "Western Luxuries"
+ESW_western_luxuries_desc:0 "The average European lives in luxury compaired to the average man or woman from the [ROOT.GetName]. We can heavily better ourselves and our society by purchases some of these luxuries from the West."
+
+ESW_raise_the_umbutfo:0 "Raise the Umbutfo"
+ESW_raise_the_umbutfo_desc:0 "The Umbutfo has acted as the [ROOT.GetName]'s standing army for most of history. With our independence threatened by the raging civil war in South Africa, we must be ready for an attack by a foreign nation at any time."
+
+ESW_strengthen_the_irregulars:0 "Strengthen the Irregulars"
+ESW_strengthen_the_irregulars_desc:0 "It'd be far too costly for us to establish a proper and modern army. Who would even invaide our useless country anyways?"
+
+ESW_mass_recruitment:0 "Mass Recruitment"
+ESW_mass_recruitment_desc:0 "Should we be invaided, it's most likely our enemies would send a small force to deal with us, seeing us a small and undefendable nation. Simply recruiting enough people and surrounding them will be enough to defend ourself."
+
+ESW_expand_the_irregulars:0 "Expand Umbutfo Divisions"
+ESW_expand_the_irregulars_desc:0 "The Umbutfo were designed to be light, cheap and fast. These tactics don't work in the modern day and we must adapt by expanding our divisions."
+
+ESW_mountain_warriors:0 "Hhohho Warriors"
+ESW_mountain_warriors_desc:0 "The Hhohho is the [ROOT.GetName]'s most mountainous province, making it a great natural defence to the north. We need to recruit locals who have mastered these mountains to join our army as an elite mountaineer force."
+
+ESW_piggs_point_weaponsmith:0 "Piggs Point Weaponsmith"
+ESW_piggs_point_weaponsmith_desc:0 "The [ROOT.GetName] lacks any form of arms or ammunition production, resulting in our nations having to rely on spears and shields, which doesn't exactly work out too well for us. We will use the wealth at Piggs Peak to build a small weapons factory."
+
+ESW_form_the_uedf:0 "Form the UEDF"
+ESW_form_the_uedf_desc:0 "The [ROOT.GetName] requires a real and proper army to survive. South Africa could try and annex us any second and stick and stones will probably not be enough to stop them."
+
+ESW_foreign_brains:0 "Foreign Brains"
+ESW_foreign_brains_desc:0 "We need the help from other modern countries to build up an army."
+
+ESW_send_the_generals_oversea:0 "Training for Sobhuza"
+ESW_send_the_generals_oversea_desc:0 "Sobhuza may be our king and head of the army, but he lacks any real army experiance and is more keen on ceremonial marches than training the army. We will send him overseas to receive some teaching."
+
+ESW_weapons_purchases:0 "Weapons Purchases"
+ESW_weapons_purchases_desc:0 " "
+
+ESW_swazi_economy:0 "Swazi Economy"
+ESW_swazi_economy_desc:0 " "
+
+ESW_feed_the_people:0 "Feed the People"
+ESW_feed_the_people_desc:0 "The people should be the ones to receive the harvest first. Without them, the homefront and economy would fail."
+
+ESW_feed_the_army:0 "Feed the Army"
+ESW_feed_the_army_desc:0 "Desperate times call for desperate measures. The army must be maintained and receive the most care in the country. Just see this as a bit of a diet."
+
+ESW_agricultural_exports:0 "Agricultural Exports"
+ESW_agricultural_exports_desc:0 "Various fruits and teas can only be grown in South Africa and the [ROOT.GetName]. We will grow these plants to earn some revenue from international trade."
+
+ESW_fruit_galore:0 "Fruit Galore"
+ESW_fruit_galore_desc:0 " "I LOVE FRUIT IT IS A FRUITGEM"
+
+ESW_mineral_contracts:0 "Mineral Contracts"
+ESW_mineral_contracts_desc:0 "South Africa is rich in minerals all throughout, so there is a good chance we are aswell. We will begin hiring contractors to survey the land and to start digging for riches."
+
+ESW_welcome_foreign_workers:0 "Welcome Foreign Workers"
+ESW_welcome_foreign_workers_desc:0 "A foreign workforce would not only help the economy, but will help our dire manpower situation."
+
+ESW_great_road:0 "Improve Mbabane Infrastructure"
+ESW_great_road_desc:0 "Mbabane was one of the most modern towns in South Africa, but has been turned to slums and ruins due to the depression. No great and respectable African kingdom should have their jewel of the nation looking like this!"
+
+ESW_electricity_experiments:0 "Expand Electricity to Rural Areas"
+ESW_electricity_experiments_desc:0 "Mbabane is the only place in the [ROOT.GetName] where electricity is the common. We must expand the grid to the country side to beneift the rural men."
+
+ESW_coal_mining:0 "Coal Mining"
+ESW_coal_mining_desc:0 "Hoi4 modding den reference"
+
+ESW_iron_mining:0 "Steel Refineries"
+ESW_iron_mining_desc:0 "Word of the street is our nations is full of untapped iron. We must dig deeper!"
+
+ESW_land_for_investments:0 "Land for Investments"
+ESW_land_for_investments_desc:0 "As long as it's for the 'benefit of the economy', we will grant as much land to local investors to help build us up. Who cares what the farmers think, it's for their benefit anyways..."
+
+ESW_avoid_swazi_exploitation:0 "Avoid Exploitations"
+ESW_avoid_swazi_exploitation_desc:0 "We cannot wrecklessly grow. We must protect the people that make this country so great. We mustn't let the foreigners get on top of us."
+
+ESW_a_little_south_africa:0 "A Mini South Africa"
+ESW_a_little_south_africa_desc:0 "We are as rich and are only getting richer as South Africa. We might say we're equally great as them!"
+
+ESW_development_efforts:0 "Development Efforts"
+
+ESW_medical_care:0 "Medical Care"
+ESW_medical_care_desc:0 " "
+
+ESW_end_sobhuzas_greed:0 "End Sobhuzas Greed"
+ESW_end_sobhuzas_greed_desc:0 "His greed sickens me... We must stop Sobhuza's wreckless spending."
+
+ESW_assure_neutrality:0 "Assure Neutrality"
+ESW_assure_neutrality_desc:0 "It would be suicide to try anything fancy against our neighbours. We must remain humble and peaceful."
+
+ESW_switzerland_of_africa:0 "Switzerland of Africa"
+ESW_switzerland_of_africa_desc:0 " "
+
+ESW_welcome_war_refugees:0 "Welcome War Refugees"
+ESW_welcome_foreign_workers_desc:0 " "
+
+ESW_struggle_against_socialism:0 "Struggle Against Socialism"
+ESW_struggle_against_socialism_desc:0 " "
+
+ESW_safety_with_south_africa:0 "Safety With South Africa"
+ESW_safety_with_south_africa_desc:0 "South Africa surrounds most of our country and is respectful of our independence. We could forge an alliance against the Namib menace to prevent the fall of our regimes."
+
+ESW_zululand_agreement:0 "Zululand for War Efforts"
+ESW_zululand_agreement_desc:0 " "
+
+ESW_join_the_african_struggle:0 "Join the African Struggle"
+ESW_join_the_african_struggle_desc:0 "Our independence will be short lived if we dont find guarenteers and allies. Namibia is looking to curb stomp South Africa, so why not join in on the fun?"
+
+ESW_aim_for_greater_eswatini:0 "Greater Eswatini"
+ESW_aim_for_greater_eswatini_desc:0 "Namibia is willing to accept our Zululand claims."
+
+ESW_request_namibian_weapons:0 "Request Namibian Weapons"
+ESW_request_namibian_weapons_desc:0 " "
+
+ESW_forge_our_own_ideas:0 "Forge our own Ideas"
+ESW_forge_our_own_ideas_desc:0 "Sobhuza is anti-socialist at heart. He must be removed and the people shall finally rule their country!"
+
+ESW_eswatini_alone:0 "Civil War Involvement"
+ESW_eswatini_alone_desc:0 "Our time to strike is now. South Africa is destroying itself, and we shall rise from their ashes!"
+
+ESW_organise_separatists:0 "Seek Colaborators"
+ESW_organise_separatists_desc:0 "There's thousands of people who would rather live in the [ROOT.GetName] than South Africa. With their help, their dreams shall come true."
+
+ESW_aid_from_namibia:0 "Aid From Namibia"
+ESW_aid_from_namibia_desc:0 "Namibia is sitting in jolly as South Africa is turning into chaos. The longer the war goes on, the better it is for them. We will ask Namibia for some weapons to cause some chaos for ourselves."
+
+ESW_guerilla_tactics:0 "Guerillia Tactics"
+ESW_guerilla_tactics_desc:0 "We must use the bush and mountains to hide and strike the enemy."
+
+ESW_fortifications:0 "Fority the Lands"
+ESW_fortifications_desc:0 " "
+
+ESW_emergency_arms:0 "Weapon Smuggling"
+ESW_emergency_arms_desc:0 " "
+
+ESW_south_african_kingdom:0 "South African Kingdom"
+ESW_south_african_kingdom_desc:0 "Somehow, we have turned out on top in the civil war and Sobhuza's wildest dreams have came true..."
+
+ESW_allign_local_rulers:0 "Allign Local Rulers"
+ESW_allign_local_rulers_desc:0 " "
+
+ESW_development_plan:0 "3 Year Plan"
+ESW_development_plan_desc:0 " "
+
+ESW_purchase_territories:0 "Purchase Territories"
+ESW_purchase_territories_desc:0 " "
+
+ESW_irregular_army:0 "Irregular Army"
+ESW_irregular_army2:0 "Irregular Army"
+
+ESW_professional_army:0 "UEDF"
+
+ESW_agriculture_on_civs:0 "People First"
+
+ESW_agricultural_export_idea:0 "Agricultural Exports"
+
+ESW_miners:0 "Miner Immigration"
+
+ESW_switzerland_of_africa_idea:0 "Switzerland of Africa"
+
+ESW_war_refugee_ideas:0 "War Refugees"
+
+ESW_crusade_against_socialism:0 "Anti-Socialist Crusade"
+
+ESW_alligned_with_namibia:0 "Crush the Coloniser"
+
+ESW_guerilla_warfare:0 "Guerilla Warfare"
+
+ESW_monarchy_long:0 "House of Dlamini"
+ESW_monarchy:0 "House of Dlamini"
+
+nmbr_eswatini.2.t:0 "[ESW.GetName] Wishes to Purchase Swazi Bantustans"
+nmbr_eswatini.2.d:0 "Eswainti wants to purchase the Swazi-dominated regions to the north of their country. Selling these lands would also give us one less minority to worry about."
+
+nmbr_eswatini.3.t:0 "South Africa Agrees!"
+nmbr_eswatini.3.d:0 "South Africa has agreed to the purchase of the northern territories. Despite the huge gain from this, our economy will be strained due to the reperations we owe South Africa for the time being."
+nmbr_eswatini.3.a:0 "thx"
+
+ESW_acheive_peak_south_africa:0 "Acheive Peak South Africa"
+ESW_acheive_peak_south_africa_desc:0 " "
+
+
+
+
+
+
+
