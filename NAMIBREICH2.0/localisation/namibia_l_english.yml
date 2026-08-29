@@ -37,7 +37,7 @@
  
  # Bookmark
  
- NMB_GATHERING_STORM_DESC:0 "Colonised by the Germans in the 19th Century, Namibia found itself beign fought over by the Germans and South African in the First World War. The Namibian people saw this as a chance of opportunity, and revoulted against their German masters, only to end up getting invaided by South Africa in 1916. The occupation lasted until 1926, but South Africa was eventually forced to pull out of Namibia, and the country has had a strong spite against them since. In 1933, Hitler couped the democratic republic after years of economic depression and unemployment. Will Hitler be able to bring Namibia into a new age, or will they suffer the same humiliation as in the First World War?."
+ NMB_GATHERING_STORM_DESC:0 "Colonised by the Germans in the 19th Century, Namibia found itself being fought over by the Germans and South Africans in the First World War. The Namibian people saw this opportunity and revolted, only to end up being invaded by South Africa in 1916. South Africa was forced to pull out of Namibia in 1926, ending the 10-year-long occupation./n/n Economic depression, high unemployment and bitter memories of recent occupation, lead to Hitler's coup of the democratic republic in 1933. Will Hitler be able to bring Namibia into a new age, or succumb to the chaos that surrounds the land?"
 
  
  # Tooltips
@@ -510,7 +510,7 @@ NMBdemocratic_legacy_of_the_resistance_war:0 "Legacy of the Resistance War"
 NMBdemocratic_legacy_of_segregartion_desc:0 "Coined by Hitler, the 'Great Resistance War' was the period inbetween 1916 and 1926 where brave Namibian fought the South African invaiders. We eventually succeeded, but at a great cost. We must modernise the army if we don't want our nation to at the mercy of South Africa again."
 
 NMBdemocratic_german_army_plan:0 "German Army Plan"
-NMBdemocratic_german_army_plan_desc:0 "The Germans in our army are some of the best fighters and strategists we have to offer. We must listen to their suggestions if we want a competant army."\
+NMBdemocratic_german_army_plan_desc:0 "The Germans in our army are some of the best fighters and strategists we have to offer. We must listen to their suggestions if we want a competant army."
 
 NMBdemocratic_increase_training_standards:0 "Increase Army Standards"
 NMBdemocratic_increase_training_standards_desc:0 "A good army is a strict, loyal and professional one. Right now our army is full of vagabonds that only serve us for their paycheck at the end of the month. We must motivate our soldiers to fight for Namibia, not for the money."
@@ -560,7 +560,7 @@ NMB_legacy_of_the_resistance_war:0 "Legacy of the Resistance War"
 NMB_legacy_of_segregartion_desc:0 "Coined by Hitler, the 'Great Resistance War' was the period inbetween 1916 and 1926 where brave Namibian fought the South African invaiders. We eventually succeeded, but at a great cost. We must modernise the army if we don't want our nation to at the mercy of South Africa again."
 
 NMB_german_army_plan:0 "German Army Plan"
-NMB_german_army_plan_desc:0 "The Germans in our army are some of the best fighters and strategists we have to offer. We must listen to their suggestions if we want a competant army."\
+NMB_german_army_plan_desc:0 "The Germans in our army are some of the best fighters and strategists we have to offer. We must listen to their suggestions if we want a competant army."
 
 NMB_increase_training_standards:0 "Increase Army Standards"
 NMB_increase_training_standards_desc:0 "A good army is a strict, loyal and professional one. Right now our army is full of vagabonds that only serve us for their paycheck at the end of the month. We must motivate our soldiers to fight for Namibia, not for the money."
@@ -594,7 +594,7 @@ NMB_true_unification:0 "Build New Cities"
 NMB_true_unification_desc:0 "Namibia is a sparesely populated country, no shock. We only have such few cities where we can build new things, so why not just start from scratch and begin building new towns."
 
 NMB_destroy_unemployment:0 "Build up new Cities"
-NMB_destroy_unemployment_desc:0 "With these new cities begining to go underway, we can now start gaining a profit from them."\
+NMB_destroy_unemployment_desc:0 "With these new cities begining to go underway, we can now start gaining a profit from them."
 
 NMB_purchase_convoys:0 "Purchase Convoys"
 NMB_purchase_convoys_desc:0 "The Namibian Merchants' Fleet isn't in the best of shape. We are desperatly lacking boats that can transport the needed resources to turn Namibia into the war machine it was meant to be. We will buy some convoys from some friendly powers to help us in this time of need."
@@ -1583,7 +1583,7 @@ HAI_american_plot_desc:0 "The Americans wouldn't give up so easily. They must be
 
 nmbr_haiti.1.t:0 "The Glorious Haitian Revolution"
 nmbr_haiti.1.d:0 "Haiti is a land of misery and depression. The first modern independent country in the Americas, Haiti has always been a land of people demanding freedom and liberation. Unfortunately, history hasn't been to kind to Haiti. Policital instability, famines, natural disasters, all of these have give Haiti the reputation of 'The Unluckiest Country'. Even more disasterously, during the Great War the United States lead an amphibious invasion to secure their economic interests in the region, and to grow the ever-expanding 'American Empire'. A puppet administration was established by the Yanks, and under it the Americans had a free reign over our resources and economy. That was until 1933. Like Namibia, Haiti had it's own glorious revolution against imperialism. Mino Bijoux was able to gather up a large army of Socialists and Nationalists where he then lead a coup against the puppet regime. A quick purge of all colaborators and Americans living in Haiti strengthened his rule as the one leader of Haiti. All this has come at cost however. The Americans are blockading our country and starving our people. Namibia is begining to rearm and lick it's wounds while Haiti is still stuck in the same position it was in 20 years ago. Will we be able to acheive our own dreams, or will we be forced to live under the shadows of the Namibians and Americans?"
-nmbr_haiti.1.a:0 "L’Union fait la force!"
+nmbr_haiti.1.a:0 "L'Union fait la force!"
 
 HAI_the_western_revolutionl:0 "The Western Revolution"
 HAI_the_western_revolutionl_desc:0 "As Namibia and Zimbabwe had revolutions of their own, Haiti has also freed itself from White tyranny and has adopted the ideas of Uunona and M'seli. This puts us in the unique position of the first, and not last, Creole country in the Americas to adopt Pan-African Socialism."
