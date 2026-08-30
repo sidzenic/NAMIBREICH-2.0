@@ -136,7 +136,7 @@ focus_tree = {
 			factor = 12
 		}
 		completion_reward = {
-			air_experiance = 25
+			air_experience = 25
 		}		
 	}
 
@@ -154,7 +154,7 @@ focus_tree = {
 			factor = 12
 		}
 		completion_reward = {
-			air_experiance = 25
+			air_experience = 25
 		}		
 	}
 
@@ -169,7 +169,7 @@ focus_tree = {
 			factor = 12
 		}
 		completion_reward = {
-			air_experiance = 25
+			air_experience = 25
 		}		
 	}
 

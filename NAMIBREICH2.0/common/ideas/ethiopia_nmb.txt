@@ -520,7 +520,7 @@ ideas = {
 		ETH_legacy_of_the_1930_coup = {			
 			
 			allowed = {
-				alway = yes
+				always = yes
 			}
 
 			
@@ -539,7 +539,7 @@ ideas = {
 		ETH_national_development= {			
 			
 			allowed = {
-				alway = yes
+				always = yes
 			}
 
 			
@@ -559,7 +559,7 @@ ideas = {
 		ETH_poor_helping= {			
 			
 			allowed = {
-				alway = yes
+				always = yes
 			}
 
 			
@@ -578,7 +578,7 @@ ideas = {
 		ETH_namibian_ethiopian_economic_alliance = {			
 			
 			allowed = {
-				alway = yes
+				always = yes
 			}
 
 			
@@ -598,7 +598,7 @@ ideas = {
 		ETH_working_programme = {			
 			
 			allowed = {
-				alway = yes
+				always = yes
 			}
 
 			

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= depostism
+			ideology= despotism
 		}
 		country_leader={
 			ideology= nazism

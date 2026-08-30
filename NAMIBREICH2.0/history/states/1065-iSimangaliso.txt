@@ -13,7 +13,7 @@ state={
 
 		owner = SAF
 		add_core_of = SAF
-		add_core_of = ZUL
+#		add_core_of = ZUL
 		add_claim_by = ESW
 
 

@@ -760,7 +760,7 @@ focus_tree = {
 		icon = GFX_focus_generic_sway_navy
 		prerequisite = { focus = HAI_legacy_of_the_navy}
 		mutually_exclusive = { focus = HAI_ensure_navy_quality}
-		mutually_exclusive = { foucs = HAI_purchase_foreign_crafts}
+		mutually_exclusive = { focus = HAI_purchase_foreign_crafts}
 
 		x = 21
 		y = 9

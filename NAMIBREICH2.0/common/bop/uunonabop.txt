@@ -9,7 +9,7 @@ uunona_balance_of_power = {
         min = -0.25
         max = 0.25
         modifier = {
-            war_support_factor_factor = 1
+            war_support_factor = 1
         }
     }
 

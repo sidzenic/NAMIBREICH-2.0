@@ -88,7 +88,7 @@ focus = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = NMB_prussian_army1
-				add_idea = NMB_prussian_army2
+				add_ideas= NMB_prussian_army2
 			}
 		}
 

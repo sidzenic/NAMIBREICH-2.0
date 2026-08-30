@@ -369,7 +369,7 @@ NMG = "countries/Namibia_german.txt"
 VLK = "countries/South Africa.txt"
 ORG = "countries/South Africa.txt"
 TFS = "countries/South Africa.txt"
-ZUL = "countries/Zimbabwe.txt"
+#ZUL = "countries/Zimbabwe.txt"
 NSA = "countries/Zimbabwe.txt"
 
 # MUN

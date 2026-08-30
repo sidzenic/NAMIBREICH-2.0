@@ -204,7 +204,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_history_of_segregation
-				add_idea = SAF_history_of_segregation_2
+				add_ideas= SAF_history_of_segregation_2
 			}
 		}
 	}
@@ -272,7 +272,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_cheap_labor_2
-				add_idea = SAF_cheap_labor_3
+				add_ideas= SAF_cheap_labor_3
 			}
 		}
 	}
@@ -387,7 +387,7 @@
 		completion_reward = {			
 			swap_ideas = {
 				remove_idea = SAF_ossewabrandwag
-				add_idea = SAF_ossewabrandwag_2
+				add_ideas= SAF_ossewabrandwag_2
 			}
 			remove_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
 		}
@@ -591,7 +591,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_cheap_labor_1
-				add_idea = SAF_cheap_labor_2
+				add_ideas= SAF_cheap_labor_2
 			}
 		}
 	}
@@ -682,7 +682,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_abandon_westminster
-				add_idea = SAF_abandon_westminster_fascism
+				add_ideas= SAF_abandon_westminster_fascism
 			}
 		}
 	}
@@ -735,7 +735,7 @@
 			army_experience = 15
 			swap_ideas = {
 				remove_idea = SAF_ossewabrandwag
-				add_idea = SAF_ossewabrandwag_fascism
+				add_ideas= SAF_ossewabrandwag_fascism
 			}
 		}
 	}
@@ -1148,7 +1148,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_voortrekker_monument
-				add_idea = SAF_voortrekker_monument_2
+				add_ideas= SAF_voortrekker_monument_2
 			}
 
 		}
@@ -1333,7 +1333,7 @@
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_abandon_westminster
-				add_idea = SAF_abandon_westminster_communism
+				add_ideas= SAF_abandon_westminster_communism
 			}
 		}
 	}
@@ -1431,7 +1431,7 @@
 		add_ideas =  SAF_black_volunteers
 		swap_ideas = {
 				remove_idea = SAF_ossewabrandwag
-				add_idea = SAF_ossewabrandwag_2
+				add_ideas= SAF_ossewabrandwag_2
 			}
 		}
 	}

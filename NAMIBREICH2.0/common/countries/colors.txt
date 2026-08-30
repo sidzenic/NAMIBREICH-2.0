@@ -1223,7 +1223,7 @@ ESW = {
 	color = rgb { 38 61 56 }
 	color_ui = rgb { 38 61 56 }
 }
-NMT = {
+NMB = {
 	color = rgb { 75 77 186 }
 	color_ui = rgb { 124 125 184 }
 }
