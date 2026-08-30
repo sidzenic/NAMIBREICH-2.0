@@ -6,6 +6,8 @@
 ### search_filters = {FOCUS_FILTER_MANPOWER}
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
+### testing
+
 focus_tree = {
 	id = beta_zimbabwe
 	
