@@ -1,5 +1,7 @@
 ﻿l_english:
  
+ BOT_MON:0 "Kingdom of Botswana"
+ BOT_MON_DEF:0 "Tswana"
  TFS_RAC:0 "Ossewabrandwag"
  TFS_RAC_DEF:0 "Ossewabrandwag"
  ESW_PAS:0 "Eswatini People's Republic"
