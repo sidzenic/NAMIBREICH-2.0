@@ -37,7 +37,7 @@ NMB_variable_testing= {
 	}
 
 
-	sell_kharas_tungsten {		
+	sell_kharas_tungsten = {		
 
 		icon = GFX_decision_icon_default		
 		
@@ -76,7 +76,7 @@ NMB_variable_testing= {
 		}
 	}
 
-	sell_west_kharas_tungsten {		
+	sell_west_kharas_tungsten = {		
 
 		icon = GFX_decision_icon_default		
 		

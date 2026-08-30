@@ -9,7 +9,6 @@ country_event = {
 	desc = africa_rise.1.d
 	picture = GFX_report_event_generic_rally2
 
-	fire_only_once = false
 	
 	is_triggered_only = yes
 	

@@ -953,7 +953,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = ESW_irregular_army
-				add_ideas= ESW_irregular_army2
+				add_idea = ESW_irregular_army2
 			}
 		}
 

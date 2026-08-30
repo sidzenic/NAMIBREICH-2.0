@@ -20,7 +20,7 @@ NMB_german_sad = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_german_support5
-			add_ideas= NMB_german_support4
+			add_idea= NMB_german_support4
 		}
 	}
 	else_if = {
@@ -29,7 +29,7 @@ NMB_german_sad = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_german_support4
-			add_ideas= NMB_german_support3
+			add_idea= NMB_german_support3
 		}
 	}
 	else_if = {
@@ -38,7 +38,7 @@ NMB_german_sad = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_german_support3
-			add_ideas= NMB_german_support2
+			add_idea= NMB_german_support2
 		}
 	}
 	else_if = {
@@ -47,7 +47,7 @@ NMB_german_sad = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_german_support2
-			add_ideas= NMB_german_support1
+			add_idea= NMB_german_support1
 		}
 	}
 	else_if = {
