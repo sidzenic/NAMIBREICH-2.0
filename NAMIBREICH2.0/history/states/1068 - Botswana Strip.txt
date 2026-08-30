@@ -14,9 +14,8 @@ state={
 		owner = BOT
 		add_core_of = BOT
 
-		victory_points = {
-
-		}
+#		victory_points = {
+#		}
 
 		buildings = {
 			infrastructure = 2
