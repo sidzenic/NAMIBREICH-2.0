@@ -14,8 +14,12 @@ state={
 		owner = NMG
 		buildings = {
 			infrastructure = 2
-			naval_base = 1
+			dockyard = 1
 			industrial_complex = 1
+			naval_base = {
+				provinces = {13455}
+				level = 1
+			}
 		}	
 	add_core_of = NMB
 	victory_points = {
