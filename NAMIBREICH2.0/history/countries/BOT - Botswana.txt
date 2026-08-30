@@ -8,7 +8,7 @@ add_ideas = {
 	civilian_economy
 	limited_conscription
 	BOT_booming_economy
-	BOT_boer_resistance
+	BOT_master_of_kalahari
 }
 
 # Starting tech
