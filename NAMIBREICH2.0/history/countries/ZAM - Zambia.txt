@@ -2,28 +2,12 @@
 
 oob = "ZAM_army"
 
-1936.1.1 = {
 
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 100
-	}
-
-	give_military_access = NMB
-	add_ideas = {
-	}
-
-	set_technology = {
-		infantry_weapons = 1
-		tech_mountaineers = 1
-		irregular_infantry = 1
-	}
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	irregular_infantry = 1
 }
 
 set_convoys = 1
@@ -49,3 +33,12 @@ recruit_character = ZAM_communist_guy
 recruit_character = ZAM_ai2
 recruit_character = ZAM_ar
 
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}

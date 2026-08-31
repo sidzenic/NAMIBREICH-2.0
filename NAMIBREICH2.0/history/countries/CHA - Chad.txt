@@ -1,6 +1,5 @@
 ﻿capital = 774
 
-1936.1.1 = {
 # Starting tech
 	set_technology = {
 		tech_support = 1
@@ -18,7 +17,7 @@
 
 		#electronics
 	}
-}
+
 set_convoys = 0
 
 1939.1.1 = {

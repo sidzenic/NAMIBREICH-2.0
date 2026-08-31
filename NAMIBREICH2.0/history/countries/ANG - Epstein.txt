@@ -2,7 +2,7 @@ capital = 540
 
 set_research_slots = 1
 
-#recruit_character = ANG_jeffepstein_1
+recruit_character = ANG_jeffepstein_1
 
 1936.1.1 = {
 
