@@ -217,38 +217,6 @@ NMB_uunonaprinzip_category = {
 	}
 ##### PRO AFRICAN (GIGABASED) ####
 
-	condecede_to_africans = {		
-
-		icon = GFX_decision_icon_default		
-		
-		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
-		
-		available = {
-		}
-		
-		fire_only_once = no
-
-		days_re_enable = 50	
-
-		visible = {
-			has_completed_focus = NMB_appease_whites
-		}		
-
-		cost = 100		#The cost to execute the decision, by default its political power.
-
-		# EFFECTS OF THIS DECISION/MISSION
-
-		complete_effect = {	
-			custom_effect_tooltip = "We must make some concessions to the German-speaking population to gain their support."
-			NMB_african_support_effects = yes
-		}
-		
-		# AI LOGIC FOR THIS DECISION/MISSION
-
-		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1		
-		}
-	}
 
 	condecede_to_africans = {		
 
