@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "NMB"
 		default = yes
 		
 		"SAF"={
@@ -70,7 +70,6 @@ bookmarks = {
 			}	
 			focuses = {
 				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
 			}			
 		}
 		"ANG"={
@@ -513,8 +512,6 @@ bookmarks = {
 				home_of_revolution
 			}
 			focuses = {
-				SOV_claims_on_baltic
-				SOV_war_with_uk
 			}	
 		}
 

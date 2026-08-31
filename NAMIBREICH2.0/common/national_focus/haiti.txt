@@ -345,7 +345,7 @@ focus_tree = {
 		y = 0
 		cost = 0
 		available = {
-			always = false
+			always = no
 		}
 
 		completion_reward = {
@@ -365,7 +365,7 @@ focus_tree = {
 		y = 1
 		cost = 0
 		available = {
-			always = false
+			always = no
 		}
 
 		completion_reward = {
@@ -387,7 +387,7 @@ focus_tree = {
 		y = 2
 		cost = 0
 		available = {
-			always = false
+			always = no
 		}
 
 		completion_reward = {
@@ -409,7 +409,7 @@ focus_tree = {
 		y = 2
 		cost = 0
 		available = {
-			always = false
+			always = no
 		}
 
 		completion_reward = {
@@ -430,7 +430,7 @@ focus_tree = {
 		y = 3
 		cost = 0
 		available = {
-			always = false
+			always = no
 		}
 
 		completion_reward = {
@@ -450,7 +450,7 @@ focus_tree = {
 		y = 4
 		cost = 0
 		available = {
-			always = false
+			always = no
 		}
 
 		completion_reward = {
@@ -470,7 +470,7 @@ focus_tree = {
 		y = 1
 		cost = 0
 		available = {
-			always = false
+			always = no
 		}
 
 		completion_reward = {
@@ -491,7 +491,7 @@ focus_tree = {
 		y = 1
 		cost = 0
 		available = {
-			always = false
+			always = no
 		}
 
 		completion_reward = {

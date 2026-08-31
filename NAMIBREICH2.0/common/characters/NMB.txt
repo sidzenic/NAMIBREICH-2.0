@@ -107,9 +107,6 @@ characters={
 			traits = {
 				dictator
 			}
-			available = {
-				NMB = { has_completed_focus = NMB_prepare_the_wermacht}
-			}
 		}
 		corps_commander = {
 			skill = 4
@@ -118,8 +115,8 @@ characters={
 			planning_skill = 2
 			logistics_skill = 5
 			traits = { trickster war_hero media_personality jungle_rat militia_officer }
-			show = {
-				NMB = { has_completed_focus = NMB_prepare_the_wermacht }
+			visible = {
+				has_completed_focus = NMB_prepare_the_wermacht
 			}
 		}
 	}
