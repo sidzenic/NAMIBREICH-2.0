@@ -1,0 +1,12 @@
+ESW = "countries/Eswatini.txt"
+NMG = "countries/Namibia_german.txt"
+VLK = "countries/South Africa.txt"
+ORG = "countries/South Africa.txt"
+TFS = "countries/South Africa.txt"
+#ZUL = "countries/Zimbabwe.txt"
+NSA = "countries/Zimbabwe.txt"
+
+
+#siegfried so here you just need to add new tags that dont exist in basegame
+#00 exists in basegame and there is no need to have him twice, also creates issue
+#when paradox creates new nations/tags so this is better

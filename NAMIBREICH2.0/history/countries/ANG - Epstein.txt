@@ -24,7 +24,7 @@ recruit_character = ANG_jeffepstein_1
 	add_ideas = {
 		isolation
 		limited_exports
-		limited_conscripttion
+		limited_conscription
 	}
 
 	set_technology = {

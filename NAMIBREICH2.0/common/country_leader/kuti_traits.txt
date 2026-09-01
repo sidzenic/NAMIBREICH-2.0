@@ -97,7 +97,7 @@ leader_traits = {
 		}
 	}
 	
-	foreign_monarch
+	foreign_monarch = {
 		random = no
 		stability_factor = -0.2
 

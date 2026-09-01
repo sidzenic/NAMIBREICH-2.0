@@ -28,7 +28,7 @@ state={
 		}
 
 		add_core_of = SAF
-		add_claim_by = ZUL
+#		add_claim_by = ZUL
 	}
 
 }

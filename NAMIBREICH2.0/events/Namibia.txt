@@ -592,17 +592,17 @@ country_event = {
 			AND ={
 				original_tag = NMB
 				NOT = { has_completed_focus = NMB_unify_the_party }
-				date = 1937.2.2
+				date > 1937.2.2
 			}
 			AND ={
 				original_tag = NMB
 				NOT = { has_completed_focus = NMB_unify_the_party }
-				date = 1938.6.23
+				date > 1938.6.23
 			}
 			AND ={
 				original_tag = NMB
 				NOT = { has_completed_focus = NMB_unify_the_party }
-				date = 1939.1.15
+				date > 1939.1.15
 			}
 		}
 	}
@@ -667,22 +667,22 @@ country_event = {
 			AND ={
 				original_tag = NMB
 				NOT = { has_completed_focus = NMB_unified_identity }
-				date = 1936.4.2
+				date > 1936.4.2
 			}
 			AND ={
 				original_tag = NMB
 				NOT = { has_completed_focus = NMB_unified_identity }
-				date = 1939.5.5
+				date > 1939.5.5
 			}
 			AND ={
 				original_tag = NMB
 				NOT = { has_completed_focus = NMB_unified_identity }
-				date = 1940.8.5
+				date > 1940.8.5
 			}
 			AND ={
 				original_tag = NMB
 				NOT = { has_completed_focus = NMB_unified_identity }
-				date = 1942.8.5
+				date > 1942.8.5
 			}
 		}
 	}
@@ -716,29 +716,29 @@ country_event = {
 		OR = {
 			AND ={
 				original_tag = NMB
-				NOT = { has_completed_focus = NMB_traditionalist_purge }
-				date = 1936.11.11
+				NOT = { has_completed_focus = NMB_dispose_of_traditionalists }
+				date > 1936.11.11
 			}
 			AND ={
 				original_tag = NMB
-				NOT = { has_completed_focus = NMB_traditionalist_purge }
-				date = 1937.4.2
+				NOT = { has_completed_focus = NMB_dispose_of_traditionalists }
+				date > 1937.4.2
 			}
 
 			AND ={
 				original_tag = NMB
-				NOT = { has_completed_focus = NMB_traditionalist_purge }
-				date = 1940.8.2
+				NOT = { has_completed_focus = NMB_dispose_of_traditionalists }
+				date > 1940.8.2
 			}
 			AND ={
 				original_tag = NMB
-				NOT = { has_completed_focus = NMB_traditionalist_purge }
-				date = 1941.4.2
+				NOT = { has_completed_focus = NMB_dispose_of_traditionalists }
+				date > 1941.4.2
 			}
 			AND ={
 				original_tag = NMB
-				NOT = { has_completed_focus = NMB_traditionalist_purge }
-				date = 1942.4.2
+				NOT = { has_completed_focus = NMB_dispose_of_traditionalists }
+				date > 1942.4.2
 			}
 		}
 	}
@@ -898,7 +898,7 @@ country_event = {
 
 	option = {
 		name = namibia.32.a
-		air_experiance = 10
+		air_experience = 10
 	}
 }
 

@@ -17,7 +17,7 @@ NMB_improve_workers_effects = {
 				}
 			}
 		}
-		add_idea = NMB_workers1
+		add_ideas= NMB_workers1
 	}
 	else_if = {
 		limit = {
@@ -25,7 +25,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers1
-			add_idea = NMB_workers2
+			add_idea= NMB_workers2
 		}
 	}
 	else_if = {
@@ -34,7 +34,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers2
-			add_idea = NMB_workers3
+			add_idea= NMB_workers3
 		}
 	}
 	else_if = {
@@ -43,7 +43,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers3
-			add_idea = NMB_workers4
+			add_idea= NMB_workers4
 		}
 	}
 	else_if = {
@@ -52,7 +52,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers4
-			add_idea = NMB_workers5
+			add_idea= NMB_workers5
 		}
 	}
 	else_if = {
@@ -61,7 +61,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers5
-			add_idea = NMB_workers6
+			add_idea= NMB_workers6
 		}
 	}
 	else_if = {
@@ -70,7 +70,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers6
-			add_idea = NMB_workers7
+			add_idea= NMB_workers7
 		}
 	}
 	else_if = {
@@ -79,7 +79,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers7
-			add_idea = NMB_workers8
+			add_idea= NMB_workers8
 		}
 	}
 	else_if = {
@@ -88,7 +88,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers8
-			add_idea = NMB_workers9
+			add_idea= NMB_workers9
 		}
 	}
 	else_if = {
@@ -97,7 +97,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers9
-			add_idea = NMB_workers10
+			add_idea= NMB_workers10
 		}
 	}
 	else_if = {
@@ -106,7 +106,7 @@ NMB_improve_workers_effects = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_workers10
-			add_idea = NMB_workers11
+			add_idea= NMB_workers11
 		}
 	}
 }

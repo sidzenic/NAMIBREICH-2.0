@@ -113,7 +113,7 @@ focus_tree = {
 
 		completion_reward = {
 			set_cosmetic_tag = NMB_swakopmund
-			recruit_character = NMB_erwin_rommel_leader
+#			recruit_character = NMB_erwin_rommel_leader
 			promote_character = NMB_erwin_rommel_leader
 			set_politics = {
 				ruling_party = democratic
@@ -525,17 +525,17 @@ focus_tree = {
 					irregular_infantry = { x = 1 y = 2 }
 				}
 			}
-		add_manpower = 7000	
-		random_controlled_state = {
-			create_unit = {
-				division = "name = \"Freedom Fighters\" division_template = \"Freedom Fighters\" start_experience_factor = 0.4"
-				owner = NMB
-				count = 2
-			}	
+			add_manpower = 7000	
+			random_controlled_state = {
+				create_unit = {
+					division = "name = \"Freedom Fighters\" division_template = \"Freedom Fighters\" start_experience_factor = 0.4"
+					owner = NMB
+					count = 2
+				}	
+			}
 		}
 		ai_will_do = {
 			factor = 10
-		}
 		}		
 	}
 

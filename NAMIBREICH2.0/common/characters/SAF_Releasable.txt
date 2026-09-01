@@ -1,24 +1,24 @@
 characters={
 
-    ZUL_kingguy ={
-        name = "Cyprian Bhekuzu"
-		portraits={
-			civilian={
-				large="gfx/leaders/SAF/cyprian_bhekuzu.png"
-			}
-		}
-		country_leader={
-			ideology= despotism
-		}
-		field_marshal = { 
-			traits = { defensive_doctrine thorough_planner }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 2
-		}
-	}
+#    ZUL_kingguy ={
+#        name = "Cyprian Bhekuzu"
+#		portraits={
+#			civilian={
+#				large="gfx/leaders/SAF/cyprian_bhekuzu.png"
+#			}
+#		}
+#		country_leader={
+#			ideology= despotism
+#		}
+#		field_marshal = { 
+#			traits = { defensive_doctrine thorough_planner }
+#			skill = 3
+#			attack_skill = 2
+#			defense_skill = 3
+#			planning_skill = 3
+#			logistics_skill = 2
+#		}
+#	}
 
     ORG_maritz={
         name = "Maine Maritz"

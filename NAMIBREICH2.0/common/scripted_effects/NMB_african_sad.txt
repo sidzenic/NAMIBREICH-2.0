@@ -12,7 +12,7 @@ NMB_african_sad = {
 				}
 			}
 		}
-		add_idea = NMB_black_support1
+		add_ideas= NMB_black_support1
 	}
 	else_if = {
 		limit = {
@@ -20,7 +20,7 @@ NMB_african_sad = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_black_support6
-			add_idea = NMB_black_support5
+			add_idea= NMB_black_support5
 		}
 	}
 	else_if = {
@@ -29,7 +29,7 @@ NMB_african_sad = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_black_support5
-			add_idea = NMB_black_support4
+			add_idea= NMB_black_support4
 		}
 	}
 	else_if = {
@@ -38,7 +38,7 @@ NMB_african_sad = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_black_support4
-			add_idea = NMB_black_support3
+			add_idea= NMB_black_support3
 		}
 	}
 	else_if = {
@@ -47,7 +47,7 @@ NMB_african_sad = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_black_support3
-			add_idea = NMB_black_support2
+			add_idea= NMB_black_support2
 		}
 	}
 	else_if = {
@@ -56,7 +56,7 @@ NMB_african_sad = {
 		}
 		swap_ideas = {
 			remove_idea = NMB_black_support2
-			add_idea = NMB_black_support1
+			add_idea= NMB_black_support1
 		}
 	}
 }

@@ -107,9 +107,6 @@ characters={
 			traits = {
 				dictator
 			}
-			available = {
-				NMB = { has_completed_focus = NMB_prepare_the_wermacht}
-			}
 		}
 		corps_commander = {
 			skill = 4
@@ -117,9 +114,9 @@ characters={
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 5
-			traits = { trickster war_hero media_personality jungle_rat militias_officer }
-			show = {
-				NMB = { has_completed_focus = NMB_prepare_the_wermacht }
+			traits = { trickster war_hero media_personality jungle_rat militia_officer }
+			visible = {
+				has_completed_focus = NMB_prepare_the_wermacht
 			}
 		}
 	}
@@ -554,7 +551,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/NMB/nmb_heinrich.png"
-				small="gfx/leaders/NMB/smalll_heinrich.png"
+				small="gfx/leaders/NMB/small_heinrich.png"
 			}
 		}
 		country_leader={

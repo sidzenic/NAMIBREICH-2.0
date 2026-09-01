@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "NMB"
 		default = yes
 		
 		"SAF"={
@@ -45,8 +45,8 @@ bookmarks = {
 				rising_power
 			}
 			focuses = {
-				NMB_anschluss
-				NMB_tomorrow_the_world
+#				NMB_anschluss				siegfried these things dont exist yet
+#				NMB_tomorrow_the_world
 				NMB_rhineland
 			}
 		}
@@ -69,9 +69,7 @@ bookmarks = {
 				JAP_militarism
 			}	
 			focuses = {
-				JAP_the_zero
 				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
 			}			
 		}
 		"ANG"={
@@ -511,13 +509,9 @@ bookmarks = {
 			history = "SOV_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas = {
-				trotskyite_plot
 				home_of_revolution
 			}
 			focuses = {
-				SOV_great_purge
-				SOV_claims_on_baltic
-				SOV_war_with_uk
 			}	
 		}
 
